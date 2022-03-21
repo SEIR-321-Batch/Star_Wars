@@ -1,0 +1,76 @@
+➜  Star_Wars git:(master) mkdir star_wars
+➜  Star_Wars git:(master) mkdir star_wars && mkdir empire rebellion
+mkdir: star_wars: File exists
+➜  Star_Wars git:(master) cd star_wars && mkdir empire rebellion
+➜  star_wars git:(master) cd empire && touch darth_vader.txt 
+➜  empire git:(master) ✗ echo "...heavy breathing..." >> darth_vader.txt
+➜  empire git:(master) ✗ touch emperor_palpatine.txt 
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv ~/star_wars/empire/darth_vader ~/star_wars/empire/death_star
+mv: rename /Users/brendanburke/star_wars/empire/darth_vader to /Users/brendanburke/star_wars/empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv /star_wars/empire/darth_vader /star_wars/empire/death_star
+mv: rename /star_wars/empire/darth_vader to /star_wars/empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv star_wars/empire/darth_vader star_wars/empire/death_star
+mv: rename star_wars/empire/darth_vader to star_wars/empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+mv: rename star_wars/empire/darth_vader.txt to star_wars/empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv /star_wars/empire/darth_vader.txt /star_wars/empire/death_star
+mv: rename /star_wars/empire/darth_vader.txt to /star_wars/empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv /empire/darth_vader.txt /empire/death_star
+mv: rename /empire/darth_vader.txt to /empire/death_star: No such file or directory
+➜  empire git:(master) ✗ mv darth_vader.txt death_star
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt chewbacca.txt
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt && princess_leia.txt && obi_wan.txt millenium_falcon
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+mv: rename luke_skywalker.txt to millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ ..
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt && princess_leia.txt && obi_wan.txt millenium_falcon
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium
+➜  rebellion git:(master) ✗ mv millenium princess_leia.txt
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv millenium_falcon star_wars/ empire/death_star
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+➜  rebellion git:(master) ✗ mv millenium_falcon empire/death_star
+mv: rename millenium_falcon to empire/death_star: No such file or directory
+➜  rebellion git:(master) ✗ mv millenium_falcon rebellion
+➜  rebellion git:(master) ✗ mv rebellion millenium_falcon 
+➜  rebellion git:(master) ✗ mv millenium_falcon death_star
+➜  rebellion git:(master) ✗ mv death_star millenium_falcon
+➜  rebellion git:(master) ✗ mv millenium_falcon empire/death_star
+mv: rename millenium_falcon to empire/death_star: No such file or directory
+➜  rebellion git:(master) ✗ ..
+➜  star_wars git:(master) ✗ mv rebellion/millenium_falcon empire/death_star
+➜  star_wars git:(master) ✗ mv empire/death_star/millenium_falcon/* empire/death_star
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ ..
+➜  death_star git:(master) ✗ ls
+chewbacca.txt      darth_vader.txt    han_solo.txt       luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  death_star git:(master) ✗ rm obi_wan.txt
+➜  death_star git:(master) ✗ mv chewbacca.txt millenium_falcon
+➜  death_star git:(master) ✗ mv han_solo.txt millenium_falcon
+➜  death_star git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  death_star git:(master) ✗ mv princess_leia.txt millenium_falcon 
+➜  death_star git:(master) ✗ .. 
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ mv empire/death_star/millenium_falcon rebellion
+➜  star_wars git:(master) ✗ mv empire/death_star/darth_vader.txt empire
+➜  star_wars git:(master) ✗ cd empire        
+➜  empire git:(master) ✗ rm -rf death_star
+➜  empire git:(master) ✗ 
