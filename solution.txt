@@ -1,0 +1,84 @@
+austinlu@Austins-MacBook-Pro deliverables % mkdir star_wars
+mkdir: star_wars: File exists
+austinlu@Austins-MacBook-Pro deliverables % cd Star_Wars/
+austinlu@Austins-MacBook-Pro Star_Wars % mkdir star_wars
+austinlu@Austins-MacBook-Pro Star_Wars % cd star_wars 
+austinlu@Austins-MacBook-Pro star_wars % mkdir empire && mkdir rebellion
+austinlu@Austins-MacBook-Pro star_wars % cd empire 
+austinlu@Austins-MacBook-Pro empire % touch darth_vader.txt
+austinlu@Austins-MacBook-Pro empire % touch emperor_palpatine.txt
+austinlu@Austins-MacBook-Pro empire % mkir death_star
+zsh: command not found: mkir
+austinlu@Austins-MacBook-Pro empire % mkdir death_star
+austinlu@Austins-MacBook-Pro empire % mv ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/darth_vader.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star 
+austinlu@Austins-MacBook-Pro empire % -\
+> 
+austinlu@Austins-MacBook-Pro empire % -
+austinlu@Austins-MacBook-Pro empire % ..
+zsh: permission denied: ..
+austinlu@Austins-MacBook-Pro empire % cd ..
+austinlu@Austins-MacBook-Pro star_wars % cd rebellion 
+austinlu@Austins-MacBook-Pro rebellion % touch princess_leia.txt "Help me, Obi-Wan…You’re my only hope."
+austinlu@Austins-MacBook-Pro rebellion % touch princess_leia.txt $echo "Help me, Obi-Wan…You’re my only hope."  
+austinlu@Austins-MacBook-Pro rebellion % touch princess_leia.txt && $echo "Help me, Obi-Wan…You’re my only hope."
+zsh: command not found: Help me, Obi-Wan…You’re my only hope.
+austinlu@Austins-MacBook-Pro rebellion % $ echo "Help me, Obi-Wan…You’re my only hope." >> princess
+_leia.txt
+zsh: command not found: $
+austinlu@Austins-MacBook-Pro rebellion % touch obi_wan.txt
+austinlu@Austins-MacBook-Pro rebellion % mkdir millenium_falcon
+austinlu@Austins-MacBook-Pro rebellion % cd millenium_falcon       
+austinlu@Austins-MacBook-Pro millenium_falcon % touch han_solo.txt && chewbacca.txt
+zsh: command not found: chewbacca.txt
+austinlu@Austins-MacBook-Pro millenium_falcon % touch han_solo.txt && touch chewbacca.txt
+austinlu@Austins-MacBook-Pro millenium_falcon % cd --
+austinlu@Austins-MacBook-Pro ~ % cd GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion 
+austinlu@Austins-MacBook-Pro rebellion % touch luke_skywalker.txt
+austinlu@Austins-MacBook-Pro rebellion % mv *.rebellion ~/GeneralAssembly/deliverables/Star_Wars/st
+ar_wars/rebellion/millenium_falcon 
+zsh: no matches found: *.rebellion
+austinlu@Austins-MacBook-Pro rebellion % *.txt ~/GeneralAssembly/deliverables/Star_Wars/st
+ar_wars/rebellion/millenium_falcon  
+zsh: command not found: luke_skywalker.txt
+zsh: no such file or directory: ar_wars/rebellion/millenium_falcon
+austinlu@Austins-MacBook-Pro rebellion % touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+austinlu@Austins-MacBook-Pro rebellion % mv -t millenium_falcon luke_skywalker.txt obi_wan.txt prin
+cess_leia.txt 
+mv: illegal option -- t
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+austinlu@Austins-MacBook-Pro rebellion % mv -t millenium_falcon/ luke_skywalker.txt obi_wan.txt princess_leia.txt                    
+mv: illegal option -- t
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+austinlu@Austins-MacBook-Pro rebellion % mv ~/ millenium_falcon/ luke_skywalker.txt obi_wan.txt princess_leia.txt
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+austinlu@Austins-MacBook-Pro rebellion % mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon 
+austinlu@Austins-MacBook-Pro rebellion % 
+austinlu@Austins-MacBook-Pro rebellion % mv millenium_falcon ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star                 
+austinlu@Austins-MacBook-Pro rebellion % cd ..
+austinlu@Austins-MacBook-Pro star_wars % cd empire/death_star 
+austinlu@Austins-MacBook-Pro death_star % mv millenium_falcon/chewbacca.txt millenium_falcon/han_solo.txt millenium_falcon/luke_skywalker.txt millenium_falcon/obi_wan.txt millenium_falcon/princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star 
+austinlu@Austins-MacBook-Pro death_star % cd ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star && rm obi_wan.txt
+austinlu@Austins-MacBook-Pro death_star % mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon 
+austinlu@Austins-MacBook-Pro death_star % mv millenium_falcon ~/GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion 
+austinlu@Austins-MacBook-Pro death_star % mv darth_vader.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire 
+austinlu@Austins-MacBook-Pro death_star % rm -rf ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star 
+austinlu@Austins-MacBook-Pro death_star % history | tail -n 300
+  298  mv *.rebellion ~/GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon
+  299  *.txt ~/GeneralAssembly/deliverables/Star_Wars/st\nar_wars/rebellion/millenium_falcon 
+  300  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  301  mv -t millenium_falcon luke_skywalker.txt obi_wan.txt princess_leia.txt
+  302  mv -t millenium_falcon/ luke_skywalker.txt obi_wan.txt princess_leia.txt
+  303  mv ~/ millenium_falcon/ luke_skywalker.txt obi_wan.txt princess_leia.txt
+  304  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon
+  305  mv millenium_falcon ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star
+  306  cd ..
+  307  cd empire/death_star
+  308  mv millenium_falcon/chewbacca.txt millenium_falcon/han_solo.txt millenium_falcon/luke_skywalker.txt millenium_falcon/obi_wan.txt millenium_falcon/princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star
+  309  cd ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star && rm obi_wan.txt
+  310  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  311  mv millenium_falcon ~/GeneralAssembly/deliverables/Star_Wars/star_wars/rebellion
+  312  mv darth_vader.txt ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire
+  313  rm -rf ~/GeneralAssembly/deliverables/Star_Wars/star_wars/empire/death_star
