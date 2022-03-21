@@ -1,0 +1,67 @@
+Star_Wars git:(master) history
+    1  git clone https://github.com/mdechavez5/Star_Wars.git
+    2  ls
+    3  cd Star_Wars
+    4  code .
+    5  mkdir star_wars
+    6  mkdir empire rebellion
+    7  ls
+    8  mkdir star_wars/empire star_wars/rebellion
+    9  tree
+   10  touch star_wars/empire/darth_vader.txt
+   11  tree
+   12  echo "...heavy breathing..." >> darth_vader.txt
+   13  tree
+   14  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+   15  touch star_wars/empire/emperor_palpatine.txt
+   16  tree
+   17  mkdir star_wars/empire/death_star
+   18  tree
+   19  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+   20 tree
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "Completed Act 1"
+   25  git status
+   26  git push origin master
+   27  pwd
+   28  echo "Help me, Obi-Wan... You're my only hope." >> star_wars/rebellion/princess_leia.txt
+   29  tree
+   30  touch star_wars/rebellion/obi_wan.txt
+   31  tree
+   32  touch star_wars/rebellion/luke_skywalker.txt
+   33  tree
+   34  mkdir star_wars/rebellion/millenium_falcon
+   35  tree
+   36  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+   37  tree
+   38  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon
+   39  tree
+   40  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+   41  tree
+   42  git status
+   43  git add .
+   44  git status
+   45  git commit -m "Completed Act 2"
+   46  git push origin master
+   47  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+   48  tree
+   49  rm star_wars/empire/death_star/darth_vader.txt
+   50  tree
+   51  touch star_wars/empire/death_star/darth_vader.txt
+   52  tree
+   53  rm star_wars/empire/death_star/obi_wan.txt
+   54  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon
+   55  tree
+   56  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+   57  tree
+   58  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+   59  tree
+   60  rm star_wars/empire/death_star
+   61  rmdir star_wars/empire/death_star
+   62  tree
+   63  git status
+   64  git add .
+   65  git commit -m "Completed Act 3"
+   66  git push origin master
