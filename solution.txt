@@ -1,0 +1,37 @@
+ 206  mkdir star_wars
+  207  mkdir star_wars/empire star_wars/rebellion
+  208  touch star_wars/empire/darth_vader.txt
+  209  echo "...heavy breathing..." > star_wars/empire/darth_vader.txt
+  210  touch star_wars/empire/emperor_palpatine.txt
+  211  mkdir star_wars/death_star
+  212  mv star_wars/death_star star_wars/empire
+  213  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  214  tree
+  215  echo "Help me, Obi-Wan...You're my only hope." > star_wars/rebellion/princess_leia.txt
+  216  touch star_wars/rebellion/obi_wan.txt
+  217  touch star_wars/rebellion/luke_skywalker.txt
+  218  mkdir star_wars/rebellion/millenium_falcon
+  219  touch star_wars/rebellion/millenium_falcon/han_solo.txt
+  220  touch star_wars/rebellion/millenium_falcon/chewbacca.txt
+  221  mv star_wars/rebellion/* star_wars/rebellion/millenium_falcon
+  222  tree
+  223  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  224  tree
+  225  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  226  tree
+  227  rm star_wars/empire/death_star/obi_wan.txt
+  228  cd star_wars/empire/death_star
+  229  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  230  mv millenium_falcon ../../rebellion
+  231  pwd
+  232  mv darth_vader.txt ../
+  233  cd ..
+  234  rm -Rf death_star
+  235  cd ..
+  236  cd ..
+  237  tree
+  238  history | tail -n 250
+  239  history
+  240  history | tail -n 500
+  241  history -A | tail -n 500
+  242  man history
