@@ -41,3 +41,19 @@ Act 3
 ➜  star_wars git:(master) ✗ empire
 ➜  empire git:(master) ✗ death_star
 ➜  death_star git:(master) ✗ mv darth_vader.txt millenium_falcon
+➜  Star_Wars git:(master) star_wars
+➜  star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ mv darth_vader.txt millenium_falcon
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ mv darth_vader.txt millenium_falcon
+mv: rename darth_vader.txt to millenium_falcon: No such file or directory
+➜  empire git:(master) ✗ mv emperor_palpatine.txt death_star/millenium_falcon 
+➜  empire git:(master) ✗ mv millenium_falcon rebellion
+mv: rename millenium_falcon to rebellion: No such file or directory
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon rebellion
+➜  star_wars git:(master) ✗ mv rebellion/millenium_falcon/emperor_palpatine.txt empire
+➜  star_wars git:(master) ✗ 
+➜  star_wars git:(master) ✗ mv rebellion/millenium_falcon/darth_vader.txt empire 
+➜  empire git:(master) ✗ rmdir death_star
