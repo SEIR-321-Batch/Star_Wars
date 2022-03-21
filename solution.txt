@@ -1,0 +1,43 @@
+act 1
+➜  Star_Wars git:(master) ✗ mkdir star_wars
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ mkdir empire rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ touch darth_vader.txt
+➜  empire git:(master) ✗ echo "...heavy breathing..." >> ./darth_vader.txt  
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv darth_vader.txt death_star
+➜  empire git:(master) ✗ 
+
+act 2
+deliverables ls
+Star_Wars
+➜  deliverables Star_Wars
+➜  Star_Wars git:(master) ✗ star_wars/rebellion
+➜  rebellion git:(master) ✗ touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>
+ ./princess_leia.txt
+ rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt chewbacca.txt
+ ~ sei
+➜  sei deliverables
+➜  deliverables Star_Wars
+➜  Star_Wars git:(master) ✗ star_wars
+➜  star_wars git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv millennium_falcon death_star
+
+Act 3
+➜  Star_Wars git:(master) ✗ star_wars
+➜  star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ millenium_falcon
+➜  millenium_falcon git:(master) ✗ rm obi_wan.txt
+➜  Star_Wars git:(master) ✗ star_wars
+➜  star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ mv darth_vader.txt millenium_falcon
