@@ -1,0 +1,70 @@
+  319  git clone https://github.com/alexdietz1988/Star_Wars.git
+  320  code .
+  321  star_wars
+  322  ..
+  323  star_wars
+  324  history
+  325  cd star_wars
+  326  mkdir empire rebellion
+  327  ls
+  328  empire
+  329  touch darth_vader.txt
+  330  ls
+  331  echo ...heavy breathing... > darth_vader.txt
+  332  open darth_vader.txt
+  333  touch emperor_palpatine.txt
+  334  ls
+  335  mkdir death_star
+  336  ls
+  337  mv darth_vader.txt death_star
+  338  tree
+  339  ..
+  340  rebellion
+  341  man touch
+  342  help + touch
+  343  help touch
+  344  star_wars
+  345  rebellion
+  346  ls
+  347  ..
+  348  ls
+  349  rebellion
+  350  echo -e"Help me, Obi-Wan...You're my only hope.">>princess.leia.txt
+  351  ls
+  352  open princess.leia.txt
+  353  echo "Help me, Obi-Wan...You're my only hope." >> princess.leia.txt
+  354  touch obi_wan.txt
+  355  touch luke_skywalker.txt
+  356  mkdir millenium_falcon
+  357  millenium_falcon
+  358  touch han_solo.txt chewbacca.txt
+  359  ..
+  360  mv luke_skywalker.txt millenium_falcon
+  361  mv (obi_wan.txt princess.leia.txt) millenium_falcon
+  362  mv obi_wan.txt millenium_falcon
+  363  mv princess_leia.txt millenium_falcon
+  364  ls
+  365  mv princess_leia.txt millenium_falcon
+  366  open princess_leia.txt
+  367  ls
+  368  mv princess.leia.txt princess_leia.txt
+  369  mv princess_leia.txt millenium_falcon
+  370  mv millenium_falcon ../../empire/death_star
+  371  ..
+  372  mv rebellion/millenium_falcon empire/death_star
+  373  cd empire
+  374  mv millenium_falcon/* death_star
+  375  mv death_star/millenium_falcon/* death_star
+  376  death_star
+  377  rm obi_wan.txt
+  378  mv -t millenium_falcon chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt
+  379  mv chewbacca.txt millenium_falcon
+  380  mv han_solo.txt millenium_falcon
+  381  mv luke_skywalker.txt millenium_falcon
+  382  mv princess_leia.txt millenium_falcon
+  383  ..
+  384  mv empire/death_star/millenium_falcon rebellion
+  385  mv empire/death_star/darth_vader.txt empire
+  386  rm death_star
+  387  rm empire/death_star
+  388  rm -r empire/death_star
