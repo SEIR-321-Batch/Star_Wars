@@ -1,0 +1,96 @@
+176  git clone https://github.com/anandpatel48/Star_Wars.git
+  177  cd Star_wars
+  178  code .
+  179  mkdir empire rebellion
+  180  tree
+  181  cd sei
+  182  git clone https://github.com/anandpatel48/Star_Wars.git
+  183  cd Star_wars
+  184  code .
+  185  mkdir star_wars
+  186  tree
+  187  cd star_wars
+  188  tree
+  189  mkdir empire rebellion
+  190  cd empire
+  191  touch darth_vader.txt
+  192  cd sei
+  193  cd Star_wars
+  194  cd star_wars
+  195  tree
+  196  echo > darth_vader.txt
+  197  cd empire
+  198  echo '...heavy breathing...' > darth_vader.txt
+  199  cat darth_vader.txt
+  200  ..
+  201  cd empire
+  202  touch emperor_palpatine.txt
+  203  mkdir death_star
+  204  mv empire/darth_vader.txt death_star
+  205  ..
+  206  mv empire/darth_vader.txt empire/death_star
+  207  ..
+  208  cd star_wars
+  209  git add .
+  210  git commit -m "Earth-Anand Patel Star Wars Act 1"
+  211  git push origin master
+  212  cd rebellion
+  213  touch princess_leia.txt echo "Help me, Obi-Wan...You're my only hope."
+  214  touch princess_leia.txt ""Help me, Obi-Wan…You’re my only hope."\nexit
+  215  cat >> princess_leia.txt "Help me, Obi-Wan…You’re my only hope."
+  216  echo -e 'Help me, Obi-Wan…You’re my only hope.'>>princess_leia.txt
+  217  touch obi_wan.txt
+  218  touch luke_skywalker.txt
+  219  mkdir millenium_falcon
+  220  cd millenium_falcon
+  221  touch han_solo.txt chewbacca.txt
+  222  ..
+  223  mv luke_skywalker.txt millenium_falcon
+  224  mv obi_wan.txt millenium_falcon
+  225  mv princess_leia.txt millenium_falcon
+  226  ..
+  227  mv star_wars/rebellion/millenium_falcon star_wars/death_star
+  228  mv rebellion/millenium_falcon death_star
+  229  cd empire
+  230  cd death_star
+  231  tree
+  232  mkdir millenium_falcon
+  233  ..
+  234  mv death_star/chewbacca.txt empire/death_star/millenium_falcon
+  235  mv death_star/han_solo.txt empire/death_star/millenium_falcon\n
+  236  mv death_star/luke_skywalker.txt empire/death_star/millenium_falcon\n
+  237  mv death_star/obi_wan.txt empire/death_star/millenium_falcon\n
+  238  mv death_star/princess_leia.txt empire/death_star/millenium_falcon\n
+  239  cd star_wars
+  240  rm -r death_star
+  241  git add .
+  242  git commit -m "Earth-Anand Patel act 2 answers"
+  243  mv empire/death_star/millenium_falcon/* empire/death_star
+  244  mv empire/death_star/millenium_falcon/* empire/death_star\n
+  245  mv empire/death_star/darth_vader.txt empire/death_star
+  246  cd death_star
+  247  cd rebellion
+  248  cd empire
+  249  ..
+  250  cd empire
+  251  cd death_star
+  252  rmd obi_wan.txt
+  253  rm obi_wan.txt
+  254  mv chewbacca.txt millenium_falcon
+  255  mv han_solo.txt millenium_falcon
+  256  mv luke_skywalker.txt millenium_falcon
+  257  mv princess_leia.txt millenium_falcon
+  258  ..
+  259  mv empire/death_star/millenium_falcon rebellion
+  260  cd empire
+  261  mv death_star/darth_vader.txt empire
+  262  mv empire/empire empire/darth_vader.txt
+  263  mv empire/empire.txt empire/darth_vader.txt
+  264  mv empire.txt darth_vader.txt
+  265  ..
+  266  mv empire/empire empire/darth_vader.txt
+  267  cd empire
+  268  rm -r death_star
+  269  git add .
+  270  git commit -m "Earth-Anand act 3 answers"
+  271  git push origin master
