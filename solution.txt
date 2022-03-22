@@ -1,0 +1,57 @@
+I'm window user and I used utunbu but I also used terminal from VS code for this project..... 
+I ran history | tail -n 250 in VS code's termninal and it gives me error so I just pasted lines from Utunbu.
+
+   70  cd star_wars
+   71  cd empire
+   72  touch darth_vadar.txt
+   73  echo '...heavy breathing...' > darth_vadar.txt
+   74  pwd
+   75  touch emperor_palpatine.txt
+   76  mkdir death_star
+   77  pwd
+   78  tree
+   79  ls
+   80  mv darth_vadar.txt ~/death_star
+   81  cd death_start
+   82  cd death_star
+   83  ls
+   84  pwd
+   85  cd ..
+   86  touch darth_vadar.txt
+   87  ls
+   88  Star_Wars
+   89  ls
+   90  cd star_wars
+   91  ls
+   92  cd empire
+   93  cd ..
+   94  ls
+   95  cd rebellion
+   96  touch princess_leia.txt
+   97  ls
+   98  cd death-star
+   99  cd death_star
+  100  cd Star_Wars
+  101  ls
+  102  cd star_wars
+  103  ls
+  104  cd rebellion
+  105  mkdir millenium_falcon
+  106  cd millenium_falcon
+  107  touch han_solo.txt && chewbacca.txt
+  108  touch chewbacca.txt
+  109  ls
+  110  pwd
+  111  cd ..
+  112  touch obi_wan.txt
+  113  touch luke_skywalker.txt
+  114  pwd
+  115  cd ..
+  116  pwd
+  117  cd empire
+  118  cd death_star
+  119  rm obi_wan.txt
+  120  pwd
+  121  cd ..
+  122  rm death_star
+  123  rm -rf death_star
