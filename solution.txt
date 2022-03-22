@@ -1,0 +1,200 @@
+  1  hello?
+    2  pwd
+    3  ls
+    4  cd documents
+    5  ls
+    6  ls -a
+    7  cd ..
+    8  pwd
+    9  mkdir myfolder
+   10  ls
+   11  cd myfolder
+   12  touch index.html style.css
+   13  rm style.css
+   14  ls
+   15  cd ..
+   16  rm -r myfolder
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   18  $ brew install git
+   19  git --version
+   20  $ brew install git
+   21  git --version
+   22  mkdir GA-Blog
+   23  cd GA-Blog
+   24  git init
+   25  ls -a
+   26  git status
+   27  touch post.txt
+   28  git status
+   29  git add post.txt
+   30  git status
+   31  git commit -m "created a new post.txt file"
+   32  git log
+   33  li
+   34  live-server
+   35  node -v
+   36  sudo npm install live-server -g
+   37  live-server
+   38  live-server
+   39  live-server
+   40  echo $SHELL
+   41  code .
+   42  code
+   43  code .
+   44  code
+   45  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   46  brew help
+   47  brew doctor
+   48  brew cleanup
+   49  brew update
+   50  brew install git
+   51  git config --global user.name "andrew-merz"
+   52  git config --global user.email "merz.school@gmail.com"
+   53  git config --global init.defaultBranch main
+   54  git config --global core.editor "code --wait"
+   55  git config --global pull.rebase false
+   56  touch ~/.gitignore_global
+   57  git config --global core.excludesfile ~/.gitignore_global
+   58  code ~/.gitignore_global
+   59  brew install gh
+   60  gh auth login
+   61  brew install node
+   62  node -v
+   63  npm -v
+   64  npm i -g nodemon
+   65  npm install -g npm@8.5.5
+   66  npm i -g nodemon
+   67  node
+   68  code
+   69  code .
+   70  code .
+   71  code .
+   72  code ~/.gitignore_global
+   73  node -v
+   74  npm -v
+   75  npm i -g nodemon
+   76  npm install -g npm@8.5.5
+   77  pwd
+   78  chsh -s /bin/zsh
+   79  open index.html 
+   80  open idex.html
+   81  open index.html
+   82  git init
+   83  git status
+   84  ls
+   85  ls -a
+   86  git init
+   87  git remote add orgin https://github.com/andrew-merz/second-html-321
+   88  git add index.html
+   89  git push orgin main
+   90  mkdir {epire,rebellion}
+   91  cd empire
+   92  cd empire
+   93  pwd
+   94  mkdir star_wars
+   95  mkdir {empire,rebellion}
+   96  cd empire
+   97  touch darth_vadar.txt
+   98  echo '...heavy breathing...' >> darth_vader.txt
+   99  touch emperor_palpatine.txt
+  100  mkdir death_star
+  101  mv ~/empire/darth_vadar.txt ~/empire/death_star/darth_vadar.txt
+  102  mv darth_vader.txt ~/death_star
+  103  ls
+  104  git add .
+  105  git commit -m "Act 1 Completed"
+  106  cd rebellion
+  107  cd star_wars
+  108  cd ~
+  109  cd star_wars
+  110  cd rebellion
+  111  echo e'Help me, Obi-Wan…You’re my only hope.'>>princess_leia.txt
+  112  ls
+  113  touch obi_wan.txt
+  114  touch luke_skywalker.txt
+  115  mkdir millenium_falcon
+  116  cd millenium_falcon
+  117  touch han_solo.txt chewbacca.txt
+  118  cd rebellion
+  119  cd ~
+  120  cd rebellion
+  121  cd star_wars
+  122  cd rebellion
+  123  mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon/
+  124  cd millenium_falcon/
+  125  ls
+  126  mv millenium_falcon death_star
+  127  ls
+  128  cd star_wars
+  129  cd ~
+  130  cd star_wars
+  131  cd death_star
+  132  cd rebellion
+  133  cd death_star
+  134  cd star_wars
+  135   cd ~
+  136  cd star_wars
+  137  ls
+  138  mv millenium_falcon death_star
+  139  cd death_star
+  140  cd empire
+  141  cd death_star
+  142  mv millenium_falcon death_star
+  143  cd empire
+  144  ..
+  145  cd ..
+  146  mv millenium_falcon death_star
+  147  mv ~/star_wars/millenium_falcon ~/star_wars/empire/death_star
+  148  cd ..
+  149  mv ~/star_wars/millenium_falcon ~/star_wars/empire/death_star
+  150  cd rebellion
+  151  mkdir millenium_falcon
+  152  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star
+  153  cd ..
+  154  git add .
+  155  git commit -m "Act 2 is Complete"
+  156  mv *.millenium_falcon ~/death_star
+  157  mv *millemium_falcon ~/death_star
+  158  cd empire
+  159  mv *.millenium_falcon ~/death_star
+  160  mv millenium_falcon ~/death_star
+  161  mv *.txt ~/death_star
+  162  cd death_star
+  163  mv *.millenium_falcon ~/death_star
+  164  mv *.txt ~/death_star
+  165  cd millenium_falcon/
+  166  mv *.txt ~/death_star
+  167   mv *.txt ~/star_wars/empire/death_star
+  168  rm obi_wan.txt
+  169  rm ~/obi_wan.txt
+  170  ls
+  171  cd ..
+  172  ls
+  173  rm ~/obi_wan.txt
+  174  rm obi_wan.txt
+  175  ls
+  176  cd ..
+  177  mv *.txt ~/millenium_falcon
+  178  cd death_star
+  179  mv *.txt ~/millenium_falcon
+  180  cd ..
+  181  mkdir millenium_falcon
+  182  mv *.txt ~/millenium_falcon
+  183  cd death_star/
+  184  mv *.txt ~/millenium_falcon
+  185  mv ~/star_wars/empire/death_star ~/star_wars/empire/millenium_falcon
+  186  cd ..
+  187  mv ~/star_wars/empire/millenium_falcon ~/star_wars/rebellion
+  188  ls
+  189  mv ~/star_wars/empire/death_star/darth_vader ~/star_wars/empire
+  190  cd ..
+  191  cd ..
+  192  mv ~/star_wars/empire/death_star/darth_vader ~/star_wars/empire
+  193  cd rebellion
+  194  mv ~/star_wars/empire/death_star/darth_vader ~/star_wars/empire
+  195  cd ..
+  196  rm ~/death_star
+  197  ls
+  198  git add .
+  199  git commit -m "Act 3 is complete"
+  200  history
