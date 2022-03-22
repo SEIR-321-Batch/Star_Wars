@@ -1,0 +1,153 @@
+    1  sudo spctl --master-disable
+    2  sudo spctl -master-disable
+    3  sudo spctl --master-disable
+    4  sudo spctl --master-disable
+    5  sudo spctl --master-enable
+    6  M
+    7  sudo spctl --master-disable
+    8  sudo spctl -master-disable
+    9  sudo spctl --master-disable
+   10  whoami
+   11  ls
+   12  touch  test.txt
+   13  ls
+   14  pwd
+   15  ~
+   16  pwd
+   17  pwd -P
+   18  ls /usr/local/
+   19  ls /usr/local
+   20  ls /usr/local/
+   21  la -a
+   22  ls -a
+   23  ls -l
+   24  ls -h
+   25  ls -lh
+   26  ls -lhs
+   27  ls -lhS
+   28  ls -lhasldjasd
+   29  ls -lha
+   30  ls -lt
+   31  ls -ltr
+   32  python3 --version
+   33  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   34  ```bash
+   35  brew install git
+   36  ``````bash
+   37  brew install git
+   38  brew install git
+   39  git config --global user.name "jdaih"
+   40  git status
+   41  .git
+   42  git status
+   43  git push origin master
+   44  git status
+   45  cd daily-js-code-challenges/
+   46  git push origin main
+   47  git status
+   48  git add .
+   49  git push
+   50  git commit -m "Solve addOne"
+   51  git push origin master
+   52  git status
+   53  cd daily-js-code-challenges/
+   54  git add .
+   55  git commit -m "Solve addOne"
+   56  git push origin main
+   57  git add .
+   58  git push origin main
+   59  git status
+   60  git push
+   61  git commit -m "Solve addOne"
+   62  git push origin main
+   63  git push
+   64  git push origin main
+   65  git push origin main
+   66  git push origin main
+   67  mkdir star_wars
+   68  ls
+   69  cd star_wars/
+   70  ..
+   71  .
+   72  ~
+   73  cd ~
+   74  ls
+   75  cd Star_Wars/
+   76  ls
+   77  mkdir star_wars
+   78  mkdir star_wars/
+   79  cd star_wars/
+   80  cd star_wars/
+   81  mkdir empire rebellion
+   82  cd empire
+   83  touch darth_vader.txt
+   84  touch emperor_palpatine.txt
+   85  mkdir death_star
+   86  mv darth_vader.txt death_star
+   87  echo ...heavy breathing....>>darth_vader.txt
+   88  cd death_star/
+   89  echo ...heavy breathing....>>darth_vader.txt
+   90  ..
+   91  .
+   92  <
+   93  <<
+   94  ..
+   95  ...
+   96  .
+   97  cd rebellion
+   98  cd ~
+   99  cd rebellion
+  100  ls
+  101  cd Star_Wars/
+  102  cd star_wars/
+  103  cd rebellion/
+  104  touch princess_leia.txt && echo "Help me, Obi-wan...You're my only hope.">> princess_leia.txt
+  105  touch princess_lei.txt && echo Help me, Obi-wan...You're my only hope.>> princess_lei.txt
+
+touch princess_lei.txt && echo Help me, Obi-wan...You're my only hope.>> princess_lei.txt
+  106  ..
+  107  touch obi_wan.txt
+  108  touch luke_skywalker.txt
+  109  mkdir millenium_falcon
+  110  cd millenium_falcon/
+  111  touch han_solo.txt chewbacca.txt
+  112  cd ..
+  113  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon/
+  114  cd ..
+  115  mkdir rebellion
+  116  ls
+  117  mv millenium_falcon death_star
+  118  mv millenium_falcon ~/star_wars/empire/death_star
+  119  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star
+  120  cd rebellion/
+  121  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star
+  122  cd ~
+  123  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star
+  124  cd Star_Wars/
+  125  cd star_wars/
+  126  cd rebellion/
+  127  mv ~/star_wars/rebellion/millenium_falcon/ ~/star_wars/empire/death_star
+  128  cd ~
+  129  mv ~/star_wars/rebellion/millenium_falcon/ ~/star_wars/empire/death_star
+  130  cd Star_Wars/
+  131  cd star_wars/
+  132  cd rebellion/
+  133  mv millenium falcon ~/star_wars/empire/death_star
+  134  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon/ ~/Star_Wars/star_wars/empire/death_star
+  135  cd ..
+  136  cd empire
+  137  cd death_star/
+  138  cd millenium_falcon/
+  139  mv millenium_falcon/* death_star
+  140  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon/* ~/Star_Wars/star_wars/empire/death_star
+  141  mv millenium_falcon/*.txt death_star
+  142  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon/*.txt ~/Star_Wars/star_wars/empire/death_star
+  143  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt ~/Star_Wars/star_wars/empire/death_star
+  144  cd ..
+  145  rm obi_wan.txt
+  146  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  147  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/ ~/Star_Wars/star_wars/rebellion
+  148  mv ~/Star_Wars/star_wars/empire/death_star/darth_vader.txt empire/
+  149  mv ~/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/Star_Wars/star_wars/empire/
+  150  rm -rf ~/Star_Wars/star_wars/empire/death_star
+  151  history
