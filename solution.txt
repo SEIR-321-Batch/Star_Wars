@@ -1,0 +1,168 @@
+356 mkdir starwarsCLI
+357 cd starwarsCLI
+358 ls
+359 gh repo clone SEIR-321-Batch/Star_Wars
+360 code .
+361 mkdir empire rebellion
+362 ls
+363 rm -rf empire rebellion
+364 ls
+365 cd Star_Wars
+366 mkdir empire rebellion
+367 ls
+368 cd empire
+369 git commit -m "...heavy breathing..."
+370 touch emperor_palpatine.txt
+371 ls
+372 touch darth_vader.txt
+373 git commit -m "...heavy breathing..."
+374 ls
+375 mkdir death_star
+376 mv darth_vader.txt /empire/death_star
+377 ls
+378 mv darth_vader.txt /death_star
+379 ls
+380 cd death_star
+381 ls
+382 ..
+383 mv darth_vader.txt ~/empire/death_star
+384 mv darth_vader.txt ~/Star_Wars/empire/death_star
+385 mv darth_vader.txt death_star
+386 ls
+387 ..
+388 cd rebellion
+389 touch princess_leia.txt
+390 ls
+391 .
+392 $echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+393 echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt\n
+394 touch obi_wan.txt
+395 touch luke_skywalker.txt
+396 mkdir millenium_falcon
+397 cd millenium_falcon
+398 touch han_solo.txt chewbacca.txt
+399 ls
+400 mv luke_skywalker.txt priness_leia.txt obi_wan.txt millenium_falcon
+401 ls
+402 mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon
+403 ls
+404 ..
+405 mv luke_skywalker.txt princess_leia.txt obi_wan.txt millenium_falcon \n
+406 ls
+407 cd millenium_falcon
+408 ls
+409 ..
+410 mv millenium_falcon death_star
+411 ..
+412 ls
+413 tree
+414 mv death_star millenium_falcon
+415 cd rebillion
+416 cd rebellion
+417 mv death_star millenium_falcon
+418 ls
+419 mv /Star_Wars/rebellion/millenium_falcon/ /Star_Wars/empire/death_star/
+420 ls
+421 ..
+422 mv /Star_Wars/rebellion/millenium_falcon/ /Star_Wars/empire/death_star/
+423 tree
+424 mv ~/Star_Wars/rebellion/millenium_falcon ~/Star_Wars/empire/death_star/
+425 mv millenium_falcon/ death_star/
+426 cd rebellion
+427 mv millenium_falcon death_star
+428 ls
+429 mv death_star millenium_falcon
+430 mv millenium_falcon /Star_Wars/empiere/death_star
+431 mv millenium_falcon ~/Star_Wars/empiere/death_star/
+432 ..
+433 cd empire
+434 cd death_star
+435 mv millenium_falcon death_star
+436 ..
+437 mv ~/Death_Star/rebellion/millenium_falcon/ death_star
+438 ..
+439 mv millenium_falcon death_star
+440 mv millenium_falcon/ death_star/
+441 cd rebellion
+442 mv millenium_falcon /Star_Wars/empire/death_star/
+443 ~
+444 ls
+445 cd starwarsCLI
+446 ls
+447 mv /Star_Wars/rebellion/millenium_falcon/ /Star_Wars/empire/death_star/
+448 pwd
+449 cd death_star
+450 cd Star_Wars
+451 cd empire
+452 cd death_star
+453 ..
+454 cd rebellion
+455 ..
+456 cd empire
+457 cd death_star
+458 ..
+459 cd rebellion
+460 mv millenium_falcon ../empire/death_star
+461 ls
+462 ..
+463 cd empire
+464 cd death_star
+465 cd millenium_falcon
+466 mv millenium_falcon/* ../death_star/
+467 mv */millenium_falcon/ ../death_star/
+468 ls
+469 mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../death_star/
+470 ..
+471 ls
+472 tree
+473 mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../death_star/
+474 cd millenium_falcon
+475 mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../death_star/
+476 ls
+477 ..
+478 mv ~/millenium_falcon/* ~/death_star/
+479 mv /millenium_falcon/* /death_star/
+480 mv /millenium_falcon/* /empire/death_star/
+481 cd millenium_falcon
+482 mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt /Star_Wars/empire/death_star/
+483 ls
+484 mv chewbacca.txt ../
+485 ls
+486 mv han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../
+487 ls
+488 ..
+489 rm -rf obi_wan.txt
+490 ls
+491 mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt /millenium_falcon/
+492 ls
+493 mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ./
+494 ls
+495 mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt /death_star/millenium_falcon/
+496 mv millenium_falcon .. /rebellion/
+497 ls
+498 mv millenium_falcon /Star_Wars/rebellion/
+499 ls
+500 tree
+501 ..
+502 ls
+503 cd death_star
+504 ls
+505 mv chewbacca.txt /millenium_falcon/
+506 ls
+507 mv han_solo.txt ../death_star/millenium_falcon/
+508 mv chewbacca.txt luke_skywalker.txt princess_leia.txt ../death_star/millenium_falcon
+509 ls
+510 mv millenium_falcon ../rebellion/
+511 ls
+512 ..
+513 ls
+514 mv rebellion millenium_falcon
+515 ls
+516 mv millenium_falcon ../rebellion/
+517 ls
+518 cd death_star
+519 mv darth_vader.txt ../
+520 ..
+521 ls
+522 rm -rf death_star
+523 ls
