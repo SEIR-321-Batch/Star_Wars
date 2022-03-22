@@ -1,0 +1,67 @@
+ 532  Starwar
+  533  ls
+  534  cd Star_Wars
+  535  code .
+  536  mkdir star_wars
+  537  sudo mkdir star_wars
+  538  ls
+  539  cd star_wars
+  540  mkdir empire rebellion 
+  541  sudo mkdir empire rebellion 
+  542  ls
+  543  cd empire 
+  544  touch darth_vader.txt
+  545  sudo touch darth_vader.txt
+  546  git status 
+  547  sudo git status 
+  548  git add .
+  549  sudo git add .
+  550  sudo git commit -m "Star war act1.sh"
+  551  sudo git push origin master 
+  552  echo "..... heavy breathing ..." > darth_vader.txt
+  553  sudo echo "..... heavy breathing ..." > darth_vader.txt
+  554  sudo echo "..... heavy breathing ..."> darth_vader.txt
+  555  echo "..... heavy breathing ..."> darth_vader.txt
+  556  echo "....heavy breathing..." > darth_vader.txt
+  557  sudo echo "....heavy breathing..." > darth_vader.txt
+  558  echo "....heavy breathing..." > darth_vader.txt
+  559  sudo echo "....heavy breathing..." > darth_vader.txt
+  560  echo "....heavy breathing..." > darth_vader.txt
+  561  sudo echo "....heavy breathing..." > darth_vader.txt
+  562  echo "....heavy breathing..." > darth_vader.txt
+  563  open /System/Library/CoreServices/
+  564  ls
+  565  open /System/Library/CoreServices/
+  566* /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/coreservicesd ; exit;
+  567  open /System/Library/CoreServices/
+  568  cd desktop
+  569  gd
+  570  cd ga
+  571  sei
+  572  ls
+  573  deliverables
+  574  ls
+  575  ls]
+  576  ls
+  577  cd starwar
+  578  ls
+  579  Starwar
+  580  ls
+  581  Star_Wars
+  582  ls
+  583  code .
+  584* ls
+  585* cd star_wars
+  586* ls
+  587* cd empire
+  588* echo "....heavy brething..." > darth_vader.txt
+  589* touch emperor_palpatine.txt
+  590* mkdir death_star
+  591* mv darth_vader.txt death_star
+  592* cd..
+  593* cd ..
+  594* git status
+  595* git add .
+  596* git commit -m "Finished act1.sh"
+  597* sudo git commit -m "Finished act1.sh"
+  598* git push origin master 
