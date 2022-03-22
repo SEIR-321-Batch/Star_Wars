@@ -1,0 +1,193 @@
+ 1887  cd SEI321/
+ 1888  ls -l
+ 1889  cd deliverables
+ 1890  mkdir DailyCodingChallenges
+ 1891  cd DailyCodingChallenges/
+ 1892  git clone https://github.com/cst7785/JS-daily-coding-challenge
+ 1893  git clone https://github.com/cst7785/JS-daily-coding-challenges
+ 1894  git status
+ 1895  git pull
+ 1896  git init
+ 1897  git clone https://github.com/cst7785/JS-daily-coding-challenges
+ 1898  ls -lals -la
+ 1899  cd JS-daily-coding-challenges/
+ 1900  ls -la
+ 1901  cat README.md 
+ 1902  vim challenges.js
+ 1903  code .
+ 1904  cd SEI321/
+ 1905  ls -l
+ 1906  cd deliverables/
+ 1907  mkdir star_wars
+ 1908  git clone https://github.com/SEIR-321-Batch/Star_Wars
+ 1909  ls -l
+ 1910  ls 
+ 1911  rm star_wars/
+ 1912  rm -r star_wars/
+ 1913  ls 
+ 1914  ls Star_Wars/
+ 1915  cd Star_Wars/
+ 1916  code 
+ 1917  code .
+ 1918  act1
+ 1919  act1.sh
+ 1920  ls
+ 1921  bash act1.sh
+ 1922  ls
+ 1923  cd empire
+ 1924  ls
+ 1925  cd death_star
+ 1926  ls
+ 1927  cat darth_vader.txt 
+ 1928  echo "...heavy breathing..." darth_vader.txt
+ 1929  cat darth_vader.txt
+ 1930  echo "...heavy breathing..." >> darth_vader.txt
+ 1931  cat darth_vader.txt
+ 1932  git status
+ 1933  git add act1.sh
+ 1934  git add ../../act1.sh
+ 1935  git status
+ 1936  git commit -m "Completed Act 1 tasks"
+ 1937  git config --global cst7785
+ 1938  ssh-keygen -t ed25519 -C "cestevens95@gmail.com"
+ 1939  eval "$(ssh-agent -s)"
+ 1940  ssh-add /home/coop/.ssh/id_ed25519
+ 1941  cat /home/coop/.ssh/id_ed25519
+
+#removed a few lines which showed private keys
+
+ 1950  ls -la ~/.ssh
+ 1951  cat id_ed25519.pub
+ 1952  cat ~/id_ed25519.pub
+ 1953  cat ~/.ssh/id_ed25519.pub
+ 1954  git status
+ 1955  git commit -m "Completed tasks for Act 1"
+ 1956  git config --global "cestevens95@gmail.com"
+ 1957  git config --global "cst7785"
+ 1958  git config --global user.name "cst7785"
+ 1959  git status
+ 1960  git commit -m "Completed tasks for Act 1"
+ 1961  git config --global user.email "cestevens95@gmail.com"
+ 1962  git commit -m "Completed tasks for Act 1"
+ 1963  ls 
+ 1964  cd ..
+ 1965  ls
+ 1966  bash act2.sh
+ 1967  ls
+ 1968  ls empire/death_star/
+ 1969  ls empire/death_star/millenium_falcon/
+ 1970  cat empire/death_star/millenium_falcon/princess_leia.txt 
+ 1971  git status
+ 1972  git add act1.sh
+ 1973  git add act2.sh
+ 1974  git status
+ 1975  git add empire/
+ 1976  git status
+ 1977  git commit -m "Completed tasks for Act 2"
+ 1978  ls
+ 1979  bash act3.sh
+ 1980  ls
+ 1981  ls empire
+ 1982  ls rebellion
+ 1983  ls rebellion/millenium_falcon/
+ 1984  git status
+ 1985  git add act3.sh
+ 1986  git status
+ 1987  git add rebellion/
+ 1988  git add empire/darth_vader.txt 
+ 1989  git status
+ 1990  git commit -m "Completed tasks for Act 3"
+ 1991  git push --all
+ 1992  cd
+ 1993  ls
+ 1994  cd SEI
+ 1995  cd SEI321/
+ 1996  ls
+ 1997  cd deliver
+ 1998  cd deliverables/
+ 1999  ls
+ 2000  git clone https://github.com/cst7785/Star_Wars
+ 2001  cd Star_Wars/
+ 2002  ls
+ 2003  ls -la
+ 2004  cat .git
+ 2005  cd .git
+ 2006  ls
+ 2007  cd ..
+ 2008  ls
+ 2009  rm -r Star_Wars/
+ 2010  rm -rf Star_Wars
+ 2011  ls
+ 2012  git clone https://github.com/cst7785/Star_Wars
+ 2013  ls
+ 2014  cd Star_Wars
+ 2015  ls
+ 2016  code .
+ 2017  ls
+ 2018  bash act1.sh
+ 2019  ls
+ 2020  rm empire rebellion star_wars
+ 2021  rm -r empire rebellion star_wars
+ 2022  ls -l
+ 2023  bash act1.sh
+ 2024  ls
+ 2025  rm -r star_wars/
+ 2026  bash act1.sh
+ 2027  ls
+ 2028  ls star_wars
+ 2029  ls star_wars/rebellion/
+ 2030  ls star_wars/empire/
+ 2031  ls star_wars/empire/death_star/
+ 2032  git status
+ 2033  git add act1.sh
+ 2034  git status
+ 2035  git commit -m "Completed Tasks for Act 1"
+ 2036  bash act2.sh
+ 2037  ls 
+ 2038  ls star_wars/
+ 2039  ls star_wars/empire
+ 2040  ls star_wars/empire/death_star/
+ 2041  ls star_wars/empire/death_star/millenium_falcon/
+ 2042  ls star_wars/empire/death_star/millenium_falcon/princess_leia.txt 
+ 2043  cat star_wars/empire/death_star/millenium_falcon/princess_leia.txt 
+ 2044  git status
+ 2045  git add act2.sh
+ 2046  git commit -m "Completed tasks for Act 2"
+ 2047  bash act3.sh
+ 2048  ls
+ 2049  ls star_wars/
+ 2050  ls star_wars/empire/
+ 2051  ls
+ 2052  rm star_wars
+ 2053  rm -r star_wars
+ 2054  ls
+ 2055  bash act1.sh
+ 2056  bash act2.sh
+ 2057  bash act3.sh
+ 2058  rm -r star_wars
+ 2059  bash act1.sh
+ 2060  bash act2.sh
+ 2061  bash act3.sh
+ 2062  ls
+ 2063  ls star_wars/
+ 2064  ls star_wars/empire/
+ 2065  ls star_wars/rebellion/
+ 2066  ls star_wars/rebellion/millenium_falcon/
+ 2067  git status
+ 2068  git add act3.sh
+ 2069  git commit -m "Completed tasks for Act 3"
+ 2070  git push --all
+ 2071  cd
+ 2072  cd SEI321/
+ 2073  ls 
+ 2074  touch githubtoken.txt
+ 2075  vim githubtoken.txt 
+ 2076  code .
+ 2077  ls 
+ 2078  ls code-alongs/
+ 2079  cd deliverables/
+ 2080  ls
+ 2081  cd Star_Wars/
+ 2082  ls
+ 2083  history | tail -n 250
+
