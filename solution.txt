@@ -1,0 +1,51 @@
+# 1. In this directory, create a new directory called star_wars. Example answer: mkdir star_wars
+mkdir star_wars
+# 2. In the star_wars folder, create two new directories: empire and rebellion (This can be done in two commands, but how would you do it in one?)
+mkdir empire rebellion
+# 3. Inside the empire directory, create a file called darth_vader.txt 
+touch darth_vader.txt
+# 4. Use the force (or your echo) to add the text "...heavy breathing..." to the darth_vader.txt file (Don’t remember how to do this? Use the ‘other force’, known as Google!)
+echo "...heavy breathing..." > darth_vader.txt
+# 5. Inside the empire directory, create a file called emperor_palpatine.txt
+touch emperor_palpatine.txt
+# 6. Inside the empire directory, create a directory called death_star
+mkdir death_star
+# 7. Move darth_vader.txt into the death_star
+mv darth_vader.txt /Users/luis/sei321/labs/star_wars/star_wars/empire/death_star
+
+
+act2 
+
+# 1. Inside the `star_wars/rebellion` directory, (IN ONE COMMAND) create a file called princess_leia.txt with the text "Help me, Obi-Wan…You’re my only hope."
+ echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+# 2. Create a file called obi_wan.txt in star_wars/rebellion
+touch obi_wan.txt
+# 3. Create a file in star_wars/rebellion called luke_skywalker.txt
+touch luke_skywalker.txt
+# 4. Create a directory in star_wars/rebellion called millenium_falcon
+mkdir  millenium_falcon
+# 5. Inside the millenium_falcon, create two files: c and chewbacca.txt
+touch c chewbacca.txt
+# 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
+mv luke_skywalker obi_wan princess_leia.txt /Users/luis/sei321/labs/star_wars/star_wars/rebellion/millenium_falcon
+# 7. Move the millenium_falcon into the death_star.
+mv millenium_falcon /Users/luis/sei321/labs/star_wars/star_wars/empire/death_star
+
+act3 
+
+# 1. Unload the Millenium Falcon in ONE COMMAND!
+# Move the whole crew from the millenium_falcon directory into the death_star directory. HINT: * following a directory will grab all files/folders inside of a directory (directory/*)
+mv luke_skywalker.txt princess_leia.txt obi_won /Users/luis/sei321/labs/star_wars/star_wars/empire/death_star
+# 2. darth_vader has defeated obi_wan! Delete poor obi_wan.
+rm obi_won
+# 3.  Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
+# Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
+mv luke_skywalker.txt princess_leia.txt /Users/luis/sei321/labs/star_wars/star_wars/empire/death_star/millenium_falcon
+
+# 4. Move the millenium_falcon back into the rebellion directory.
+mv millenium_falcon /Users/luis/sei321/labs/star_wars/star_wars/rebellion
+
+# 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!
+mv darth_vader /Users/luis/sei321/labs/star_wars/star_wars/empire 
+# 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the death_star! Remove it from the galaxy!
+rm -rf death_star
