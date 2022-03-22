@@ -75,3 +75,64 @@
  1421  git commit -m "Completed act2.sh"
  1422  git push origin master
  1423  export CLICOLOR=1
+ 1424  history
+ 1425* git status
+ 1426* git add .
+ 1427* git commit -m "Updated solution.txt with history"
+ 1428* git push origin master
+ 1429* cd star_wars
+ 1430* cd empire
+ 1431* cd death_star
+ 1432* cd millenium_falcon
+ 1433* ..
+ 1434* mv millenium_falcon/* death_star
+ 1435* mv death_star/millenium_falcon/* death_star
+ 1436* cd millenium_falcon
+ 1437* mv *.txt /death_star
+ 1438* mv *.txt death_star
+ 1439* mv .txt* ~/death_star
+ 1440* mv .txt* /death_star
+ 1441* mv *.txt /death_star
+ 1442* mv *.txt ~/death_star
+ 1443* mv *.txt ./death_star
+ 1444* ..
+ 1445* mv millenium_falcon/* /death_star
+ 1446* mv millenium_falcon/* death_star
+ 1447* cd millenium_falcon
+ 1448* mv millenium_falcon/* death_star
+ 1449* mv * death_star
+ 1450* mv .txt* star_wars/empire/death_star
+ 1451* ..
+ 1452* mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+ 1453* mv millenium_falcon/* ../death_star
+ 1454* rm obi_wan.txt
+ 1455* mv chewbacca.txt luke_skywalker.txt princess_leia.txt han_solo.txt millenium_falcon
+ 1456* ..
+ 1457* mv death_star/millenium_falcon rebellion
+ 1458* mv death_star/millenium_falcon star_wars/rebellion
+ 1459* mv death_star/millenium_falcon ./rebellion
+ 1460* mv death_star/millenium_falcon ../rebellion
+ 1461* ..
+ 1462* git status
+ 1463* git add .
+ 1464* git commit -m "Updating act3.sh"
+ 1465* git push origin master
+ 1466* cd star_wars
+ 1467* mv death_star/darth_vader.txt empire
+ 1468* mv death_star/darth_vader.txt ../empire
+ 1469* cd death_star
+ 1470* mv empire/death_star/darth_vader.txt empire
+ 1471* cd empire
+ 1472* rm death_star
+ 1473* rm -rf death_star
+ 1474* ..
+ 1475* git status
+ 1476* git add .
+ 1477* git push origin master
+ 1478* git status
+ 1479* git add .
+ 1480* git commit -m "Finished act3.sh. Hooray\n
+ 1481* git status
+ 1482* git add .
+ 1483* git commit -m "finished act3.sh"
+ 1484* git push origin master
