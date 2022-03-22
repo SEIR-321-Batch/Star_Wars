@@ -12,4 +12,5 @@ touch han_solo.text chewbacca.txt
 git mv luke_skywalker millenium_falcon
 git mv princess_leia millenium_falcon
 git mv obi_wan millenium_falcon
-# 7. Move the millenium_falcon into the death_star.
+# 7. Move the millenium_falcon into the death_star
+git mv ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/millenium_falcon/ ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/
