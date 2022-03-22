@@ -13,5 +13,6 @@ rm obi_wan.txt
 # 4. Move the millenium_falcon back into the rebellion directory.
 git mv ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/ ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/
 # 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!
-
+git mv ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/
 # 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the death_star! Remove it from the galaxy!
+rm -rf death_star/

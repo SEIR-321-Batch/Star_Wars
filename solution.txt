@@ -1,0 +1,186 @@
+  481  cd sei/
+  482  ls
+  483  cd deliverables/
+  484  mkdir week1
+  485  cd week1/
+  486  mkdr starWarsCLI
+  487  mkdir starWarsCLI
+  488  git clone https://github.com/KayeB-Designing/Star_Wars.git
+  489  ls
+  490  cd Star_Wars/
+  491  ls
+  492  git init
+  493  ls
+  494  git status
+  495  start act1.sh
+  496  ls
+  497  cd star_wars/
+  498  ls
+  499  pwd
+  500  git status
+  501  git add -A
+  502  git commit -m "created a new text file named princess_leia inside the rebellion directory containting message to Obi-Wan"
+  503  cd star_wars/
+  504  cd rebellion/
+  505  touch obi_wan.txt
+  506  git add -A
+  507  git commit -m "created obi_wan.txt file inside rebellion directory"
+  508  touch luke_skywalker.txt
+  509  ls
+  510  git add -A
+  511  git commit -m "created luke_skywalker.txt in rebellion directory"
+  512  mkdir millenium_falcon
+  513  ls
+  514  git add -A
+  515  git commit -m "made new directory millenium_falcon in rebellion directory"
+  516  cd millenium_falcon/
+  517  touch han_solo.txt chewbacca.txt
+  518  ls
+  519  git add -A
+  520  git commit -m "created new text files inside millenium_falcon directories, one text file each for chewbacca and han_solo"
+  521  git mv luke_skywalker.txt millenium_falcon/
+  522  cd -
+  523  git mv luke_skywalker.txt millenium_falcon/
+  524  ls
+  525  git mv princess_leia.txt millenium_falcon/
+  526  ls
+  527  git mv princess_leia millenium_falcon
+  528  git mv prencess_leia.txt princess_leia.txt
+  529  ls
+  530  git add -A
+  531  git commit -m "moved luke_skywalker file into millenium_falcon, fixed type in princess_leia.txt file name"
+  532  git mv princess_leia.txt millenium_falcon/
+  533  ls
+  534  git mv obi_wan.txt millenium_falcon/
+  535  ls
+  536  cd millenium_falcon/
+  537  ls
+  538  git add -A
+  539  git commit -m "moved text files for luke_skywalker, princess_leia, and obi_wan into millenium falcon directory"
+  540  cd -
+  541  cd -
+  542  cd ~
+  543  cd ~/star_wars/
+  544  cd sei
+  545  cd deliverables/
+  546  cd week1/
+  547  cd Star_Wars/
+  548  ls
+  549  cd star_wars/
+  550  ls
+  551  git mv millenium_falcon/ death_star/
+  552  cd rebellion/
+  553  git mv millenium_falcon/ death_star/
+  554  ls
+  555  cd -
+  556  ls
+  557  cd empire/
+  558  mv death_star/ empire/
+  559  ls
+  560  git status
+  561  restore 1f5a7a2
+  562  git reset --hard 1f5a7a2
+  563  ls
+  564  cd -
+  565  ls
+  566  cd rebellion/
+  567  ls
+  568  cd -
+  569  cd empire/
+  570  ls
+  571  cd empire/
+  572  ls
+  573  cd -
+  574  ls
+  575  cd death_star/
+  576  ls
+  577  cd -
+  578  cd empire/
+  579  ls
+  580  cd -
+  581  ls
+  582  rm -rf empire/
+  583  ls
+  584  git mv millenium_falcon/ death_star/
+  585  cd -
+  586  cd -
+  587  cd star_wars/
+  588  cd ~
+  589  cd sei/
+  590  cd deliverables/
+  591  cd week1/
+  592  ls
+  593  cd Star_Wars/
+  594  ls
+  595  cd star_wars/
+  596  ls
+  597  git mv millenium_falcon death_star
+  598  cd rebellion/
+  599  ls
+  600  git mv millenium_falcon/ death_star/
+  601  ls
+  602  git mv death_star/ millenium_falcon/
+  603  ls
+  604  git mv *millenium_falcon/ death_star/
+  605  ls
+  606  git mv death_star/ millenium_falcon/
+  607  ls
+  608  git mv *millenium_falcon/ empire/death_star/
+  609  git mv ~/millenium_falcon/ ~/empire/death_star/
+  610  git mv ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/millenium_falcon/ ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/
+  611  git add -A
+  612  git commit -m "moved millenium_falcon directory into the death_star directory, several fixed process mistakes"
+  613  ls
+  614  cd -
+  615  ls
+  616  cd empire
+  617  ls
+  618  cd death_star/
+  619  ls
+  620  git mv millenium_falcon/* death_star/
+  621  git mv ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/
+  622  git add -A
+  623  git commit -m "moved all txt files from millenium_falcon directory into the death_star directory"
+  624  ls
+  625  rm obi_wan.txt
+  626  ls
+  627  git mv chewbacca.txt ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/
+  628  ls
+  629  git mv princess_leia.txt ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  630  ls
+  631  git mv luke_skywalker.txt ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/
+  632  ls
+  633  git mv han_solo.txt ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/
+  634  ls
+  635  git add -A
+  636  git commit -m "text files princess_leia, chewbacca, luke_skywalker, and han_solo were moved back into the millenium_falcon directory"
+  637  git mv ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/millenium_falcon/ ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/
+  638  ls
+  639  cd -
+  640  cd -
+  641  cd ~/star_wars/
+  642  cd ..
+  643  cd ..
+  644  ls
+  645  cd rebellion/
+  646  ls
+  647  cd millenium_falcon/
+  648  ls
+  649  git add -A
+  650  git commit -m "moved millenium_falcon directory back into the rebellion directory"
+  651  git mv ~/sei/deliverables/week1/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/sei/deliverables/week1/Star_Wars/star_wars/rebellion/
+  652  ls
+  653  cd ..
+  654  ls
+  655  git add -A
+  656  git commit -m "moved darth_vader.txt into the rebellion directory"
+  657  cd /
+  658  cd ~/star_wars/
+  659  cd sei
+  660  cd ~/sei
+  661  cd deliverables/week1/Star_Wars/star_wars/empire/
+  662  ls
+  663  rm -rf death_star/
+  664  ls
+  665  git add -A
+  666  git commit -m "removed death_star directory from empire directory"
