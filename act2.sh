@@ -9,5 +9,7 @@ mkdir millenium_falcon
 # 5. Inside the millenium_falcon, create two files: han_solo.txt and chewbacca.txt
 touch han_solo.text chewbacca.txt
 # 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
-
+git mv luke_skywalker millenium_falcon
+git mv princess_leia millenium_falcon
+git mv obi_wan millenium_falcon
 # 7. Move the millenium_falcon into the death_star.
