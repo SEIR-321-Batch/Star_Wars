@@ -1,0 +1,156 @@
+git remote add origin https://github.com/SEIR-321-Batch/Star_Wars.git
+  278  git clone https://github.com/SEIR-321-Batch/Star_Wars.git
+  279  ls
+  280  cd Star_Wars
+  281  code .
+  282  ls
+  283  mkdir empire rebellion
+  284  ls
+  285  cd empire
+  286  ls
+  287  touch darth_vader.txt
+  288  ls
+  289  pwd
+  290  ls
+  291  echo "...heavy breathing..." >> darth_vader.txt
+  292  ls
+  293  pwd
+  294  touch emperor_palpatine.txt
+  295  ls
+  296  pwd
+  297  mkdir death_star
+  298  ls
+  299  pwd
+  300  mv ./darth_vader.txt death_star
+  301  ls
+  302  cd death_star
+  303  ls
+  304  ..
+  305  pwd
+  306  ..
+  307  pwd
+  308  ls
+  309  cd Star_Wars
+  310  mkdir star_wars
+  311  ls
+  312  mv ./empire  ./star_wars
+  313  ls
+  314  mv rebellion star_wars
+  315  git status
+  316  git add.
+  317  git add .
+  318  git commit -m "Completed Act 1 prompts"
+  319  pwd
+  320  ls
+  321  cd star_wars
+  322  ls
+  323  cd rebellion
+  324  ls
+  325  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  326  pwd
+  327  touch obi_wan.txt
+  328  ls
+  329  pwd
+  330  touch luke_skywalker.txt
+  331  ls
+  332  mkdir millenium_falcon
+  333  ls
+  334  cd millenium_falcon
+  335  touch han_solo.txt chewbacca.txt
+  336  ls
+  337  ..
+  338  ls
+  339  mv ./luke_skywalker.txt ./obi_wan.txt ./princess_leia.txt millenium_falcon
+  340  ls
+  341  cd millenium_falcon
+  342  ls
+  343  ..
+  344  ls
+  345  cd rebellion
+  346  ls
+  347  mv ./millenium_falcon  death_star
+  348  ls
+  349  cd death_star
+  350  ls
+  351  ..
+  352  mv ./death_star  millenium_falcon
+  353  ls
+  354  mv ./millenium_falcon ..
+  355  ..
+  356  ls
+  357  cd empire
+  358  ls
+  359  cd death_star
+  360  ls
+  361  ..
+  362  ls
+  363  rebellion
+  364  ls
+  365  millenium_falcon
+  366  ..
+  367  cd millenium_falcon
+  368  ls
+  369  ..
+  370  mv ./millenium_falcon  empire/death_star
+  371  ls
+  372  cd empire
+  373  ls
+  374  cd death_star
+  375  ls
+  376  brew install tree
+  377  arch -arm64 brew install tree
+  378  tree
+  379  ..
+  380  git status
+  381  git add .
+  382  git status
+  383  git commit -m "Created the Rebellion Heroes and moved them and the millenium_falcon into death_star"
+  384  ls
+  385  empire
+  386  ls
+  387  cd death_star
+  388  mv millenium_falcon/* death_star
+  389  ls
+  390  mv millenium_falcon/* star_wars/empire/death_star
+  391  mv /death_star/millenium_falcon/* /empire/death_star
+  392  ls
+  393  cd millenium_falcon
+  394  ls
+  395  ..
+  396  mv /empire/death_star/millenium_falcon/* /empire/death_star
+  397  ..
+  398  ls
+  399  cd star_wars
+  400  cd empire
+  401  mv death_star/millenium_falcon/* death_star
+  402  ls
+  403  cd death_star
+  404  ls
+  405  rm obi_wan.txt
+  406  ls
+  407  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  408  ls
+  409  cd millenium_falcon
+  410  ls
+  411  ..
+  412  mv empire/death_star/millenium_falcon  rebellion
+  413  ls
+  414  cd rebellion
+  415  ls
+  416  ..
+  417  mv 
+  418  mv empire/death_star/darth_vader.txt 
+  419  mv empire/death_star/darth_vader.txt empire
+  420  cd empire
+  421  rm death_star
+  422  rmdir death_star
+  423  ..
+  424  git status
+  425  git . add
+  426  git .add
+  427  git add .
+  428  git status
+  429  git add .
+  430  commit -m "Helped the rebellion fight off Darth Vader and destroy the Death Star"
+  431  git push origin master
+➜  star_wars git:(master) ✗ 
