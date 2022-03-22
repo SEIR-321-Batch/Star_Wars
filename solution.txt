@@ -1,0 +1,90 @@
+  178  cd sei
+  179  ls
+  180  cd deliverables
+  181  git clone https://github.com/kimbaldeo/Star_Wars.git
+  182  code .
+  183  ~
+  184  mkdir test
+  185  cd test
+  186  mkdir test1 test2
+  187  ls
+  188  cd ..
+  189  ls
+  190  cd sei/deliverables
+  191  ls
+  192  cd Star_Wars
+  193  ls
+  194  git status
+  195  git add act1.sh
+  196  git status
+  197  sh act1.sh
+  198  git status
+  199  git add act1.sh
+  200  git status
+  201  sh act1.sh
+  202  ls
+  203  git status
+  204  sh act1.sh
+  205  git status
+  206  git add star_wars
+  207  git status
+  208  git commit -m "completed act 1"
+  209  git status
+  210  git add act2.sh
+  211  git status
+  212  sh act2.sh
+  213  git status
+  214  git add star_wars/empire/death_star/millenium_falcon/
+  215  git status
+  216  cd sei/deliverables/Star_Wars
+  217  ls
+  218  code solution.txt
+  219  history | tail -n 250 >> solution.txt
+  220  code solution.txt
+  221  git status
+  222  git commit -m "completed act 2"
+  223  git status
+  224  git add act3.sh
+  225  git status
+  226  sh act3.sh
+  227  git status
+  228  git diff act3.sh
+  229  git status
+  230  git rm .
+  231  open .
+  232  git status
+  233  sh act3.sh
+  234  git status
+  235  git add .
+  236  git commit -m "completed act3"
+  237  git status
+  238  git push origin master
+  239  git status
+  240  git add act3.sh
+  241  git status
+  242  sh act3.sh
+  243  git status
+  244  sh act3.sh
+  245  git status
+  246  git restore star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+  247  git status
+  248  git add .
+  249  git status
+  250  sh act3.sh
+  251  git status
+  252  git restore .
+  253  git status
+  254  gs
+  255  git status
+  256  sh act3.sh
+  257  git status
+  258  git add .
+  259  git status
+  260  git commit -m "completed act 3"
+  261  git push origin master
+  262  history | tail -n 250 >> solution.txt
+  263  git status
+  264  git reset .
+  265  gs
+  266  git status
+  267  history | tail -n 83 >> solution.txt
