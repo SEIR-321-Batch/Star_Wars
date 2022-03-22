@@ -1,0 +1,149 @@
+1  cd GA_BootCamp
+2  ls
+3  cd homework
+4  ls
+5  day1
+6  ls
+7  cd -
+8  git clone https://github.com/scarletknight13/Star_Wars.git
+9  ls
+10  cd Star_Wars
+11  code .
+12  mkdir star_wars
+13  git status
+14  git add .
+15  git commit -m "added star wars directory"
+16  ls
+17  cd star_wars
+18  mkdir empire rebellion
+19  ls
+20  git status
+21  git add .
+22  git commit -m "Added empire and rebellion directories"
+23  cd empire && mkdir darth_vader.txt
+24  ls
+25  git add .
+26  git commit -m "added darth vader file in empire"
+27  cd darth_vader.txt
+28  echo "...heavy breathing..." ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/darth_vader.txt
+29  ls
+30  cd -
+31  ls
+32  cd darth_vader.txt
+33  ls
+34  cd..
+35  cd ..
+36  cd..
+37  cd ..
+38  ls
+39  empire
+40  rm -rf darth_vader.txt
+41  ls
+42  touch darth_vader.txt
+43  ls
+44  git status
+45  git add .
+46  git commit -m "changed darth vader from directory to file"
+47  echo "...heavy breathing..." ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/darth_vader.txt
+48  echo "...heavy breathing..." >>  ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/darth_vader.txt
+49  git status
+50  git add .
+51  git status
+52  git commit -m "added txt to darth vader file"
+53  touch emperor_palpatine.txt
+54  git status
+55  git add .
+56  git commit -m "made emperor palpatine file in empire"
+57  mkdir death_star
+58  ls
+59  mv darth_vader.txt ./death_star
+60  ls
+61  cd death_star
+62  ls
+63  git add .
+64  git commit -m "added death star directory and moved darth vader file inside"
+65  git status
+66  cd ..
+67  cd rebellion
+68  echo "Help me, Obi-Wan…You’re my only hope." >> touch princess_leia.txt
+69  ls
+70  rm -rf touch
+71  ls
+72  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> ./princess_leia.txt
+73  ls
+74  git add ..
+75  git commit -m"created princess file and added text"
+76  touch obi_wan.txt luke_skywalker.txt
+77  ls
+78  git add ..
+79  git commit -m"added obi wan and luke skywalker files to rebellion"
+80  mkdir millenium_falcon
+81  git add ..
+82  git commit -m "added millenium falcon directory"
+83  cd millenium_falcon
+84  touch han_solo.txt chewbacca.txt
+85  git status
+86  git add ..
+87  git commit -m "added han solo and chewbacca files to millenium"
+88  cd ..
+89  ls
+90  mv obi_wan.txt princess_leia.txt luke_skywalker.txt ./millenium_falcon
+91  ls
+92  cd millenium_falcon
+93  ls
+94  git add ..
+95  git commit -m"moved princess, obi wan, and luke files to millenium"
+96  mv . ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/death_star
+97  mv./ ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/death_star
+98  mv ~/GA_BootCamp/homework/Star_Wars/star_wars/rebellion/millenium_falcon/ ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/death_star
+99  cd ..
+100  tree
+101  git add ..
+102  git commit -m "moved millenium directory to death star folder\n"
+103  ls
+104  cd death_star
+105  ls
+106  mv -v ./millenium_falcon/* ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/death
+107  mv -v ./millenium_falcon/* ~/GA_BootCamp/homework/Star_Wars/star_wars/empire/death_star
+108  ls
+109  git add ..
+110  git commit -m "unloaded all files in millenium to death star"
+111  ls
+112  rm obi_wan.txt
+113  ls
+114  git add ..
+115  git commit -m "deleted obi wan file"
+116  cd ..
+117  mv ./death_star/!(darth.vader.txt) ./death_star/millenium_falcon
+118  cd death_star
+119  mv darth_vader.txt .darth_vader.txt
+120  ls
+121  mv -v * ./millenium_falcon
+122  ls
+123  cd millenium_falcon
+124  ls
+125  git add ..
+126  git commit -m "moved files back to millenium folder"
+127  cd .
+128  cd ..
+129  mv ./death_star/millenium_falcon ~/GA_BootCamp/homework/Star_Wars/star_wars/rebellion
+130  ls
+131  death_star
+132  mv .darth_vader.txt darth_vader.txt
+133  cd ..
+134  rebellion
+135  ls
+136  git add ..
+137  git commit -m "moved millenium folder to rebellion folder"
+138  cd ..
+139  mv ./empire/death_star/darth_vader.txt ./empire
+140  ls
+141  cd empire
+142  ls
+143  git add ..
+144  git commit -m "moved darth vader file to empire folder"
+145  ls
+146  rm -rf death_star
+147  ls
+148  git add ..
+149  git commit -m"deleted death star folder"
