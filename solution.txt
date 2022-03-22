@@ -1,0 +1,238 @@
+➜  deliverables cd empire
+cd: no such file or directory: empire
+➜  deliverables cd star_wars
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ touch darth_vader.txt
+➜  empire git:(master) ✗ ls
+darth_vader.txt
+➜  empire git:(master) ✗ echo "...heavy breathing...">>darth_vader.txt
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/death_star
+mv: cannot stat '/home/jjng930/star_wars/empire/darth_vader.txt': No such file or directory
+➜  empire git:(master) ✗ pwd
+/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+➜  empire git:(master) ✗ mv ~/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/darth_vader.txt ~//mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+mv: cannot stat '/home/jjng930/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/darth_vader.txt': No such file or directory
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium falcon
+mv: target 'falcon' is not a directory
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv millenium_falcon rebellion
+➜  rebellion git:(master) ✗ cd..
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt01~
+➜  rebellion git:(master) ✗ touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt   
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon/
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon/
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon/ 
+➜  rebellion git:(master) ✗ mv princess_leia.txt obi_wan.txt luke_skywalker.txt millenium_falcon/
+mv: cannot stat 'princess_leia.txt': No such file or directory 
+mv: cannot stat 'obi_wan.txt': No such file or directory       
+mv: cannot stat 'luke_skywalker.txt': No such file or directory
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ pwd
+/mnt/c/Users/Jjng9/sei/deliverables/star_wars
+➜  star_wars git:(master) ✗ mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/rebellion/millenium_falcon /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+➜  star_wars git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  star_wars git:(master) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ mv *.txt ~/death_star                                       
+➜  millenium_falcon git:(master) ✗ cd ..  
+➜  death_star git:(master) ✗ rm -rf obi-wan.txt
+➜  death_star git:(master) ✗ ls
+chewbacca.txt  darth_vader.txt  han_solo.txt  luke_skywalker.txt  millenium_falcon  obi_wan.txt  princess_leia.txt
+➜  death_star git:(master) ✗ pwd   
+➜  star_wars git:(master) ✗ mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/millenium_falcon /mnt/c/Users/Jjng9/sei/deliverables/star_wars/rebellion                         
+➜  star_wars git:(master) ✗ history | tail -n 250
+    1  echo $SHELL
+    2  $SHELL --version
+    3  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  sudo add-apt-repository ppa:git-core/ppa
+    5  sudo apt-get update
+    6  sudo apt-get install git
+    7  git config --global user.name "jjng03"
+    8  git config --global user.email "jjng930@gmail.com"
+    9  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   10  git config --global init.defaultBranch main
+   11  git config --global core.editor "code --wait"
+   12  git config --global pull.rebase false
+   13  touch ~/.gitignore_global
+   14  git config --global core.excludesfile ~/.gitignore_global
+   15  code ~/.gitignore_global
+   16  sudo apt-get install git
+   17  git config --global user.name "James Jung"
+   18  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   19  clear
+   20  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+   21  sudo apt-add-repository https://cli.github.com/packages
+   22  sudo apt update
+   23  sudo apt install gh
+   24  gh auth login
+   25  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   26  nvm --version
+   27  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+   28  nvm --version
+   29  nvm install node
+   30  cd empire
+   31  cd star_wars
+   32  cd empire
+   33  touch darth_vader.txt
+   34  ls
+   35  echo "...heavy breathing...">>darth_vader.txt
+   36  touch emperor_palpatine.txt
+   37  mkdir death_star
+   38  mv ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/death_star
+   39  pwd
+   40  mv ~/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/darth_vader.txt ~//mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+   41  mv darth_vader.txt ~/death_star
+   42  ls\\nls
+   43  ls
+   44  touch darth_vader.txt
+   45  echo "...heavy breathing...">>darth_vader.txt
+   46  /clear
+   47  clear
+   48  mv ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/death_star
+   49  pwd
+   50  mv darth_vader.txt death_star
+   51  clear
+   52  cd ..
+   53  cd rebellion
+   54  touch princess_leia ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia
+   55  touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt
+   56  touch obi_wan.txt
+   57  touch luke_skywalker.txt
+   58  mkdir millenium_falcon
+   59  clear
+   60  cd millenium_falcon
+   61  touch han_solo.txt
+   62  touch chewbacca.txt
+   63  cd ..
+   64  mv *.txt ~/millenium_falcon
+   65  mv *.txt ~/rebellion/millenium_falcon
+   66  clear
+   67  mv luke_skywalker.txt millenium_falcon
+   68  mv obi_wan.txt millenium_falcon
+   69  mv princess_leia.txt millenium falcon
+   70  mv princess_leia.txt millenium_falcon
+   71  mv millenium_falcon rebellion
+   72  cd..
+   73  cd ..
+   74  cd rebellion
+   75  touch princess_leia.txt ; echo "Help me, Obi_Wan...You're my only hope.">>princess_leia.txt
+   76  touch obi_wan.txt
+   77  touch luke_skywalker.txt
+   78  mkdir millenium_falcon
+   79  cd millenium_falcon
+   80  touch han_solo.txt
+   81  touch chewbacca.txt
+   82  clear
+   83  mv luke_skywalker.txt millenium_falcon
+   84  cd ..
+   85  mv luke_skywalker.txt millenium_falcon
+   86  mv obi_wan.txt millenium_falcon
+   87  mv princess_leia.txt millenium_falcon
+   88  cd ..
+   89  mv millenium_falcon death_star
+   90  mv ~/star_wars/millenium_falcon ~/star_wars/death_star
+   91  clear
+   92  cd millenium_falcon
+   93  mv rebellion star_wars
+   94  mv star_wars rebellion
+   95  rm -rf rebellion
+   96  clear
+   97  mkdir rebellion
+   98  cd rebellion
+   99  touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt01~
+  100  clear
+  101  touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt01~
+  102  touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt
+  103  touch obi_wan.txt
+  104  touch luke_skywalker.txt
+  105  mkdir millenium_falcon
+  106  mv luke_skywalker.txt millenium_falcon/
+  107  mv obi_wan.txt millenium_falcon/
+  108  mv princess_leia.txt millenium_falcon/
+  109  mv princess_leia.txt obi_wan.txt luke_skywalker.txt millenium_falcon/
+  110  ls
+  111  cd millenium_falcon
+  112  mv millenium_falcon death_star
+  113  mv *.txt death_pwd
+  114  pwd
+  115  cd ..
+  116  mv rebellion/millenium_falcon death_star
+  117  mv death_star millenium_falcon
+  118  clear
+  119  mv millenium_falcon ~/star_wars/rebellion
+  120  cd rebellion
+  121  touch princess_leia.txt ; echo "Help me, Obi-Wan...You're my only hope.">>princess_leia.txt
+  122  touch obi_wan.txt
+  123  touch luke_skywalker.txt
+  124  mkdir millenium_falcon
+  125  cd millenium_falcon
+  126  touch han_solo.txt
+  127  touch chewbacca.txt
+  128  clear
+  129  cd ..
+  130  mv luke_skywalker.txt millenium_falcon
+  131  mv obi_wan.txt millenium_falcon
+  132  mv princess_leia.txt millenium_falcon
+  133  cd ..
+  134  pwd
+  135  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/rebellion/millenium_falcon /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+  136  cd millenium_falcon
+  137  cd death_star
+  138  cd empire
+  139  cd death_star
+  140  cd millenium_falcon
+  141  mv *.txt ~/death_star
+  142  mv *.txt ~/empire/death_star
+  143  cd ..
+  144  pwd
+  145  cd millenium_falcon
+  146  mv *.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+  147  mv darth_vader.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+  148  clear
+  149  cd ..
+  150  rm -rf obi-wan.txt
+  151  ls
+  152  pwd
+  153  cd ~/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star && rm obi_wan.txt
+  154  rm obi_wan.txt
+  155  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/millenium_falcon
+  156  cd millenium_falcon
+  157  pwd
+  158  cd ~
+  159  cd /mnt/c/Users/Jjng9/sei/deliverables/star_wars
+  160  clear
+  161  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/millenium_falcon /mnt/c/Users/Jjng9/sei/deliverables/star_wars/rebellion
+  162  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/darth_vader.txt mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/millenium_falcon /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+  163  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/darth_vader.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+  164  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/darth_vader.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+  165  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/darth_vader /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+  166  cear
+  167  clear
+  168  mv /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star/darth_vader.txt /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire
+  169  cd empire
+  170  cd death_star
+  171  pwd
+  172  cd ..
+  173  clear
+  174  rm -rf ~/mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+  175  rm -rf /mnt/c/Users/Jjng9/sei/deliverables/star_wars/empire/death_star
+  176  clear
