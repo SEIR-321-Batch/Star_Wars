@@ -1,0 +1,94 @@
+  180  mkdir star_wars
+  181  cd ~/act1
+  182  cd~/act1.sh
+  183  mkdir empire
+  184  mkdir rebellion
+  185  cd empire
+  186  mkdir darth_vader.txt
+  187  mkdir empire
+  188  touch darth_vader.txt
+  189  echo '"...heavy breathing..."' darth_vader.txt
+  190  echo '"...heavy breathing..."'>>darth_vader.txt
+  191  touch emporor_palpatine.txt
+  192  touch death_star
+  193  mv ~/empire/darth_vader.txt ~/empire/death_star.txt/darthvader.txt
+  194  mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  195  mv ~/Users/rosanneanderson/empire/darth_vader.txt ~/Users/rosanneanderson/empire/death_star/darth_vader.txt 
+  196  mv darth_vader.text death_star
+  197  mv darth_vader.txt death_star
+  198  tree
+  199  touch darth_vader.txt
+  200  mv darth_vader death_star
+  201  /Users/rosanneanderson/deliverables/Star_Wars/empire/darth_vader.txt
+  202  cd death_star
+  203  mkdir death_star
+  204  mv darth_vader.txt death_star
+  205  mkdir princessleia.txt echo '"Help me, Obi-Wan…You’re my only hope."'
+  206  mv princessleia.txt rebellion
+  207  cd rebellion
+  208  ..
+  209  cd rebellion
+  210  mkdir princessleia.txt echo '"Help me, Obi-Wan…You’re my only hope."'
+  211  mkdir princessleia.txt &&  echo '"Help me, Obi-Wan…You’re my only hope."'
+  212  touch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."'
+  213  touch princess_leia.txt echo '"Help me, Obi-Wan…You’re my only hope."'\n"Help me, Obi-Wan…You’re my only hope."
+  214  touch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."'\n"Help me, Obi-Wan…You’re my only hope." princess_leia
+  215  touch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."'\n"Help me, Obi-Wan…You’re my only hope." princess_leia.txt
+  216  ouch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."' princess_leia.txt
+  217  touch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."' princess_leia.txt
+  218  touch princess_leia.txt && echo '"Help me, Obi-Wan…You’re my only hope."'princess_leia.txt
+  219  touch princess_leia.txt echo '"Help me, Obi-Wan…You’re my only hope."'princess_leia.txt
+  220  echo '"Help me, Obi-Wan…You’re my only hope."'princess_leia.txt 
+  221  echo '"Help me, Obi-Wan…You’re my only hope."'.>>princess_leia.txt 
+  222  touch obi_wan.txt
+  223  touch luke_skywalker.txt
+  224  mkdir millenium_falcon
+  225  cd millenium_falcon
+  226  touch han_solo.txt &&chewbacca.txt
+  227  touch han_solo.txt && chewbacca.txt
+  228  touch hansolo.txt chewbacca.txt
+  229  mv luke_skywalker millenium_falcon obi_wan millenium_falcon princess_leia millenium_falcon
+  230  ..
+  231  mv luke_skywalker millenium_falcon obi_wan millenium_falcon princess_leia millenium_falcon
+  232  mv luke_skywalker.txt millenium_falcon obi_wan.txt millenium_falcon princess_leia.txt millenium_falcon
+  233  echo '"Help me, Obi-Wan…You’re my only hope."'.>>princess_leia.txt 
+  234  touch obi_wan.txt  
+  235  touch luke_skywalker.txt
+  236  mkdir millenium_falcon
+  237  cd millenium_falcon
+  238  touch hansolo.txt chewbacca.txt
+  239  ..
+  240  mv obi_wan.txt mellenium_falcon
+  241  touch obi_wan.txt 
+  242  mv obi_wan.txt millenium_falcon
+  243  mv luke_skywalker millenium_falcon
+  244  mv luke_skywalker.txt millenium_falcon
+  245  mv princess_leia.txt millenium_falcon
+  246  mv millenium_falcon death_star
+  247  ..
+  248  mv millenium_falcon death_star
+  249  mv ~/rebellion/millenium_facon ~/empire/death_star
+  250  mv ~/rebellion/millenium_facon ~/empire/death_star/
+  251  mv rebellion/millenium_falcon empire/death_star
+  252  cd death_star
+  253  cd empire
+  254  cd death_star
+  255  mv millenium_falcon/* deathstar
+  256  mv millenium_falcon/* death_star
+  257  ..
+  258  mv deathstar/millenium_falcon/* death_star
+  259  mv death_star/millenium_falcon/* death_star
+  260  rm obi_wan.txt
+  261  cd death_star
+  262  rm obi_wan.txt
+  263  mv -t millenium_falcon chewbacca.txt hansolo.txt luke_skywalker.txt princess_leia.txt
+  264  mv han_solo millenium_falcon
+  265  mv han_solo.txt millenium_falcon
+  266  mv chewbacca.txt millenium_falcon
+  267  mv luke_skywalker.txt millenium_falcon
+  268  mv princess_leia.txt_millenium_falcon
+  269  ..
+  270  mv empire/death_star/millenium_falcon rebellion
+  271  mv empire/death_star/darth_vader.txt empire
+  272  rm empire/death_star
+  273  rm -rf empire/death_star
