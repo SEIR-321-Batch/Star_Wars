@@ -1,0 +1,32 @@
+ mkdir star_wars
+cd star_wars
+mkdir rebellion && mkdir empire
+cd empire
+touch darth_vader.txt
+echo "...heavy breathing..." >> darth_vader.txt
+touch emperor_palpatine.txt
+mkdir death_star
+mv darth_vader.txt death_star/
+
+cd ..
+cd rebellion
+echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+touch obi_wan.txt
+touch luke_skywalker.txt
+mkdir millenium_falcon
+cd millenium_falcon
+touch han_solo.txt
+touch chewbacca.txt
+cd ..
+mv luke_skywalker.txt millenium_falcon/
+mv princess_leia.txt millenium_falcon/
+mv rebellion/millenium_falcon empire/death_star/
+
+mv * ..
+rm ../obi_wan.txt
+mv ../*.txt .
+mv darth_vader ../
+mv ../millenium_falcon ../../../rebellion
+cd ../../empire/death_star
+mv darth_vader.txt ../
+rm -r death_star
