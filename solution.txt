@@ -1,0 +1,692 @@
+Last login: Mon Mar 21 18:39:19 on ttys000
+➜  ~ cd sei 
+➜  sei cd deliverables 
+➜  deliverables cd Star_Wars 
+➜  Star_Wars cd Star_Wars 
+➜  Star_Wars git:(master) ✗ tree
+.
+├── README.md
+├── act1.sh
+├── act2.sh
+├── act3.sh
+└── solution.txt
+
+0 directories, 5 files
+➜  Star_Wars git:(master) ✗ mkdir star_wars
+➜  Star_Wars git:(master) ✗ cd star_wars 
+➜  star_wars git:(master) ✗ mkdir empire rebellion
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire 
+➜  empire git:(master) ✗ touch darth_vader.txt
+➜  empire git:(master) ✗ ls
+darth_vader.txt
+➜  empire git:(master) ✗ echo "...heavy breathing..." > darth_vader.txt 
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv darth_vader.txt death_star 
+➜  empire git:(master) ✗ tree
+.
+├── death_star
+│   └── darth_vader.txt
+└── emperor_palpatine.txt
+
+1 directory, 2 files
+➜  empire git:(master) ✗ cd .
+➜  empire git:(master) ✗ cd .
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+3 directories, 2 files
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   empire/death_star/darth_vader.txt
+	new file:   empire/emperor_palpatine.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.act1.sh.swp
+
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   empire/death_star/darth_vader.txt
+	new file:   empire/emperor_palpatine.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../act1.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.act1.sh.swp
+
+➜  star_wars git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ cd ..
+➜  Star_Wars tree
+.
+└── Star_Wars
+    ├── README.md
+    ├── act1.sh
+    ├── act2.sh
+    ├── act3.sh
+    ├── solution.txt
+    └── star_wars
+        ├── empire
+        │   ├── death_star
+        │   │   └── darth_vader.txt
+        │   └── emperor_palpatine.txt
+        └── rebellion
+
+5 directories, 7 files
+➜  Star_Wars cd Star_Wars 
+➜  Star_Wars git:(master) ✗ tree
+.
+├── README.md
+├── act1.sh
+├── act2.sh
+├── act3.sh
+├── solution.txt
+└── star_wars
+    ├── empire
+    │   ├── death_star
+    │   │   └── darth_vader.txt
+    │   └── emperor_palpatine.txt
+    └── rebellion
+
+4 directories, 7 files
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git commit -m "Completed Act 1"
+[master d1c231c] Completed Act 1
+ 4 files changed, 9 insertions(+), 5 deletions(-)
+ create mode 100644 .act1.sh.swp
+ create mode 100644 star_wars/empire/death_star/darth_vader.txt
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+➜  Star_Wars git:(master) cd star_wars 
+➜  star_wars git:(master) cd rebellion 
+➜  rebellion git:(master) touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+➜  rebellion git:(master) ✗ code .
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt chewbacca.txt
+➜  millenium_falcon git:(master) ✗ tree
+.
+├── chewbacca.txt
+└── han_solo.txt
+
+0 directories, 2 files
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+    ├── luke_skywalker.txt
+    ├── millenium_falcon
+    │   ├── chewbacca.txt
+    │   └── han_solo.txt
+    ├── obi_wan.txt
+    └── princess_leia.txt
+
+4 directories, 7 files
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon                                        
+➜  rebellion git:(master) ✗ tree
+.
+└── millenium_falcon
+    ├── chewbacca.txt
+    ├── han_solo.txt
+    ├── luke_skywalker.txt
+    ├── obi_wan.txt
+    └── princess_leia.txt
+
+1 directory, 5 files
+➜  rebellion git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star 
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   empire/death_star/millenium_falcon/chewbacca.txt
+	new file:   empire/death_star/millenium_falcon/han_solo.txt
+	new file:   empire/death_star/millenium_falcon/luke_skywalker.txt
+	new file:   empire/death_star/millenium_falcon/obi_wan.txt
+	new file:   empire/death_star/millenium_falcon/princess_leia.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../act2.sh
+
+➜  star_wars git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   act2.sh
+	new file:   star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+	new file:   star_wars/empire/death_star/millenium_falcon/han_solo.txt
+	new file:   star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+	new file:   star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+	new file:   star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+
+➜  Star_Wars git:(master) ✗ git commit -m "Completed Act 2" 
+[master a33ba56] Completed Act 2
+ 6 files changed, 9 insertions(+), 6 deletions(-)
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+➜  Star_Wars git:(master) tree
+.
+├── README.md
+├── act1.sh
+├── act2.sh
+├── act3.sh
+├── solution.txt
+└── star_wars
+    ├── empire
+    │   ├── death_star
+    │   │   ├── darth_vader.txt
+    │   │   └── millenium_falcon
+    │   │       ├── chewbacca.txt
+    │   │       ├── han_solo.txt
+    │   │       ├── luke_skywalker.txt
+    │   │       ├── obi_wan.txt
+    │   │       └── princess_leia.txt
+    │   └── emperor_palpatine.txt
+    └── rebellion
+
+5 directories, 12 files
+➜  Star_Wars git:(master) cd star_wars 
+➜  star_wars git:(master) cd empire 
+➜  empire git:(master) cd death_star 
+➜  death_star git:(master) mv millenium_falcon/* -
+mv: - is not a directory
+➜  death_star git:(master) mv millenium_falcon/* ..
+➜  death_star git:(master) ✗ tree
+.
+├── darth_vader.txt
+└── millenium_falcon
+
+1 directory, 1 file
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd.
+zsh: command not found: cd.
+➜  empire git:(master) ✗ tree
+.
+├── chewbacca.txt
+├── death_star
+│   ├── darth_vader.txt
+│   └── millenium_falcon
+├── emperor_palpatine.txt
+├── han_solo.txt
+├── luke_skywalker.txt
+├── obi_wan.txt
+└── princess_leia.txt
+
+2 directories, 7 files
+➜  empire git:(master) ✗ rm obi_wan.txt 
+➜  empire git:(master) ✗ tree
+.
+├── chewbacca.txt
+├── death_star
+│   ├── darth_vader.txt
+│   └── millenium_falcon
+├── emperor_palpatine.txt
+├── han_solo.txt
+├── luke_skywalker.txt
+└── princess_leia.txt
+
+2 directories, 6 files
+➜  empire git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star/millenium_falcon 
+➜  empire git:(master) ✗ tree
+.
+├── death_star
+│   ├── darth_vader.txt
+│   └── millenium_falcon
+│       ├── chewbacca.txt
+│       ├── han_solo.txt
+│       ├── luke_skywalker.txt
+│       └── princess_leia.txt
+└── emperor_palpatine.txt
+
+2 directories, 6 files
+➜  empire git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ mv millenium_falcon/* ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion         
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   └── millenium_falcon
+│   └── emperor_palpatine.txt
+└── rebellion
+    ├── chewbacca.txt
+    ├── han_solo.txt
+    ├── luke_skywalker.txt
+    └── princess_leia.txt
+
+4 directories, 6 files
+➜  star_wars git:(master) ✗ millenium_falcon
+│       ├── chewbacca.txt
+│       ├── han_solo.txt
+│       ├── luke_skywalker.txt
+│       └── princess_leia.txt
+zsh: command not found: millenium_falcon
+zsh: command not found: │  
+zsh: command not found: │  
+zsh: command not found: │  
+zsh: command not found: │  
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   └── millenium_falcon
+│   └── emperor_palpatine.txt
+└── rebellion
+    ├── chewbacca.txt
+    ├── han_solo.txt
+    ├── luke_skywalker.txt
+    └── princess_leia.txt
+
+4 directories, 6 files
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star/millenium_falcon
+➜  rebellion git:(master) ✗ tree
+.
+
+0 directories, 0 files
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   └── millenium_falcon
+│   │       ├── chewbacca.txt
+│   │       ├── han_solo.txt
+│   │       ├── luke_skywalker.txt
+│   │       └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 6 files
+➜  star_wars git:(master) ✗ mv millenium_falcon/ ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion 
+mv: rename millenium_falcon/ to /Users/sean/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion/millenium_falcon/: No such file or directory
+➜  star_wars git:(master) ✗ cd empire 
+➜  empire git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ mv millenium_falcon/ ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ tree
+.
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+    └── millenium_falcon
+        ├── chewbacca.txt
+        ├── han_solo.txt
+        ├── luke_skywalker.txt
+        └── princess_leia.txt
+
+4 directories, 6 files
+➜  star_wars git:(master) ✗ cd empire 
+➜  empire git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ mv darth_vader.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire 
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ rm death_star 
+rm: death_star: is a directory
+➜  empire git:(master) ✗ tree
+.
+├── darth_vader.txt
+├── death_star
+└── emperor_palpatine.txt
+
+1 directory, 2 files
+➜  empire git:(master) ✗ rm -r death_star 
+➜  empire git:(master) ✗ tree
+.
+├── darth_vader.txt
+└── emperor_palpatine.txt
+
+0 directories, 2 files
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   act3.sh
+	renamed:    star_wars/empire/death_star/darth_vader.txt -> star_wars/empire/darth_vader.txt
+	deleted:    star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+	renamed:    star_wars/empire/death_star/millenium_falcon/chewbacca.txt -> star_wars/rebellion/millenium_falcon/chewbacca.txt
+	renamed:    star_wars/empire/death_star/millenium_falcon/han_solo.txt -> star_wars/rebellion/millenium_falcon/han_solo.txt
+	renamed:    star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt -> star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+	renamed:    star_wars/empire/death_star/millenium_falcon/princess_leia.txt -> star_wars/rebellion/millenium_falcon/princess_leia.txt
+
+➜  Star_Wars git:(master) ✗ git commit -m "Completed Act 3"
+[master 8072b2a] Completed Act 3
+ 7 files changed, 6 insertions(+), 5 deletions(-)
+ rename star_wars/empire/{death_star => }/darth_vader.txt (100%)
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/chewbacca.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/han_solo.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/luke_skywalker.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/princess_leia.txt (100%)
+➜  Star_Wars git:(master) tree
+.
+├── README.md
+├── act1.sh
+├── act2.sh
+├── act3.sh
+├── solution.txt
+└── star_wars
+    ├── empire
+    │   ├── darth_vader.txt
+    │   └── emperor_palpatine.txt
+    └── rebellion
+        └── millenium_falcon
+            ├── chewbacca.txt
+            ├── han_solo.txt
+            ├── luke_skywalker.txt
+            └── princess_leia.txt
+
+4 directories, 11 files
+➜  Star_Wars git:(master) history | tail -n 250
+  115  mkdir shorts
+  116  mv shorts ~/drawers
+  117  ls
+  118  cd ~
+  119  cd drawers
+  120  ls
+  121  cd shorts
+  122  touch plaid.pjs
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd `\ncd ~
+  127  cd ~
+  128  echo $SHELL
+  129  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  130  brew install git
+  131  xcode-select --install
+  132  brew install git
+  133  git --version
+  134  git config --global user.name "sean3434"
+  135  git config --global user.email "seannyc34@gmail.com"
+  136  git config --global init.defaultBranch main
+  137  git config --global core.editor "code --wait"
+  138  git config --global pull.rebase false
+  139  touch ~/.gitignore_global
+  140  brew install gh
+  141  gh --version
+  142  brew install gh
+  143  ls
+  144  cd ~
+  145  mkdir sei
+  146  cd sei
+  147  mkdir labs fundamentals projects repos code-alongs deliverables reflections
+  148  ls
+  149  install tree
+  150  undo
+  151  ls
+  152  cd code-alongs
+  153  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  154  ls
+  155  cd scripts
+  156  ls
+  157  cd ..
+  158  ls
+  159  code .
+  160  open index.html
+  161  cd ~
+  162  brew install tree
+  163  compaudit | xargs chmod g-w,o-w
+  164  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  165  brew help
+  166  brew install gh
+  167  brew install git
+  168  brew install tree
+  169  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  170  brew doctor
+  171  brew update
+  172  tree
+  173  brew install tree
+  174  rm -rf "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core"
+  175  brew tap homebrew/core
+  176  brew doctor
+  177  brew install tree
+  178  cd drawers
+  179  ls
+  180  tree
+  181  cd ~
+  182  brew install git
+  183  git config --global user.name "sean3434"
+  184  git config --global user.email "seannyc34@gmail.com"
+  185  git config --global init.defaultBranch main
+  186  git config --global core.editor "code --wait"
+  187  git config --global pull.rebase false
+  188  touch ~/.gitignore_global
+  189  git config --global user.name "sean3434"
+  190  ls
+  191  ls -a
+  192  git config --global core.excludesfile ~/.gitignore_global
+  193  code ~/.gitignore_global
+  194  gh auth login
+  195  brew install gh
+  196  gh auth login
+  197  brew install node
+  198  brew link --overwrite node
+  199  node -v
+  200  brew install node
+  201  brew link node
+  202  rm '/usr/local/include/node/common.gypi'
+  203  node -v
+  204  brew install node
+  205  brew link node
+  206  brew link --overwrite node
+  207  sudo chown -R `whoami`:admin /usr/local/include/node\n    sudo chown -R `whoami`:admin /usr/local/bin\n    sudo chown -R `whoami`:admin /usr/local/sharesudo chown -R `whoami`:admin /usr/local/lib/dtrace 
+  208  sudo chown -R `whoami`:admin /usr/local/include/node
+  209  sudo chown -R `whoami`:admin /usr/local/bin
+  210  sudo chown -R `whoami`:admin /usr/local/share
+  211  sudo chown -R `whoami`:admin /usr/local/lib/dtrace
+  212  brew link --overwrite node
+  213  node -v
+  214  npm -v
+  215  npm i -g nodemon
+  216  git clone https://github.com/sean3434/github_101.git
+  217  ls
+  218  cd sei
+  219  ls
+  220  cd ~
+  221  mv ~/github_101/ ~/sei/labs
+  222  cd sei
+  223  cd labs
+  224  ls
+  225  cd github_101
+  226  . code
+  227  cd sei
+  228  cd labs
+  229  cd github_101
+  230  code .
+  231  git status
+  232  git add .
+  233  git commit -m "Add my answers to answers.txt""\ngit commit -m "Add my answers to answers.txt"\n
+  234  git commit -m "Add my answers to answers.txt"\n
+  235  git push origin master
+  236  pull request
+  237  git clone https://github.com/sean3434/Star_Wars.git
+  238  code .
+  239  cd ~
+  240  ls
+  241  cd sei
+  242  ls
+  243  mv ~/Star_Wars/ ~/sei/deliverables
+  244  cd deliverables
+  245  ls
+  246  cd .
+  247  cd ..
+  248  cd deliverables
+  249  mkdir Star_Wars
+  250  mv Star_Wars ~/sei
+  251  mkdir Star_Wars
+  252  cd ..
+  253  mv Star_Wars ~/sei/deliverables/Star_Wars
+  254  ls
+  255  cd deliverables
+  256  ls
+  257  cd Star_Wars
+  258  ls
+  259  code .
+  260  ls
+  261  tree
+  262  cd Star_Wars
+  263  ls
+  264  tree
+  265  cd act1.sh
+  266  vim act1.sh
+  267  cd sei
+  268  cd deliverables
+  269  cd Star_Wars
+  270  tree
+  271  mkdir star_wars
+  272  cd star_wars
+  273  mkdir empire rebellion
+  274  ls
+  275  cd empire
+  276  touch darth_vader.txt
+  277  ls
+  278  echo "...heavy breathing..." > darth_vader.txt
+  279  touch emperor_palpatine.txt
+  280  mkdir death_star
+  281  mv darth_vader.txt death_star
+  282  tree
+  283  cd .
+  284  cd ..
+  285  tree
+  286  git add .
+  287  git status
+  288  git add .
+  289  git status
+  290  cd ..
+  291  tree
+  292  cd Star_Wars
+  293  tree
+  294  git add .
+  295  git commit -m "Completed Act 1"
+  296  cd star_wars
+  297  cd rebellion
+  298  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+  299  code .
+  300  cd ..
+  301  cd rebellion
+  302  touch obi_wan.txt
+  303  touch luke_skywalker.txt
+  304  mkdir millenium_falcon
+  305  cd millenium_falcon
+  306  touch han_solo.txt chewbacca.txt
+  307  tree
+  308  cd ..
+  309  tree
+  310  cd rebellion
+  311  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  312  tree
+  313  mv millenium_falcon ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star
+  314  cd ..
+  315  git add .
+  316  git status
+  317  cd ..
+  318  git add .
+  319  git status
+  320  git commit -m "Completed Act 2"
+  321  tree
+  322  cd star_wars
+  323  cd empire
+  324  cd death_star
+  325  mv millenium_falcon/* -
+  326  mv millenium_falcon/* ..
+  327  tree
+  328  cd ..
+  329  cd.
+  330  tree
+  331  rm obi_wan.txt
+  332  tree
+  333  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  334  tree
+  335  cd death_star
+  336  mv millenium_falcon/* ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion
+  337  cd ..
+  338  tree
+  339  millenium_falcon\n│       ├── chewbacca.txt\n│       ├── han_solo.txt\n│       ├── luke_skywalker.txt\n│       └── princess_leia.txt
+  340  tree
+  341  cd rebellion
+  342  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  343  tree
+  344  cd ..
+  345  tree
+  346  mv millenium_falcon/ ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion
+  347  cd empire
+  348  cd death_star
+  349  mv millenium_falcon/ ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/rebellion
+  350  cd ..
+  351  tree
+  352  cd empire
+  353  cd death_star
+  354  mv darth_vader.txt ~/sei/deliverables/Star_Wars/Star_Wars/star_wars/empire
+  355  cd ..
+  356  rm death_star
+  357  tree
+  358  rm -r death_star
+  359  tree
+  360  cd ..
+  361  git add .
+  362  git status
+  363  git commit -m "Completed Act 3"
+  364  tree
