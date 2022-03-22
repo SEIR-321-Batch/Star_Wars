@@ -1,0 +1,534 @@
+1  code .
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3  brew help
+    4  brew doctor
+    5  brew update
+    6  xcode-select --install
+    7  brew install git
+    8  git config --global user.name "arishamays1"
+    9  git config --global user.email "1arishamays1@gmail.com"
+   10  git config --global init.defaultBranch main
+   11  git config --global core.editor "code --wait"
+   12  git config --global pull.rebase false
+   13  touch ~/.gitignore_global
+   14  git config --global core.excludesfile ~/.gitignore_global
+   15  code ~/.gitignore_global
+   16  brew install gh
+   17  gh auth login
+   18  brew install node
+   19  softwareupdate --all --install --force
+   20  --restart
+   21  git --version
+   22  which git
+   23  git init
+   24  pwd
+   25  cd
+   26  rm-rf .git
+   27  rm -rf .git
+   28  mkdir drawers
+   29  ls
+   30  cd drawers
+   31  pwd
+   32  ..
+   33  tree
+   34  ...
+   35  rm -rf drawers
+   36  mkdir drawres
+   37  cd drawers
+   38  mkdir socks && socks
+   39  ls
+   40  ..
+   41  ls
+   42  rm -rf .drawres
+   43  ls
+   44  cd drawers
+   45  mkdir ~/drawers/pjs ~/drawers/socks
+   46  ..
+   47  cd drawers
+   48  mkdir drawers && socks
+   49  ..
+   50  ls
+   51  cd socks
+   52  ..
+   53  mkdir socks && cd socks
+   54  ls
+   55  touch dress.socks
+   56  mkdir pjs
+   57  mkdir ~/drawers/pjs/warm.pjs
+   58  ls
+   59  cd pjs
+   60  ls
+   61  mkdir favorite.socks
+   62  ls
+   63  mv favorite.socks ~/drawers/socks/
+   64  ls
+   65  ..
+   66  ls
+   67  cd socks
+   68  ls
+   69  ..
+   70  mkdir ~/pjs/shorts
+   71  mkdir ~/drawers/pjs/shorts
+   72  ls
+   73  rm dress.socks
+   74  ls
+   75  cd pjs
+   76  ls
+   77  mkdir /shorts/plaid
+   78  mkdir ~/shorts/plaid
+   79  cd shorts
+   80  mkdir plaid.pjs
+   81  ..
+   82  .
+   83  ..
+   84  mv ~/drawers/pjs/warm.pjs ~/drawers/pjs/winter.pjs
+   85  ls
+   86  pjs
+   87  ls
+   88  shorts
+   89  ls
+   90  ~
+   91  mkdir General Assembly
+   92  ls
+   93  mkdir GAssembly
+   94  ls
+   95  cd GA
+   96  cd GAssembly
+   97  mkdir Labs
+   98  mkdir Fundamentals
+   99  mkdir Projects
+  100  mkdir Repos
+  101  mkdir code-alongs
+  102  mkdir Homework
+  103  mkdir Reflections
+  104  ls
+  105  mkdir hello_world
+  106  cd hello_world
+  107  .
+  108  ..
+  109  cd code-alongs
+  110  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  111  ls
+  112  cd code-alongs
+  113  ls
+  114  open index.html
+  115  ..
+  116  git init
+  117  ls
+  118  ls -a
+  119  add index.html
+  120  git add index.html
+  121  git commit -m "Added index."
+  122  ls
+  123  cd GAssembly
+  124  mkdir Daily-Challenges
+  125  ls
+  126  git add app.js
+  127  git add styles
+  128  git commit -m "Added JS"
+  129  git add script
+  130  ..
+  131  git config --global init.defaultBranch main
+  132  git config --global core.editor "code --wait"
+  133  git config --global pull.rebase false
+  134  brew install node
+  135  git add scripts
+  136  git commit -m "Added Javascript"
+  137  ..
+  138  cd code-alongs 
+  139  open index.html
+  140  git clone git@github.com:Arishamays1/github_101.git
+  141  cd github_101
+  142  code .
+  143  mkdir star_wars
+  144  ls
+  145  cd star_wars
+  146  mkdir empire Rebellion
+  147  ls
+  148  cd empire
+  149  ls
+  150  mkdir darth_vader.txt
+  151  ls
+  152  cd darth_vader.txt
+  153  rm darth_vader.txt
+  154  ls
+  155  pwd
+  156  ..
+  157  rm darth_vader.txt
+  158  ls
+  159  rm -fr darth_vader.txt
+  160  ls
+  161  touch darth_vader.txt
+  162  ls
+  163  echo "...heavy breathing..." < darth_vader.txt
+  164  cd darth_vader.txt
+  165  ls
+  166  cat
+  167  ls
+  168  rm solution.txt star_wars
+  169  rm -d solution.txt star_wars 
+  170  rm -r dirname
+  171  rm -r solution.txt star_wars
+  172  ls
+  173  mkdir star_wars
+  174  ls
+  175  cd star_wars
+  176  ls
+  177  pwd
+  178  touch Empire Rebellion
+  179  ls
+  180  touch darth_vader.txt
+  181  ls
+  182  rm darth_vader.txt
+  183  ls
+  184  cd empire
+  185  cd Empire
+  186  rm -r Empire
+  187  rm -r Rebellion
+  188  ls
+  189  mkdir Empire Rebellion
+  190  ls
+  191  cd Empire
+  192  touch darth_vader.txt
+  193  ls
+  194  cat darth_vader.txt
+  195  ls
+  196  touch emperor_palpatine.txt
+  197  mkdir death_star
+  198  mv  /star_wars/Empire/darth_vader.txt ~/star_wars/Empire/death_star
+  199  /star_wars/Empire/darth_vader.txt ~/star_wars/Empire/death_star
+  200  ~ /star_wars/Empire/darth_vader.txt ~/star_wars/Empire/death_star
+  201  ls
+  202  mv ~/Empire/darth_vader.txt ~/Empire/death_star
+  203  ..
+  204  mv ~ /star_wars/Empire/darth_vader.txt ~/star_wars/Empire/death_star
+  205  cd Empire
+  206  ls
+  207  ..
+  208  mv ~/Empire/darth_vader.txt ~/star_wars/Empire/death_star
+  209  ..
+  210  ls
+  211  cd star_wars
+  212  ls
+  213  cd Empire
+  214  ls
+  215  mv  *darth_vader ~/death_star
+  216  cd death_star
+  217  ls
+  218  pwd
+  219  ..
+  220  rm death_star
+  221  cp darth_vader.txt ~/death_star
+  222  cd death_star
+  223  ls
+  224  ..
+  225  cp *.txt ~/death_star
+  226  ls
+  227  mv darth_vader.txt ~/empire/death_star
+  228  mv ~darth_vader.txt ~/empire/death_star 
+  229  cd darth_vader txt
+  230  darth_vader.txt
+  231  cd darth_vader.txt
+  232  cat darth_vader.txt
+  233  mv ~/star_wars/Empire/darth_vader.txt ~/star_wars/Empire/death_star/
+  234  ls
+  235  mv ~/darth_vader.txt ~/death_star
+  236  mv *.txt ~/death_star
+  237  mv [-f | -i | -n] [-v] *.txt ~/death_star
+  238  rm r- death_star
+  239  rm -r death_star
+  240  ls
+  241  git commit -m "added the palpatine file"
+  242  git add
+  243  git add -a
+  244  ls
+  245  git add all
+  246  cd Empire
+  247  ls
+  248  cd star_wars
+  249  ls
+  250  cd Empire
+  251  ls
+  252  mkdir death_star
+  253  ls
+  254  mv ~/Users/ari/star_wars/Empire/darth_vader.txt ~/Users/ari/star_wars/Empire/death_star
+  255  mv darth_vader.txt ./death_star
+  256  ls
+  257  git add
+  258  git add .
+  259  git commit -m "End 7"
+  260  ls
+  261  ..
+  262  ls
+  263  cd Rebellion
+  264  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+  265  ls
+  266  cat princess_leia.txt
+  267  touch luke_skywalker.txt
+  268  ls
+  269  git add .
+  270  git commit -m "luke sky walker added"
+  271  mkdir millenium_falcon
+  272  ls
+  273  cd millenium_falcon
+  274  touch han_solo.txt chewbacca.txt
+  275  ls
+  276  mv luke_skywalker.txt ./millenium_falcon
+  277  ..
+  278  mv luke_skywalker.txt ./millenium_falcon
+  279  mv princess_leia.txt ./millenium_falcon
+  280  ls
+  281  touch obi_wan.txt
+  282  mv obi_wan.txt ./millenium_falcon
+  283  cd millenium_falcon
+  284  ls
+  285  ..
+  286  mv millenium_falcon ./death_star
+  287  ..
+  288  ls
+  289  cd Empire
+  290  ls
+  291  cd death_star
+  292  ls
+  293  ..
+  294  cd Rebellion
+  295  ls
+  296  cd death_star
+  297  ls
+  298  mv death_star ./millenium_falcon
+  299  ..
+  300  ls
+  301  mkdir millenium_falcon
+  302  mv death_star ./millenium_falcon
+  303  ls
+  304  cd millenium_falcon
+  305  ls
+  306  cd death_star
+  307  mv *.txt ~/star_wars/Empire/death_star
+  308  mv obi_wan.txt ~/star_wars/Empire/death_star
+  309  cp *.txt ~/star_wars/Empire/death_star
+  310  *.txt ~/Empire/death_star
+  311  ls
+  312  cp -R ~/Users/ari/star_wars/Rebellion/death_star  ~/Users/ari/star_wars/Empire/death_star
+  313  cp -R ~/star_wars/Rebellion/death_star  ~/star_wars/Empire/death_star
+  314  cp death_star ./star_wars/Empire/death_star 
+  315  ..
+  316  cp -R ~/star_wars/Rebellion/death_star  ~/star_wars/Empire/death_star 
+  317  *.txt ~/Empire/death_star 
+  318  mv *.txt ~/Empire/death_star 
+  319  l
+  320  ls
+  321  pwd
+  322  mv ~/Users/ari/GAssembly/Star_Wars/star_wars/Rebellion/millenium_falcon ~/Users/ari/GAssembly/Star_Wars/star_wars/Empire/death_star
+  323  cp /Star_Wars/star_wars/Rebellion/millenium_falcon/death_star ~/Star_Wars/star_wars/Empire/death_star
+  324  cp ~/Star_Wars/star_wars/Rebellion/millenium_falcon/death_star ~/Star_Wars/star_wars/Empire/death_star
+  325  ls
+  326  mv luke_skywalker > ../starwars/Empire/death_star
+  327  mv death_star ../star_wars
+  328  ..
+  329  ls
+  330  ..
+  331  ls
+  332  ..
+  333  ls
+  334  cd star_wars
+  335  ls
+  336  cd Rebellion
+  337  ls
+  338  cd star_wars
+  339  ls
+  340  ..
+  341  cd millenium_falcon
+  342  ls
+  343  ..
+  344  ls
+  345  cd star_wars
+  346  ls
+  347  cd..
+  348  cd ..
+  349  ls
+  350  cd millenium_falcon
+  351  ls
+  352  cd ..
+  353  mv star_wars/* millenium_falcon
+  354  ls
+  355  ..
+  356  tree
+  357  brew install tree
+  358  tree
+  359  mv Rebellion/millenium_falcon/* Empire
+  360  cd Empire
+  361  ls
+  362  git add -A
+  363  git commit -m "update changes"
+  364  git push
+  365  ..
+  366  git push
+  367  ..
+  368* ls
+  369* cd GAssembly
+  370* cd fundamentals
+  371* ls
+  372* mkdir intro_html_css
+  373* cd intro_html_css
+  374* touch notes.txt
+  375* code .
+  376* tree
+  377* ..
+  378* tree
+  379* open
+  380* open index.html
+  381* ls
+  382* cd index.html
+  383* ls
+  384* cd index.html
+  385* open index.html
+  386  git remote set-url origin https://github.com/Arishamays1/Star_Wars.git
+  387  git remote -v 
+  388  git status
+  389  git push -u origin
+  390  tree
+  391  mv chewbacca.txt ./death_star
+  392  cd star_wars/Empire
+  393  mv chewbacca.txt ./death_star
+  394  ls
+  395  cd death_star
+  396  mv han_solo death_star
+  397  ..
+  398  mv han_solo death_star
+  399  mv ./han_solo.txt death_star
+  400  ls
+  401  cd death_star
+  402  ls
+  403  ..
+  404  mv ./luke_skywalker.txt death_star
+  405  mv ./obi_wan.txt death_star
+  406  mv ./princess_leia.txt death_star
+  407  tree
+  408  ..
+  409  tree
+  410  mv ./Rebellion/millenium_falcon ./Empire/death_star
+  411  tree
+  412  cd Empire
+  413  mv ./obi_wan.txt millenial_falcon
+  414  mv obi_wan.txt millenial_falcon/
+  415  mv ./obi_wan.txt millenium_falcon
+  416  tree
+  417  cd death_star
+  418  mv ./obi_wan.txt millenium_falcon
+  419  tree
+  420  mv ./princess_leia.txt  millenium_falcon
+  421  mv ./luke_skywalker.txt  millenium_falcon
+  422  mv ./han_solo.txt millenium_falcon
+  423  mv ./chewbacca.txt  millenium_falcon
+  424  tree
+  425  git add A-
+  426  ../..
+  427  git add -A
+  428  git commit -m "Act 2 updated"
+  429  git status
+  430  git push -u origin
+  431  cd Empire
+  432  mv millenium_falcon/* death_star
+  433  tree
+  434  mv ./death_star/millenium_falcon/* ./Empire/death_star
+  435  cd death_star
+  436  mv millenium_falcon/* death_star
+  437  mv ./death_star/millenium_falcon/* ./Empire/death_star
+  438  mv ./millenium_falcon/* ../ 
+  439  ls
+  440  tree
+  441  m
+  442  ls
+  443  cd millenium_falcon
+  444  ls
+  445  ..
+  446  ls
+  447  mv ./luke_skywalker.txt death_star
+  448  mv ./princess_leia.txt death_star
+  449  tree
+  450  mv ./han_solo.txt death_star 
+  451  mv ./obi_wan.txt death_star 
+  452  tree
+  453  mv ./chewbacca.txt death_star 
+  454  tree
+  455  cd death_star
+  456  rm obi_wan.txt
+  457  tree
+  458  mv ./chewbacca.txt millenium_falcon
+  459  tree
+  460  mv ./han_solo.txt millenium_falcon
+  461  mv ./luke_skywalker.txt millenium_falcon
+  462  mv ./princess_leia.txt millenium_falcon
+  463  tree
+  464  ../..
+  465  pwd
+  466  cd Empire
+  467  pwd
+  468  ls
+  469  ..
+  470  cd Rebellion
+  471  ls
+  472  cd star_wars
+  473  ls
+  474  ..
+  475  mkdir ha
+  476  rm ha
+  477  rm -rf ha
+  478  ls
+  479  rm -rf star_wars
+  480  ls
+  481  ../..
+  482  cd star_wars
+  483  cd Empire
+  484  cd death_star
+  485  mkdir ha
+  486  ls
+  487  cd ha
+  488  pwd
+  489  ../../
+  490  .
+  491  ..
+  492  cd Empire
+  493  cd death_star
+  494  cd ha
+  495  touch oh_no.txt
+  496  ls
+  497  ../..
+  498  ..
+  499  mv ./Empire/death_star/ha ./Rebellion
+  500  cd Rebellion
+  501  ls
+  502  cd ha
+  503  ls
+  504  mv ./Empire/death_star/millenium_falcon ./Rebellion
+  505  ls
+  506  ../
+  507  ..
+  508  mv ./Empire/death_star/millenium_falcon ./Rebellion
+  509  cd Rebellion
+  510  ls
+  511  tree
+  512  rm -rf ha
+  513  ls
+  514  tre
+  515  tree
+  516  ..
+  517  tree
+  518  cd Empire
+  519  cd death_star
+  520  mv ./darth_vader.txt /..
+  521  ls
+  522  mv ./darth_vader.txt ../
+  523  ls
+  524  ..
+  525  tree
+  526  rm -rf death_star
+  527  tree
+  528  git add -A
+  529  git commit -m "Act 3 finished\n\n\n'\n/\n\
+  530  tree
+  531  git status
+  532  git commit -m "Act 3 finished"
+  533  ..
+  534  git push -u origin
