@@ -1,0 +1,250 @@
+  257  ls
+  258  mkdir labs
+  259  mkdir fundementals
+  260  mkdir projects
+  261  mkdir repos
+  262  mkdir code-alongs
+  263  mkdir deliverables
+  264  mkdir =reflections
+  265  mkdir reflections
+  266  tree
+  267  cd code-alongs
+  268  mkdir scripts styles && touch index.html scripts/app.js
+  269  tree
+  270  cd ..
+  271  cd ~
+  272  cd sei
+  273  cd code-alongs
+  274  code .
+  275  cd ..
+  276  ls
+  277  cd sei
+  278  mkdir styles/main.css
+  279  tree
+  280  cd styles
+  281  cd code-alongs
+  282  cd styles
+  283  touch main.css
+  284  cd ..
+  285  tree
+  286  cd ~
+  287  ls
+  288  cd drawers
+  289  cd ..
+  290  rm -rf ~/drawers
+  291  ls
+  292  mkdir drawers
+  293  cd drawers
+  294  mkdir socks
+  295  cd socks
+  296  touch dress.socks
+  297  cd drawers
+  298  cd ..
+  299  tree
+  300  mkdir pjs
+  301  cd pjs
+  302  touch warm.pjs && favorite.socks
+  303  tree
+  304  touch favorite.socks
+  305  tree
+  306  cd drawers
+  307  cd ..
+  308  mv pjs/favorite.socks socks
+  309  cd socks
+  310  tree
+  311  cd ..
+  312  mkdir shorts
+  313  cd shorts
+  314  touch plaid.pjs
+  315  tree
+  316  cd ..
+  317  tree
+  318  get init
+  319  gitbranch
+  320  git branch
+  321  cd ..
+  322  https://github.com/JacobDBarton/daily-js-code-challenges.git
+  323  cd sei
+  324  mkdir firstlab
+  325  cd firstlab
+  326  get init
+  327  la -a
+  328  ls
+  329  ls -a
+  330  gs ..
+  331  cd ..
+  332  ls -a
+  333  cd ..
+  334  ls -a
+  335  $ brew install git
+  336  brew install git\n\n
+  337  ls -a
+  338  git init
+  339  cd sei
+  340  cd firstlab
+  341  get init
+  342  git init
+  343  https://github.com/JacobDBarton/daily-js-code-challenges.git
+  344  console.log(sayHello());
+  345  console.log(sayHello();\n\nconsole.log(sayHello());
+  346  console.log('Hello!')
+  347  code .
+  348  git status
+  349  git add
+  350  git add.
+  351  git add .
+  352  git status
+  353  ls
+  354  brew install node
+  355  brew postinstall node
+  356  node -v\nnpm -v
+  357  npm i -g nodemon
+  358  ls
+  359  cd act1.sh
+  360  cd ..
+  361  cd act1.sh
+  362  npm -v
+  363  ls
+  364  cd act1.sh
+  365  ls
+  366  cd Star_Wars
+  367  ls
+  368  cd act1.sh
+  369  mkdir empire rebellion
+  370  tree
+  371  cd empire
+  372  touch darth_vader.txt
+  373  tree
+  374  touch death_star
+  375  tree
+  376  touch emperor_palpatine.txt
+  377  tree
+  378  cd darth_vader.txt
+  379  cd ..
+  380  cd darth_vader.txt
+  381  darth_vader.txt && echo "...heavy breathing..." >darth_vader.txt
+  382  darth_vader.txt && echo "...heavy breathing..." 
+  383  tree
+  384  echo "...heavy breathing..." >> darth_vader
+  385  echo "...heavy breathing..." >> darth_vader.txt
+  386  cd empire
+  387  mv ./darth_vader.txt ./death_star
+  388  tree
+  389  cd ..
+  390  tree
+  391  cd empire
+  392  touch darth_vader.txt
+  393  mv ./darth_vader.txt ./death_star
+  394  tree
+  395  cd ..
+  396  tree
+  397  cd empire
+  398  touch darth_vader.txt
+  399  mv ./darth_vader.txt ./death_star
+  400  touch darth_vader.txt
+  401  mv ./darth_vader.txt ./empire/death_star
+  402  mv ./empire/darth_vader.txt ./death_star
+  403  mv ./darth_vader.txt ./death_star
+  404  tree
+  405  cd ..
+  406  `git add .`
+  407  `git commit -m "Act 1"` 
+  408  `git commit -m "YOUR MESSAGE HERE"\n`git commit -m Act One'\ngit add .\ncd ..\nls\ncd ..\nls\ndarth_vader.txt \n"
+  409  cd empire
+  410  touch darth_vader.txt
+  411  tree
+  412  mv darth_vader.txt ./death_star
+  413  touch darth_vader.txt
+  414  cd death_star
+  415  mv darth_vader.txt death_star
+  416  mkdir death_star
+  417  touch darth_vader.txt
+  418  mv ./darth_vader.txt ./death_star
+  419  cd ..
+  420  tree
+  421  cd empire
+  422  echo "...heavy breathing..." >>darth_vader.txt
+  423  git add .
+  424  git commit -m "Act 1 Complete"
+  425  cd rebellion
+  426  cd ..
+  427  cd rebellion
+  428  touch princess.leia.txt && echo "Help me, Obi-wan... You're my only hope." > princess_leia.txt
+  429  touch princess.leia.txt && echo "Help me, Obi-wan... You're my only hope." >> princess_leia.txt
+  430  touch princess_leia.txt && echo "Help me, Obi-wan... You're my only hope." >> princess_leia.txt
+  431  touch obi_wan.txt
+  432  touch luke_skywalker.txt
+  433  mkdir millenium_falcon
+  434  cd millenium_falcon
+  435  touch han_solo.txt chewbacca.txt
+  436  cd ..
+  437  mv ./luke_skywalker ./millenium_falcon 
+  438  mv ./luke_skywalker.txt ./millenium_falcon
+  439  mv ./obi_wan.txt ./millenium_falcon
+  440  mv ./princess_leia.txt ./millenium_falcon
+  441  mv ./millenium_falcon ./death_star
+  442  git add .
+  443  git commit -m "Act 2 Complete"
+  444  cd ..
+  445  cd millenium_falcon
+  446  cd rebellion
+  447  cd ..
+  448  cd death_star
+  449  cd 
+  450  cd empire
+  451  cd `
+  452  cd ~
+  453  cd Star_Wars
+  454  -
+  455  ls
+  456  cd sei
+  457  -
+  458  cd empire
+  459  cd master
+  460  mkdir rebellion
+  461  cd rebellion
+  462  touch princess_leia.txt && echo "Help me, Obi-wan... You're my only hope." >> princess_leia.txt
+  463  touch obi_wan.txt
+  464  touch luke_skywalker.txt
+  465  mkdir millenium_falcon
+  466  cd millenium_falcon
+  467  touch han_solo.txt chewbacca.txt
+  468  cd rebellion
+  469  cd ..
+  470  ls
+  471  mv ./luke_skywalker.txt ./millenium_falcon
+  472  mv ./obi_wan.txt ./millenium_falcon
+  473  mv ./princess_leia.txt ./mill
+  474  mv ./mill princess_leia.txt
+  475  mv ./princess_leia.txt ./millenium_falcon
+  476  mv millenium_falcon ../empire/death_star
+  477  git add .
+  478  git commit -m "Act 2 Complete"
+  479  git push 
+  480  git reset HEAD~1
+  481  git status
+  482  cd ..
+  483  git add .
+  484  git status
+  485  git commit -m "Act 2 Complete"
+  486  git push --force
+  487  mv ./empire/death_star/millenium_falcon/* ./empire/death_star
+  488  rm ./empire/death_star/obi_wan.txt
+  489  cd empire
+  490  cd death_star
+  491  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ./millenium_falcon
+  492  cd millenium_falcon
+  493  cd ..
+  494  mv millenium_falcon/ ../../rebellion 
+  495  mv ./darth_vader.txt ../
+  496  cd ..
+  497  rm ./death_star
+  498  rm -rf ./death_star
+  499  cd ..
+  500  git add .
+  501  git commit -m "Act 3 Complete"
+  502  git push
+  503  history
+  504  history >> solutions.txt 
+  505  rm -rf solutions.txt
+  506  history >> solution.txt 
