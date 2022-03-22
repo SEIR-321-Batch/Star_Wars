@@ -1,0 +1,250 @@
+206  cd sei
+  207  cd ~
+  208  cd sei
+  209  tree
+  210  ..
+  211  $ git clone https://github.com/jkimrox/daily-js-code-challenges.git
+  212  PATH=/bin:/usr/bin:/usr/local/bin:${PATH}\nexport PATH
+  213  $ git clone PATH=/bin:/usr/bin:/usr/local/bin:${PATH}\nexport PATH
+  214  $ git clone https://github.com/jkimrox/daily-js-code-challenges.git
+  215  cd github_101
+  216  code .
+  217  code github_101.
+  218  cd github_101
+  219  code .
+  220  ..
+  221  cd ~
+  222  $ cd /usr/local/bin
+  223  sudo ln -s /usr/share/code/bin/code code
+  224  ..
+  225  sudo chown -R jonathankim /usr/local/bin
+  226  cd github_101
+  227  code .
+  228  cd github_101
+  229  code .
+  230  git status
+  231  cd github_101
+  232  git status
+  233  git add .
+  234  git commit -m "Add my answers to answers.txt"
+  235  git push origin master
+  236  ..
+  237  git clone https://github.com/SEIR-321-Batch/Star_Wars.git
+  238  cd github_101
+  239  code .
+  240  ..
+  241  cd star_wars
+  242  code .
+  243  ..
+  244  cd star_wars
+  245  ..
+  246  cd Star_Wars
+  247  mkdir empire
+  248  tree
+  249  mkdir rebellion
+  250  tree
+  251  cd empire
+  252  touch darth_vader.txt
+  253  ..
+  254  cd Star_Wars
+  255  cd emprie
+  256  cd empire
+  257  touch emperor_palpatine.txt
+  258  mkdir death_star
+  259  tree
+  260  mv ~/Star_Wars/empire/darth_vader.txt ~/Star_Wars/death_star
+  261  tree
+  262  cd death_star
+  263  ls
+  264  tree
+  265  ..
+  266  touch darth_vader.txt
+  267  mv darth_vader.txt death_star
+  268  ..
+  269  tree
+  270  cd rebellion
+  271  echo hello
+  272  ..
+  273  cd empire
+  274  cd death_star
+  275  echo ...heavy breathing... >> darth_vader.txt
+  276  ..
+  277  cd rebellion
+  278  touch princess_leia.txt 
+  279  echo Help me, Obi-Wan...You're my only hope. >> princess_leia.txt
+  280  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  281  touch obi_wan.txt
+  282  touch luke_skywalker.txt
+  283  mkdir millenium_falcon
+  284  cd millenium_falcon
+  285  touch han_solo.txt chewbacca.txt
+  286  tre
+  287  tree
+  288  ..
+  289  ls
+  290  mv *.txt millenium_falcon
+  291  ls
+  292  mv millenium_falcon death_star
+  293  ls
+  294  cd death_star
+  295  ls
+  296  cd..
+  297  cd ..
+  298  mv death_star millenium_falcon
+  299  mv millenium_falcon ..
+  300  ls
+  301  ..
+  302  ls
+  303  mv millenium_falcon empire
+  304  ls
+  305  cd empire
+  306  mv millenium_falcon death_star
+  307  ls
+  308  cd death_star'
+  309  cd death_star
+  310  ls
+  311  ..
+  312  cd death_star
+  313  cd millenium_falcon
+  314  ..
+  315  ls
+  316  ..
+  317  ls
+  318  ..
+  319  ls
+  320  cd death_star
+  321  cd empire
+  322  ..
+  323  cd empire/death_star
+  324  ls
+  325  mv millenium_falcon ..
+  326  ..
+  327  ls
+  328  mv millenium_falcon ..
+  329  ls
+  330  ..
+  331  ls
+  332  mv millenium_falcon rebellion
+  333  cd rebellion
+  334  ls
+  335  mv luke_skywalker.txt empire/death_star
+  336  mv luke_skywalker.txt ..
+  337  cd millenium_falcon
+  338  ls
+  339  mv luke_skywalker.txt empire/death_star
+  340  mv luke_skywalker.txt ..
+  341  ..
+  342  mv luke_skywalker.txt ..
+  343  ..
+  344  mv luke_skywalker.txt death_star
+  345  ls
+  346  mv death_star luke_skywalker.txt
+  347  ls
+  348  mv luke_skywalker.txt /
+  349  mv luke_skywalker.txt empire
+  350  cd empire
+  351  mv luke_skywalker.txt death_star
+  352  ls
+  353  cd death_star
+  354  tree
+  355  ls
+  356  mv darth_vader.txt ..
+  357  mv luke_skywalker.txt
+  358  mv luke_skywalker.txt ..
+  359  ..
+  360  mv darth_vader.txt ..
+  361  ..
+  362  mv darth_vader.txt empire
+  363  cd empire
+  364  mv luke_skywalker.txt ..
+  365  ..
+  366  mv luke_skywalker.txt rebellion
+  367  cd rebellion
+  368  mv luke_skywalker.txt millenium_falcon
+  369  cd millenium_falcon
+  370  ls
+  371  ..
+  372  history | tail -n 250
+  373  git status
+  374  git add .
+  375  git commit -m "Add my answers to solution.txt"
+  376  git push origin master
+  377  git clone https://github.com/jkimrox/Star_Wars.git
+  378  ..
+  379  git clone https://github.com/jkimrox/Star_Wars.git
+  380  ls
+  381  git clone https://github.com/jkimrox/Star_Wars.git
+  382  code .
+  383  ls
+  384  git clone https://github.com/jkimrox/Star_Wars.git
+  385  cd star_wars
+  386  code .
+  387  mkdir empire
+  388  mkdir rebellion
+  389  tree
+  390  cd empire
+  391  touch darth_vader.txt
+  392  ls
+  393  echo ...heavy breathing... >> darth_vader.txt 
+  394  ls
+  395  touch emperor_palpatine.txt
+  396  mkdir death_star
+  397  ..
+  398  cd empire
+  399  mv darth_vader.txt death_star
+  400  ..
+  401  cd rebellion
+  402  touch princess_leia.txt
+  403  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  404  ls
+  405  touch obi_wan.txt
+  406  touch luke_skywalker.txt
+  407  ls
+  408  mkdir millenium_falcon
+  409  mv luke_skywalkr.txt millenium_falcon
+  410  ..
+  411  cd rebellion
+  412  mv *.txt millenium_falcon
+  413  ..
+  414  mv millenium_falcon death_star
+  415  cd rebellion
+  416  mv millenium_falcon death_star
+  417  mv death_star millenium falcon
+  418  mv death_star millenium_falcon
+  419  mv millenium_falcon ..
+  420  ..
+  421  mv millenium_falcon empire
+  422  cd empire
+  423  mv millenium_falcon death_star
+  424  cd millenium_falcon
+  425  cd death_star
+  426  ls
+  427  cd millenium_falcon
+  428  mv *.txt death_star
+  429  touch han_solo.txt
+  430  touch chewbacca.txt
+  431  mv *.txt empire/death_star
+  432  ..
+  433  mv chewbacca.txt death_star
+  434  cd millenium_falcon
+  435  mv chewbacca.txt ..
+  436  mv *.txt ..
+  437  ..
+  438  mv chewbacca.txt millenium_falcon
+  439  mv han_solo.txt millenium_falcon
+  440  mv luke_skywalker.txt millenium_falcon
+  441  mv princess_leia.txt millenium_falcon
+  442  mv millenium_falcon ..
+  443  ..
+  444  mv millenium_falcon ..
+  445  ..
+  446  mv millenium_falcon rebellion
+  447  cd emprie
+  448  cd empire
+  449  cd death_star
+  450  mv darth_vader.tdt ..
+  451  ..
+  452  cd death_star
+  453  mv darth_vader.txt .. 
+  454  ..
+  455  cd Star_wars
