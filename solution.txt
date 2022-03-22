@@ -1,0 +1,187 @@
+ 805  git clone https://github.com/Kaeriv93/Star_Wars.git
+  806  cd Star_Wars
+  807  code .
+  808  ..
+  809  cd desktop
+  810  cd Starwars
+  811  mkdir star_wars
+  812  cd star_wars
+  813  mkdir empire rebellion
+  814  cd empire
+  815  touch darth_vader.txt
+  816  open darth_vader.txt
+  817  ..
+  818  cd empire
+  819  touch emperor_palpatine.txt
+  820  mkdir death_star
+  821  mv ~/empire/darth_vader.txt /empire/death_star
+  822  mv ~/empire/darth_vader.txt ~ /empire/death_star
+  823  mv ~/empire/darth_vader.txt ~ /death_star
+  824  mv ~/empire/darth_vader.txt ~/death_star
+  825  mv ~/empire/darth_vader.txt ~./death_star
+  826  tree
+  827  mv ~darth_vader.txt ~/death_star
+  828  pwd
+  829  mv ~/Starwars/star_wars/empire/darth_vader.txt ~ /Starwars/star_wars/empire/death_star
+  830  cd death_Star
+  831  pwd
+  832  mv ~darth_vader.txt ~ /death_Star
+  833  mv ~/Starwars/star_wars/empire/darth_vader.txt ~ /Starwars/star_wars/empire/death_Star
+  834  cd death_star
+  835  pwd
+  836  tree
+  837  ..
+  838  tree
+  839  cd desktop
+  840  cd Starwars
+  841  tree
+  842  cd star_wars
+  843  tree
+  844  cd empire
+  845  mkdir death_star
+  846  mv ~/empire/darth_vader.txt ~/empire/death_star
+  847  tree
+  848  pwd
+  849  mv ~/Users/vireaksan/desktop/Starwars/star_wars/empire/darth_vader.txt ~/Users/vireaksan/desktop/Starwars/star_wars/empire/death_star
+  850  mv ~/empire/darth_vader.txt
+  851  mv ~/empire/darth_vader.txt ~/empire/death_star/
+  852  mv ~/empire/darth_vader.txt ~/star_wars/
+  853  mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  854  mv ~/Users/vireaksan/desktop/Starwars/star_wars/empire/darth_vader.txt ~/Users/vireaksan/desktop/Starwars/star_wars/empire/death_star/ddarth_vader.txt
+  855  ..
+  856  tree
+  857  cd empire
+  858  tree
+  859  mv ~darth_vdaer.txt ~death_star/
+  860  mv ~darth_vader.txt ~death_star/
+  861  mv ~empire/darth_vader.txt ~empire/death_star/
+  862  pwd
+  863  mv ~/Users/vireaksan/desktop/Starwars/star_wars/empire/darth_vader.txt ~/Users/vireaksan/desktop/Starwars/star_wars/empire/death_star
+  864  mv ~/Users/vireaksan/desktop/Starwars/star_wars/empire/darth_vader.txt ~/Users/vireaksan/desktop/Starwars/star_wars/empire/death_star/darth_vader.txt
+  865  cd death_star
+  866  pwd
+  867  mv ~/Users/vireaksan/desktop/Starwars/star_wars/empire/darth_vader.txt ~/Users/vireaksan/desktop/Starwars/star_wars/empire/death_star
+  868  ..
+  869  code .
+  870  tree
+  871  git status
+  872  git add .
+  873  got commit -m"act 1 done"
+  874  git commit -m"act 1 done"
+  875  git push origin master
+  876  ls
+  877  cd star_wars
+  878  ls
+  879  cd rebellion
+  880  touch princess_leila.txt open princess_leila.txt
+  881  open princess_leila.txt
+  882  touch && open princess_leila.txt
+  883  touch & open princess_leila.txt
+  884  touch princess_leila.txt open
+  885  touch echo Help me, Obi-Wan...You're my only hope. > princess_leila.txt\n
+  886  echo Help me, Obi-Wan...You're my only hope. > princess_leila.txt\n
+  887  echo "Help me, Obi-Wan...You're my only hope." > princess_leila.txt\n
+  888  touch obi_wan.text
+  889  touch luke_skywalker.txt
+  890  mkdir millenium_falcon
+  891  cd millenium_falcon
+  892  touch hansolo.txt chewbacca.txt
+  893  ..
+  894  mv ~ rebellion/princess_leila.txt ~rebellion/millenium_falcon
+  895  cd millenium_falcon
+  896  mv ~ rebellion/princess_leila.txt ~rebellion/millenium_falcon
+  897  mv ~ /rebellion/princess_leila.txt ~/rebellion/millenium_falcon
+  898  pwd
+  899  mv ~/Users/vireaksan/desktop/Starwars/star_wars/rebellion/princess.leila.txt ~/Users/vireaksan/desktop/Starwars/star_wars/rebellion/millenium_falcon
+  900  mv ~../rebellion/princess_leila.txt ~../rebellion/millenium_falcon
+  901  mv ~./rebellion/princess_leila.txt ~./rebellion/millenium_falcon
+  902  mv ~../rebellion/princess_leila.txt  ~rebellion/millenium_falcon
+  903  ..
+  904  mv princess_leila.txt ~millenium_falcon
+  905  mv princess_leila.txt ~/millenium_falcon
+  906  mv obi_wan.txt ~/millenium_falcon
+  907  mv luke_skywalker.txt ~/millenium_falcon
+  908  mv ~/millenium_falcon ~../star_wars/empire/death_star
+  909  mv ~/millenium_falcon ~./star_wars/empire/death_star
+  910  mv ~/millenium_falcon ~/star_wars/empire/death_star
+  911  mv ~/millenium_falcon ~..star_wars/empire/death_star
+  912  mv ~/millenium_falcon ~../star_wars/empire/death_star
+  913  ls
+  914  ls-a
+  915  ls -a
+  916  echo "Help me, Obi-Wan...You're my only hope." > princess_leila.txt\n
+  917  ..
+  918  echo "Help me, Obi-Wan...You're my only hope." > princess_leila.txt\n
+  919  touch obi_wan.txt
+  920  touch luke_skywalker.txt
+  921  mv ~princess_leila.txt ~/millenium_falcon
+  922  mv ~rebellion/princess_leila.txt ~/millenium_falcon
+  923  mv luke_skywalker.txt ~/millenium_falcon/
+  924  mv luke_skywalker.txt ~/millenium_falcon
+  925  pwd
+  926  touch luke_skywalker.txt
+  927  pwd
+  928  mv luke_skywalker.txt millenium_falcon/
+  929  mv obi_wan.txt millenium_falcon
+  930  mv princess_leila.txt millenium_falcon
+  931  mv millenium_falcon ../star_wars/empire/death_star
+  932  mv millenium_falcon /star_wars/empire/death_star
+  933  ..
+  934  cd empire
+  935  ls
+  936  cd death_star
+  937  pwd
+  938  ..
+  939  cd rebellion
+  940  mv millenium_falcon /Users/vireaksan/desktop/Starwars/star_wars/empire/death_star
+  941  git status
+  942  git add .
+  943  git commit -m "Got everyone on board and moved the millenium_falcon onto the deathstar
+  944  git commit -m "Got everyone on board and moved the millenium_falcon onto the deathstar"
+  945  git add .
+  946  git commit -m"Everyone on board"
+  947  git add .
+  948  ..
+  949  cd Starwars
+  950  ls
+  951  git status
+  952  git add .
+  953  git status
+  954  git commit -m"Everyone on board"
+  955  got push origin master
+  956  git push origin master
+  957  history
+  958  ls
+  959  cd star_wars
+  960  cd empire
+  961  cd death_star
+  962  pwd
+  963  mv millenium_falcon/* /Users/vireaksan/desktop/Starwars/star_wars/empire/death_star\n
+  964  rm obi_wan.txt
+  965  mv chewbcca.txt hansol.txt luke_skywalker.txt princess_leila.txt millenium_falcon
+  966  mv chewbacca.txt hansolo.txt  millenium_falcon
+  967  ..
+  968  cd rebellion
+  969  pwd
+  970  ..
+  971  cd empire
+  972  cd death_star
+  973  mv millenium_falcon /Users/vireaksan/desktop/Starwars/star_wars/rebellion
+  974  ls
+  975  ..
+  976  pwd
+  977  cd death_star
+  978  mv darth_vader.txt /Users/vireaksan/desktop/Starwars/star_wars/empire
+  979  ..
+  980  rm death_star
+  981  rm- death_star/
+  982  rm death_star/
+  983  rm death_star
+  984  ls
+  985  rm death_star
+  986  rmdir death_star
+  987  cd death_Star
+  988  ls
+  989  ls -a
+  990  ..
+  991  rm -r death_star
