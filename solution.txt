@@ -1,0 +1,134 @@
+162  git clone https://github.com/ttbula/Star_Wars.git
+  163  code .
+  164  mkdir star_wars
+  165  cd star_wars
+  166  mkdir empire rebellion
+  167  cd empire
+  168  touch darth_vader.txt
+  169  echo "...heavy breathing..." >> ~/.darth_vader.txt
+  170  echo "...heavy breathing..." >> ~darth_vader.txt
+  171  echo "...heavy breathing..." >> ~/.darth_vader.tx
+  172  echo "...heavy breathing..." >> ~/darth_vader.txt
+  173  echo "...heavy breathing..." > ~/darth_vader.txt
+  174  cd empire
+  175  cd darth_vader.txt
+  176  echo "...heavy breathing..." > ~/darth_vader.txt
+  177  echo "...heavy breathing..." >> ~/darth_vader.txt
+  178  touch emperor_palpatine.txt
+  179  mkdir death_star
+  180  mv ~/darth_vader.txt /death_star
+  181  mv ~darth_vader.txt /death_star
+  182  cd darth_vader.txt
+  183  ls
+  184  echo ...heavy breathing...>> darth_vader.txt
+  185  % mv ~/darth_vader.txt ~/death_star
+  186  mv ~/darth_vader.txt ~/death_star
+  187  mv <darth_vader.txt> <death_star>
+  188  mv </darth_vader.txt> </death_star>
+  189  cd star_wars/rebellion
+  190  cd rebellion
+  191  ..
+  192  cd rebellion
+  193  touch princess_leia.txt echo Help me, Obi-Wan…You’re my only hope.
+  194  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope."> princess_leia.txt
+  195  touch obi_wan.txt
+  196  touch luke_skywalker.txt
+  197  mkdir millenium_falcon
+  198  cd millenium_falcon
+  199  touch han_solo.txt chewbacca.txt
+  200  ..
+  201  % mv ~/luke_skywalker.txt ~/millenium_falcon
+  202  mv ~/luke_skywalker.txt ~/millenium_falcon
+  203  tree
+  204  mv ./luke_skywalker.txt ./millenium_falcon
+  205  tree
+  206  mv ./obi_wan.txt ./millenium_falcon
+  207  mv ./princess_leia ./millenium_falcon
+  208  mv ./millenium_falcon ./death_star
+  209  ..
+  210  cd empire
+  211  mv ./darth_vader.txt ./death_star
+  212  ..
+  213  git add .
+  214  git commit -m "Act 1 & 2 Timothy Cebula"
+  215  cd death_star
+  216  rm obi_wan.txt
+  217  cd rebellion
+  218  cd death_star
+  219  rm obi_wan.txt
+  220  mv ./chewbacca.txt ./millenium_falcon
+  221  mv ./millenium_falcon ./chewbacca.txt
+  222  mkdir millenium_falcon
+  223  mv ./chewbacca.txt ./millenium_falcon
+  224  mv ./han_solo.txt ./millenium_falcon
+  225  mv ./luke_skywalker.txt ./millenium_falcon
+  226  mv ./princess_leia.txt ./millenium_falcon
+  227  tree
+  228  ..
+  229  mv ./empire/death_star/millenium_falcons ./rebellion
+  230  mv ./empire/death_star/millenium_falcon ./rebellion
+  231  cd empire
+  232  touch darth_vader
+  233  rm death_star
+  234  rm -r death_star
+  235  ..
+  236  cd rebellion
+  237  rm -r death_star
+  238  tree
+  239  ..
+  240  cd empire
+  241  echo "...heavy breathing..." >> darth_vader
+  242  ..
+  243  cd rebellion
+  244  touch luke_skywalker.txt
+  245  mkdir millenium_falcon
+  246  cd millenium_falcon
+  247  touch han_solo.txt chewbacca.txt
+  248  mv ./luke_skywalker ./millenium_falcon
+  249  ..
+  250  mv ./luke_skywalker ./millenium_falcon
+  251  ls
+  252  mv ./luke_skywalker ./millenium_falcon
+  253  mv luke_skywalker millenium_falcon
+  254  mv luke_skywalker.txt millenium_falcon
+  255  mv princess_leia.txt millenium_falcon
+  256  cd millenium_falcon
+  257  ..
+  258  cd empire
+  259  mkdir death_star
+  260  ..
+  261  mv millenium_falcon death_star
+  262  cd rebellion
+  263  mv millenium_falcon death_star
+  264  mv death_star millenium_falcon
+  265  ..
+  266  cd rebellion
+  267  mv millenium_falcon ../../death_star
+  268  mv millenium_falcon ../empire/
+  269  ..
+  270  cd empire
+  271  mv millenium_falcon death_star
+  272  cd millenium_falcon
+  273  li
+  274  ls
+  275  tree
+  276  mv millenium_falcon ../rebellion
+  277  cd death_star
+  278  ls
+  279  mv millenium_falcon ../rebellion
+  280  mv rebellion ../millenium_falcon
+  281  ls
+  282  cd millenium_falcon
+  283  ..
+  284  cd millenium_falcon
+  285  mv millenium_falcon ../../rebellion
+  286  ..
+  287  ls
+  288  mv millenium_falcon ../rebellion
+  289  ls
+  290  rm death star
+  291  rm death_star
+  292  rm -r death_star
+  293  git add .
+  294  git commit -m "Act 3 Timothy Cebula"
+  
