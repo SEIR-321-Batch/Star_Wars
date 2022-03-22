@@ -1,0 +1,99 @@
+➜  ~ cd sei
+➜  sei cd deliverables
+➜  deliverables cd act1.sh
+cd: no such file or directory: act1.sh
+➜  deliverables cd Star_Wars
+➜  Star_Wars git:(master) cd act1.sh
+cd: not a directory: act1.sh
+➜  Star_Wars git:(master) mkdir star_wars
+➜  Star_Wars git:(master) cd star_wars
+➜  star_wars git:(master) mkdir empire && rebellion
+zsh: command not found: rebellion
+➜  star_wars git:(master) mkdir empire rebellion
+mkdir: empire: File exists
+➜  star_wars git:(master) cd empire
+➜  empire git:(master) touch darth_vader.txt
+➜  empire git:(master) ✗ echo'...heavy breathing...>>darth_vader.txt
+quote> ...heavy breathing...
+quote> 
+quote>  
+quote>  
+➜  empire git:(master) ✗ echo "... Heavy Breathing ... >> <darth_vader.txt>
+dquote> 
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv empire/darth_vader.txt death_star
+mv: rename empire/darth_vader.txt to death_star/darth_vader.txt: No such file or directory
+➜  empire git:(master) ✗ mv ~/star_wars/empire/darth_vader.txt ~/star_wars/death_star
+mv: rename /Users/pepe/star_wars/empire/darth_vader.txt to /Users/pepe/star_wars/death_star: No such file or directory
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ mv empire/darth_vader.txt death_star
+➜  star_wars git:(master) ✗ mv star_wars/darth_vader.txt star_wars/empire/death_star
+mv: rename star_wars/darth_vader.txt to star_wars/empire/death_star: No such file or directory
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." >>princess_leia.txt
+➜  rebellion git:(master) ✗ touch princess_leia.txt; echo "Help me, Obi-Wan... You're my only hope." >>princess_leia.txt;
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd milleniumm_falcon
+cd: no such file or directory: milleniumm_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt
+➜  millenium_falcon git:(master) ✗ touch chewbacca.txt
+➜  millenium_falcon git:(master) ✗ git init
+Initialized empty Git repository in /Users/pepe/sei/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon/.git/
+➜  millenium_falcon git:(main) ✗ git add .
+➜  millenium_falcon git:(main) ✗ git commit -m "act one complete"
+[main (root-commit) 21ddc3f] act one complete
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 chewbacca.txt
+ create mode 100644 han_solo.txt
+➜  millenium_falcon git:(main) mv ~/rebellion/luke_skywalker.txt ~/millenium_falcon
+mv: rename /Users/pepe/rebellion/luke_skywalker.txt to /Users/pepe/millenium_falcon: No such file or directory
+➜  Star_Wars git:(master) ✗ git add .
+warning: adding embedded git repository: star_wars/empire/death_star/millenium_falcon
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> star_wars/empire/death_star/millenium_falcon
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached star_wars/empire/death_star/millenium_falcon
+hint: 
+hint: See "git help submodule" for more information.
+➜  Star_Wars git:(master) ✗ git rm --cached star_wars/empire/death_star/millenium_falcon
+error: the following file has staged content different from both the
+file and the HEAD:
+    star_wars/empire/death_star/millenium_falcon
+(use -f to force removal)
+➜  Star_Wars git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  Star_Wars git:(master) ✗ cd star_Wars
+➜  star_Wars git:(master) ✗ cd star_wars
+cd: no such file or directory: star_wars
+➜  star_Wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ rm obi_wan.txt
+➜  death_star git:(master) ✗ mv ~/death_star/chewbacca.txt ~/millenium_falcon
+mv: rename /Users/pepe/death_star/chewbacca.txt to /Users/pepe/millenium_falcon: No such file or directory
+➜  death_star git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/chewbacc
+a.txt ~/sei/deliverables/Star_Wars/star_wars/empire/millenium_falcon
+mv: rename /Users/pepe/sei/deliverables/Star_Wars/star_wars/empire/death_star/chewbacca.txt to /Users/pepe/sei/deliverables/Star_Wars/star_wars/empire/millenium_falcon: No such file or directory
+➜  death_star git:(master) ✗ cd ..   
+➜  empire git:(master) ✗ rm death_star
+rm: death_star: is a directory
+➜  empire git:(master) ✗ rmdir death_star
+rmdir: death_star: Directory not empty
+➜  empire git:(master) ✗ rmdir death_star
+rmdir: death_star: Directory not empty
+➜  empire git:(master) ✗ git add .
+➜  empire git:(master) ✗ cd ..
+➜  star_Wars git:(master) ✗ git add .
+warning: adding embedded git repository: star_wars/rebellion/millenium_falcon
