@@ -1,5 +1,6 @@
 # 1. Unload the Millenium Falcon in ONE COMMAND!
 # Move the whole crew from the millenium_falcon directory into the death_star directory. HINT: * following a directory will grab all files/folders inside of a directory (directory/*)
+mv ~/millenium_falcon/*.txt ~/death_star
 
 # 2. darth_vader has defeated obi_wan! Delete poor obi_wan.
 
