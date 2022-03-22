@@ -36,3 +36,42 @@
  1381  git add .
  1382  git commit -m "Done act1.sh"
  1383  git push origin master
+ 1385  history
+ 1386  cd sei
+ 1387  history
+ 1388  export CLICOLOR=1
+ 1389  history
+ 1390  clear
+ 1391  history | tail -n 250
+ 1392  git status
+ 1393  git add .
+ 1394  git commit -m "Added history to solution.txt"
+ 1395  git push origin master
+ 1396  cd star_wars
+ 1397  cd rebellion
+ 1398  echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+ 1399  touch obi_wan.txt
+ 1400  touch luke_skywalker.txt
+ 1401  mkdir millenium_falcon
+ 1402  cd millenium_falcon
+ 1403  mkdir han_solo.txt chewbacca.txt
+ 1404  touch han_solo.txt chewbacca.txt
+ 1405  touch han_solo.txt
+ 1406  touch chewbacca.txt
+ 1407  mv luke_skywalker.txt millenium_falcon
+ 1408  ..
+ 1409  mv luke_skywalker.txt millenium_falcon
+ 1410  mv ovi_wan.txt millenium_falcon
+ 1411  mv obi_wan.txt millenium_falcon
+ 1412  mv princess_leia.txt millenium_falcon
+ 1413  ..
+ 1414  mv rebellion/millenium_falcon empire/death_star
+ 1415  git status
+ 1416  git add .
+ 1417  git commit -m "Finished act2.sh"
+ 1418  ..
+ 1419  git status
+ 1420  git add .
+ 1421  git commit -m "Completed act2.sh"
+ 1422  git push origin master
+ 1423  export CLICOLOR=1
