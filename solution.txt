@@ -1,0 +1,250 @@
+ 104  cd code-alongs
+  105  ls
+  106  clear
+  107  mkdir scripts styles && touch index.html scripts/app.js styles/main.css
+  108  tree
+  109  code .
+  110  . code
+  111  ls
+  112  cd sei
+  113  ls
+  114  cd code-alongs
+  115  ls
+  116  code .
+  117  open index.html
+  118  clear
+  119  cd ~
+  120  ls
+  121  cd Desktop
+  122  ls
+  123  cd GA-BootCamp-Desktop
+  124  ls
+  125  cd DailyCourseNotesandExercises
+  126  ls
+  127  cd Day\ 1
+  128  ls
+  129  cd drawers
+  130  ls
+  131  tree
+  132  mv ./pjs/favorite.socks ./more-socks
+  133  tree
+  134  mv ./more-socks ./socks
+  135  tree
+  136  mv ./socks/more-socks ./
+  137  tree
+  138  mv ./more-socks/favorite.socks ./socks
+  139  ls
+  140  tree
+  141  clear
+  142  cd ~
+  143  clear
+  144  ls
+  145  cd sei
+  146  ls
+  147  cd code-alongs
+  148  ls
+  149  tree
+  150  mkdir Day1_CodeAlong1
+  151  ls
+  152  tree
+  153  mv ./index.html ./Day1_CodeAlong1
+  154  mv ./scripts ./Day1_CodeAlong1
+  155  mv ./styles ./Day1_CodeAlong1
+  156  tree
+  157  cd Day1_CodeAlong1
+  158  clear
+  159  tree
+  160  code .
+  161  open index.html
+  162  node
+  163  man $ls
+  164  cd ~
+  165  ls
+  166  cd sei
+  167  ls
+  168  cd code-alongs
+  169  cd Day1_CodeAlong1
+  170  code .
+  171  cd ~
+  172  ls
+  173  $ ssh-keygen -t ed25519 -C "arbader2142@gmail.com"
+  174  ssh-keygen -t ed25519 -C "arbader2142@gmail.com"
+  175  eval "$(ssh-agent -s)"
+  176  open ~/.ssh/config
+  177  touch ~/.ssh/config
+  178  open ~/.ssh/config
+  179  cd
+  180  ls
+  181  cd sei
+  182  ls
+  183  cd labs
+  184  ls
+  185  mkdir lab1
+  186  cd lab1
+  187  ls
+  188  git clone https://github.com/RyanMacc/github_101.git
+  189  ls
+  190  ls -a
+  191  tree
+  192  cd ..
+  193  ls
+  194  tree
+  195  mv ./lab1 ./github_101
+  196  tree
+  197  cd github_101
+  198  ls
+  199  tree
+  200  code .
+  201  git status
+  202  ;s
+  203  tree
+  204  cd github_101
+  205  git status
+  206  git add .
+  207  git status
+  208  git commit -m "Add my answers to answers.txt"
+  209  git push origin master
+  210  ls
+  211  cd sei
+  212  ls
+  213  cd deliverables
+  214  ls
+  215  cd ..
+  216  cd labs
+  217  ls
+  218  tree
+  219  mv ./github_101 ./Lab1
+  220  ls
+  221  tree
+  222  cd ..
+  223  ls
+  224  cd deliverables
+  225  ls
+  226  mkdir deliverable1_StarWars
+  227  ls
+  228  tree
+  229  cd deliverable1_StarWars
+  230  git clone https://github.com/RyanMacc/Star_Wars.git
+  231  ls
+  232  ls -a
+  233  tree
+  234  cd Star_Wars
+  235  code .
+  236  mkdir empire rebellion
+  237  cd empire
+  238  touch darth_vader.txt
+  239  tree
+  240  open -e <darth_vader.txt>
+  241  vim
+  242  ls
+  243  cd sei
+  244  ls
+  245  cd deliverables
+  246  ls
+  247  cd deliverable1_StarWars
+  248  ls
+  249  cd Star_Wars
+  250  ls
+  251  cd empire
+  252  vi darth_vader.txt
+  253  cd ..
+  254  ls
+  255  cd empire
+  256  touch emperor_palpatine.txt
+  257  ls
+  258  mkdir death_star
+  259  tree
+  260  cd ..
+  261  tree
+  262  mv ./empire/darth_vader.txt ./empire/death_star
+  263  tree
+  264  cd empire
+  265  cd death_star
+  266  touch darth_vader.txt echo "...heavy breathing..."
+  267  ls
+  268  touch darth_vader.txt && echo "...heavy breathing..."
+  269  ls
+  270  darth_vader.txt echo "...heavy breathing..."
+  271  ls
+  272  echo "...heavy breathing..." >> darth_vader.txt
+  273  cd ..
+  274  ls
+  275  tree
+  276  git status
+  277  git add .
+  278  git status
+  279  code .
+  280  git status
+  281  git add .
+  282  git status
+  283  ls
+  284  cd se
+  285  cd sei
+  286  ls
+  287  cd deliverables
+  288  ls
+  289  cd deliverable1_StarWars
+  290  ls
+  291  cd Star_Wars
+  292  tree
+  293  git status
+  294  git commit -m "Act 1 Commit"
+  295  ls
+  296  cd rebellion
+  297  tree
+  298  ls
+  299  touch princess_leia.txt && echo "Help me, Obi-Qan...You're my only hope" >> princess_leia.txt
+  300  tree
+  301  touch obi_wan.txt
+  302  touch luke_skywalker.txt
+  303  mkdir millenium_falcon
+  304  cd millenium_falcon
+  305  touch han_solo.txt chewbacca.txt
+  306  cd ..
+  307  tree
+  308  mv ./luke_skywalker.txt ./millenium_falcon
+  309  mv ./obi_wan.txt ./millenium_falcon
+  310  mv ./princess_leia.txt ./millenium_falcon
+  311  cd ..
+  312  tree
+  313  mv ./rebellion/millenium_falcon ./empire/death_star 
+  314  ls
+  315  git add .
+  316  git status
+  317  git commit -m "Act 2 Commit"
+  318  git status
+  319  tree
+  320  mv ./empire/death_star/millenium_falcon ./empire/death_star
+  321  mv -v ./empire/death_star/millenium_falcon/* ./empire/death_star
+  322  tree
+  323  code .
+  324  ls
+  325  cd empire
+  326  cd death_star
+  327  ls
+  328  rm obi_wan.txt
+  329  cd ..
+  330  mv ./empire/death_star/chewbacca.txt ./empire/death_star/millenium_falcon
+  331  cd ..
+  332  mv ./empire/death_star/chewbacca.txt ./empire/death_star/millenium_falcon
+  333  mv ./empire/death_star/han_solo.txt ./empire/death_star/millenium_falcon
+  334  mv ./empire/death_star/luke_skywalker.txt ./empire/death_star/millenium_falcon
+  335  mv ./empire/death_star/princess_leia.txt ./empire/death_star/millenium_falcon
+  336  tree
+  337  mv ./empire/death_star/millenium_falcon ./rebellion
+  338  tree
+  339  mv ./empire/death_star/darth_vader.txt ./empire
+  340  tree
+  341  cd empire
+  342  rm death_star
+  343  git add .
+  344  git status
+  345  git commit -m "Act 3/final commit"
+  346  code .
+  347  cd ..
+  348  tree
+  349  git add .
+  350  git commit -m "Act 3/final commit from Star_Wars Directory"
+  351  git status
+  352  code .
+  353  history
