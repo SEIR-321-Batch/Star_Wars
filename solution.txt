@@ -1,0 +1,181 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Aarons-MacBook-Pro:~ Daejah$ cd star_wars
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+README.md       act1.sh         act2.sh         act3.sh         solution.txt
+Aarons-MacBook-Pro:star_wars Daejah$ cd act1.sh
+bash: cd: act1.sh: Not a directory
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+README.md       act1.sh         act2.sh         act3.sh         solution.txt
+Aarons-MacBook-Pro:star_wars Daejah$ mkdir star_wars
+Aarons-MacBook-Pro:star_wars Daejah$ cd star_wars
+Aarons-MacBook-Pro:star_wars Daejah$ mkdir empire rebellion
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+empire          rebellion
+Aarons-MacBook-Pro:star_wars Daejah$ cd empire
+Aarons-MacBook-Pro:empire Daejah$ touch darth_vader.txt
+Aarons-MacBook-Pro:empire Daejah$  echo "...heaving breathing..." >> darth_vader.txt
+Aarons-MacBook-Pro:empire Daejah$ touch emperor_palpatine.txt
+Aarons-MacBook-Pro:empire Daejah$ mkdir death_star
+Aarons-MacBook-Pro:empire Daejah$ mv empire/darth_vader.text empire/death_star
+mv: rename empire/darth_vader.text to empire/death_star: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv /empire/darth_vader.txt empire/death_star
+mv: rename /empire/darth_vader.txt to empire/death_star: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv ~/star_wars/star_wars/empire/darth_vader.txt ~/empire/death_star
+mv: rename /Users/Daejah/star_wars/star_wars/empire/darth_vader.txt to /Users/Daejah/empire/death_star: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv ~/star_wars/empire/darth_vader.txt empire/death_star
+mv: rename /Users/Daejah/star_wars/empire/darth_vader.txt to empire/death_star: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/death_star/darth_vader.txt
+mv: rename /Users/Daejah/star_wars/empire/darth_vader.txt to /Users/Daejah/star_wars/empire/death_star/darth_vader.txt: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv darth_vader.txt death_star/darth_vader.txt
+Aarons-MacBook-Pro:empire Daejah$ ls
+death_star              emperor_palpatine.txt
+Aarons-MacBook-Pro:empire Daejah$ cd ..
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+empire          rebellion
+Aarons-MacBook-Pro:star_wars Daejah$ cd rebellion
+Aarons-MacBook-Pro:rebellion Daejah$ touch obi_wan.txt
+Aarons-MacBook-Pro:rebellion Daejah$ ls
+obi_wan.txt
+Aarons-MacBook-Pro:rebellion Daejah$ touch luke_skywalker.txt
+Aarons-MacBook-Pro:rebellion Daejah$ ls
+luke_skywalker.txt      obi_wan.txt
+Aarons-MacBook-Pro:rebellion Daejah$ mkdir millenium_falcon
+Aarons-MacBook-Pro:rebellion Daejah$ ls
+luke_skywalker.txt      millenium_falcon        obi_wan.txt
+Aarons-MacBook-Pro:rebellion Daejah$ cd millenium_falcon
+Aarons-MacBook-Pro:millenium_falcon Daejah$ touch han_solo.txt chewbacca.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ ls
+chewbacca.txt   han_solo.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ cd ..
+Aarons-MacBook-Pro:rebellion Daejah$ mv luke_skywalker.txt  millenium_falcon/luke_skywalker.txt
+Aarons-MacBook-Pro:rebellion Daejah$ mv obi_wan.txt millenium_falcon/obi_wan.txt
+Aarons-MacBook-Pro:rebellion Daejah$ ls
+millenium_falcon
+Aarons-MacBook-Pro:rebellion Daejah$ cd millenium_falcon
+Aarons-MacBook-Pro:millenium_falcon Daejah$ ls
+chewbacca.txt           han_solo.txt            luke_skywalker.txt      obi_wan.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ cd ..
+Aarons-MacBook-Pro:rebellion Daejah$ cd ..
+Aarons-MacBook-Pro:star_wars Daejah$ mv millenium_falcon empire/death_star/millenium_falcon
+mv: rename millenium_falcon to empire/death_star/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv rebellion/millenium_falcon empire/death_star/millenium_falcon
+Aarons-MacBook-Pro:star_wars Daejah$ touch princess_leia.txt && mv empire/death_star/millenium_falcon/princess_leia.txt
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv princess.leia.txt  empire/death_star/millenium_falcon/princess_leia.txt
+mv: rename princess.leia.txt to empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv  princess.leia.txt  empire/death_star/millenium_falcon/princess_leia.txt
+mv: rename princess.leia.txt to empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv star_wars/princess.leia.txt  empire/death_star/millenium_falcon/princess_leia.txt
+mv: rename star_wars/princess.leia.txt to empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv star_wars/princess.leia.txt /star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+mv: rename star_wars/princess.leia.txt to /star_wars/empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv star_wars/princess_leia.txt  empire/death_star/millenium_falcon/princess_leia.txt
+mv: rename star_wars/princess_leia.txt to empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv princess_leia.txt empire/death_star/millenium_falcon/princess_leia.txt
+Aarons-MacBook-Pro:star_wars Daejah$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ cd empire
+Aarons-MacBook-Pro:empire Daejah$ cd death_star
+Aarons-MacBook-Pro:death_star Daejah$ ls
+darth_vader.txt         millenium_falcon
+Aarons-MacBook-Pro:death_star Daejah$ cd millenium_falcon
+Aarons-MacBook-Pro:millenium_falcon Daejah$ ls
+chewbacca.txt           han_solo.txt            luke_skywalker.txt      obi_wan.txt             princess_leia.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ cd ..
+Aarons-MacBook-Pro:death_star Daejah$ cd ..
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/* empire/death_star/
+mv: rename millenium_falcon/* to empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt empire/death_star/
+mv: rename millenium_falcon/*.txt to empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv empire/millenium_falcon/*.txt to empire/death_star/
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:empire Daejah$ mv empire/millenium_falcon/*.txt to star_wars/empire/death_star/
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:empire Daejah$ ls
+death_star              emperor_palpatine.txt
+Aarons-MacBook-Pro:empire Daejah$ cd death_star
+Aarons-MacBook-Pro:death_star Daejah$ ls
+darth_vader.txt         millenium_falcon
+Aarons-MacBook-Pro:death_star Daejah$ cd ..
+Aarons-MacBook-Pro:empire Daejah$ mv empire/millenium_falcon/*.txt to star_wars/empire/death_star/
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:empire Daejah$ ls
+death_star              emperor_palpatine.txt
+Aarons-MacBook-Pro:empire Daejah$ mv empire/millenium_falcon/*.txt to star_wars/empire/death_star
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:empire Daejah$ mv empire/death_star/millenium_falcon/*.txt to star_wars/empire/death_star/
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt star_wars/star_wars/empire/death_star/
+mv: rename millenium_falcon/*.txt to star_wars/star_wars/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ ../
+bash: ../: is a directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt death_star/
+mv: rename millenium_falcon/*.txt to death_star/*.txt: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt /death_star/
+mv: rename millenium_falcon/*.txt to /death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star/
+mv: rename millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt
+mv: rename millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt ~/Star_Wars/star_wars/empire/death_star/
+mv: rename millenium_falcon/*.txt to /Users/Daejah/Star_Wars/star_wars/empire/death_star/*.txt: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt ~/empire/death_star/
+mv: rename millenium_falcon/*.txt to /Users/Daejah/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star
+mv: rename millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ mv Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star/
+mv: rename Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:empire Daejah$ cd ..
+Aarons-MacBook-Pro:star_wars Daejah$ cd ..
+Aarons-MacBook-Pro:star_wars Daejah$ mv Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star/
+mv: rename Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv millenium_falcon star_wars/rebellion/millenium_falcon
+mv: rename millenium_falcon to star_wars/rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv death_star/millenium_falcon empire/rebellion/millenium_falcon
+mv: rename death_star/millenium_falcon to empire/rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ cd star_wars
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+empire          rebellion
+Aarons-MacBook-Pro:star_wars Daejah$ mv death_star/millenium_falcon empire/rebellion/millenium_falcon
+mv: rename death_star/millenium_falcon to empire/rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv death_star/millenium_falcon empire/rebellion/millenium_falcon
+mv: rename death_star/millenium_falcon to empire/rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt Star_Wars/star_wars/empire/death_star/
+mv: rename Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt to Star_Wars/star_wars/empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv Star_Wars/star_wars/empire/death_star/millenium_falcon  Star_Wars/star_wars/rebellion
+mv: rename Star_Wars/star_wars/empire/death_star/millenium_falcon to Star_Wars/star_wars/rebellion: No such file or directory
+Aarons-MacBook-Pro:star_wars Daejah$ mv Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt../
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Aarons-MacBook-Pro:star_wars Daejah$ ls
+empire          rebellion
+Aarons-MacBook-Pro:star_wars Daejah$ cd empire
+Aarons-MacBook-Pro:empire Daejah$ ls
+death_star              emperor_palpatine.txt
+Aarons-MacBook-Pro:empire Daejah$ cd death_star
+Aarons-MacBook-Pro:death_star Daejah$ ls
+darth_vader.txt         millenium_falcon
+Aarons-MacBook-Pro:death_star Daejah$ cd millenium_falcon
+Aarons-MacBook-Pro:millenium_falcon Daejah$ ls
+chewbacca.txt           han_solo.txt            luke_skywalker.txt      obi_wan.txt             princess_leia.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ mv millenium_falcon/*.txt empire/death_star/
+mv: rename millenium_falcon/*.txt to empire/death_star/: No such file or directory
+Aarons-MacBook-Pro:millenium_falcon Daejah$ rm obi_want.txt
+rm: obi_want.txt: No such file or directory
+Aarons-MacBook-Pro:millenium_falcon Daejah$ rm obi_wan.txt
+Aarons-MacBook-Pro:millenium_falcon Daejah$ mv millenium_falcon star_wars/rebellion/millenium_falcon
+mv: rename millenium_falcon to star_wars/rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:millenium_falcon Daejah$ mv millenium_falcon star_wars/rebellion/
+mv: rename millenium_falcon to star_wars/rebellion/: No such file or directory
+Aarons-MacBook-Pro:millenium_falcon Daejah$ mv empire/death_star/millenium_falcon rebellion/millenium_falcon
+mv: rename empire/death_star/millenium_falcon to rebellion/millenium_falcon: No such file or directory
+Aarons-MacBook-Pro:millenium_falcon Daejah$ 
