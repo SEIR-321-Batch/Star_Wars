@@ -1,0 +1,267 @@
+  619  code .
+  620  pwd
+  621  cd sei321
+  622  cd deliverables
+  623  mkdir star_wars
+  624  cd star_wars
+  625  mkdir empire rebellion
+  626  ls
+  627  cd empire
+  628  touch darth_vader.txt
+  629  echo "...heavy breathing..." > darth_vader.txt
+  630  ls
+  631  ls -a
+  632  % echo "...heavy breathing..." > darth_vader.txt
+  633  cat darth_vader.txt
+  634  open .
+  635  echo heavy breathing > darth_vader.txt
+  636  cat darth_vader.txt
+  637  touch emperor_palpatine.txt
+  638  ls
+  639  mkdir death_star
+  640  mv ~/empire/darth_vader.txt ~/death_star/darth_vader.txt
+  641  mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  642  ls
+  643  mv darth_vader.txt death_star/darth_vader.txt
+  644  ls
+  645  cd death star
+  646  tree
+  647  ..
+  648  tree
+  649  ..
+  650  tree
+  651  star_wars
+  652  cd rebellion
+  653  touch princess_leia.txt < echo Help me, Obi-Wan...You're my only hope.\nls\n..\ncd rebellion\n"Help me, Obi-Wan...You're my only hope."\n..\n touch princess_leia.txt < echo "Help me, Obi-Wan...You're my only hope."\n""\ncd ..\n..\ncd ..
+  654  ls
+  655  ls -a
+  656  touch princess_leia.txt > echo "Help me, Obi-Wan...You're my only hope."
+  657  ls
+  658  open .
+  659  touch obi_wan.txt
+  660  touch luke_skywalker.txt
+  661  mkdir millenium_falcon
+  662  cd mellunium_falcon
+  663  cd millenium_falcon
+  664  touch han_solo.txt chewbacca.txt
+  665  ls
+  666  cd star_wars
+  667  ..
+  668  ls
+  669  tree
+  670  rm -r Help me, Obi-Wan...You're my only hope.
+  671  tree
+  672  cd rebellion
+  673  rm Help me, Obi-Wan...You're my only hope.
+  674  tree
+  675  rm -rt Help me, Obi-Wan...You're my only hope.\nls
+  676  tree
+  677  rm -i echho
+  678  rm -i echo
+  679  rm -i Help me, Obi-Wan...You're my only hope.\nrm quote\nrm -i quote
+  680  tree
+  681  ..
+  682  tree
+  683  cd rebellion
+  684  mv rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt rebellion/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt
+  685  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/rebellion/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt
+  686  ls
+  687  mv millenium faclon empire
+  688  mv millenium_falcon empire
+  689  ls
+  690  cd empire
+  691  ls
+  692  mv empire millenium_falcon
+  693  ..
+  694  ls
+  695  rm -r rebellion
+  696  rm -i rebellion
+  697  ..
+  698  rm -r rebellion
+  699  ls
+  700  tree
+  701  mkdir rebellion
+  702  mkdir millenium falcon touch han_solo,txt chewbacca.txt luke_skywalker.txt obi_wan.txt princess_leia.txt
+  703  ls
+  704  tree
+  705  rm han_solo,txt
+  706  rm -r han_solo,txt
+  707  rm -r  millenium falcon touch chewbacca.txt luke_skywalker.txt obi_wan.txt princess_leia.txt
+  708  tree
+  709  cd rebellion
+  710  mkdir millenium_falcon
+  711  cd millenium_falcon
+  712  touch han_solo.txt chewbacca.txt
+  713  ls
+  714  touch luke_skywalker.txt obi_wan.txt princess_leia.txt
+  715  ..
+  716  tree
+  717  mv rebellion/millenium_falcon empire/death_star
+  718  tree
+  719  cd death_star
+  720  cd empire
+  721  cd death_star
+  722  mv millenium_falcon* death_star
+  723  tree
+  724  ..
+  725  tree
+  726  cd empire
+  727  cd death_star
+  728  ..
+  729  mv death_star* empire/death_star
+  730  ..
+  731  mv death_star* empire/death_star
+  732  tree
+  733  cd death_star
+  734  cd empire
+  735  ls
+  736  cd death_star
+  737  ls
+  738  ..
+  739  mv death_star * empire/death_star
+  740  ..
+  741  mv death_star * empire/death_star
+  742  cd death_star
+  743  cd empire
+  744  cd death_star
+  745  ls
+  746  rm -r death star
+  747  rm -r death_star
+  748  ls
+  749  touch han_solo.txt chewbacca.txt luke_skywalker.txt obi_wan.txt princess_leia.txt
+  750  ls
+  751  rm obi_wan.txt
+  752  ls
+  753  ..
+  754  tree
+  755  cd empire
+  756  cd rebellion
+  757  ..
+  758  cd rebellion
+  759  tree
+  760  mkdir rebellion
+  761  cd rebellion
+  762  mkdir millenium_falcon
+  763  cd millenium_falcon
+  764  ..
+  765  tree
+  766  cd empire
+  767  cd death_star
+  768  rm -r rebellion
+  769  ..
+  770  tree
+  771  cd empire
+  772  cd death_star
+  773  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/millenium_falcon
+  774  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  775  ..
+  776  mv death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt rebellion/millenium_falcon
+  777  mv death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt star_wars/rebellion/millenium_falcon
+  778  ..
+  779  tree
+  780  mv star_wars/empire/death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt star_wars/rebellion/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt
+  781  mv star_wars/empire/death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt star_wars/rebellion/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt
+  782  mv star_wars/empire/death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt star_wars/rebellion/millenium_falcon/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.tx
+  783  mv star_wars/empire/death_star/chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt star_wars/rebellion/millenium_falcon/
+  784  cd death star
+  785  cd death_star
+  786  star_wars
+  787  cd empire
+  788  cd death_star
+  789  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.tx empire/rebellion/millenium_falcon
+  790  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.tx ../rebellion/millenium_falcon
+  791  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.tx ..empire/rebellion/millenium_falcon
+  792  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.tx star_wars/empire/rebellion/millenium_falcon
+  793  ..
+  794  cd rebellion
+  795  ..
+  796  cd rebellion
+  797  mv death_star* millenium_falcon
+  798  mv death_star * millenium_falcon
+  799  mv death_star/* millenium_falcon
+  800  mv millenium_falcon empire/death_star/
+  801  mv millenium_falcon death_star
+  802  ..
+  803  tree
+  804  cd rebellion
+  805  rm -r death_star
+  806  tree
+  807  ..
+  808  tree
+  809  cd empire
+  810  cd death_star
+  811  mkdir millenium_falcon
+  812  ..
+  813  tree
+  814  cd empire
+  815  cd death_star
+  816  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  817  cd millenium-FALCON
+  818  cd millenium_falcon
+  819  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt 
+  820  ..
+  821  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt death_star/millenium_falcon
+  822  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/deliverables/star_wars/empire/death_star/millenium_falcon\nmv: /Users/anpav/star_wars/empire/death_star/millenium_falcon is not a directory
+  823  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~sei321/deliverables/star_wars/empire/death_star/millenium_falcon
+  824  ..
+  825  tree
+  826  mv millenium_falcon rebellion
+  827  tree
+  828  cd empire
+  829  cd death_star
+  830  mv millenium_falcon star_wars/rebellion
+  831  tree
+  832  ..
+  833  tree
+  834  ..
+  835  mv empire/death_star/millenium_falcon/* rebellion
+  836  tree
+  837  mv mv empire/death_star/millenium_falcon star_wars/rebellion
+  838  mv empire/death_star/millenium_falcon /rebellion
+  839  tree
+  840  mv empire/death_star/millenium_falcon rebellion
+  841  tree
+  842  mv rebellion/han_solo.txt luke_skywalker.txt princess_leia.txt chebacca.txt millenium_falcon
+  843  mv rebellion/han_solo.txt luke_skywalker.txt princess_leia.txt chebacca.txt rebellion/millenium_falcon
+  844  tree
+  845  mv luke_skywalker.txt millenium_falcon
+  846  tree
+  847  mv rebellion/luke_skywalker.txt princess_leia.txt millenium_falcon
+  848  tree
+  849  mv rebellion/luke_skywalker.txt princess_leia.txt rebellion/millenium_falcon
+  850  tree
+  851  mv princess_leia.txt rebellion/millenium_falcon
+  852  mv rebellion/princess_leia.txt rebellion/millenium_falcon
+  853  tree
+  854  cd rebellion
+  855  touch chewbacca.txt
+  856  ..
+  857  tree
+  858  mv empire/death_star/darth_vader empire
+  859  tree
+  860  cd empire
+  861  mv death_star/darth_vade.txtr empire/darth_vader.txt
+  862  tree
+  863  ..
+  864  tree
+  865  death_star/darth_vader.txt to empire/darth_vader.txt
+  866  mv death_star/darth_vader.txt to empire/darth_vader.txt
+  867  mv death_star/darth_vader.txt to empire
+  868  mv empire/death_star/darth_vader.txt empire/
+  869  tree
+  870  cd empire
+  871  mv rebellion/chebacca.txt millenium_falcon
+  872  mv rebellion/chebacca.txt millenium_falcon/
+  873  mv rebellion/chebacca.txt rebellion/millenium_falcon/
+  874  tree
+  875  ..
+  876  tree
+  877  cd rebellion
+  878  mv chewbacca.txt millenium_falcon/
+  879  tree
+  880  ..
+  881  tree
+  882  cd empire
+  883  rm -r death_star
+  884  ..
+  885  tree
