@@ -1,0 +1,41 @@
+mkdir StarWarsgit
+cd StarWarsgit
+git init
+git fork
+git clone
+git clone ZaremaT/Star_Wars
+git clone https://github.com/ZaremaT/Star_Wars
+дд
+ll
+cd Star_Wars
+code .
+mkdir --help
+echo BLABLABLA
+cat act1.sh
+rm -R star_wars
+./act1.sh
+cd empire
+cat emperor_palpatine.txt
+cat empreror_palpatine.txt
+la
+cd death_star
+cat darth_vader.txt
+git commit -m "Finished Act1"
+./act2.sh
+ls -r
+cat empire/death_star/millenium_falcon/princess_leia.txt
+cd ../
+git commit -m "Finished Act2"
+act3.sh
+./act3.sh
+cd star_wars
+ls
+ls -R
+cd ..
+pwd
+git add .
+git status
+git commit -m "Finished Act3"
+git log
+man history
+vim solution.txt
