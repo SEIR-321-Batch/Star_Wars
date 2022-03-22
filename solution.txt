@@ -1,0 +1,52 @@
+  313  git clone https://github.com/justingracie/Star_Wars.git
+  314  code .
+  315  ls
+  316  cd Star_Wars
+  317  mkdir star_wars
+  318  mkdir empire rebellion
+  319  mv empire star_wars
+  320  mv rebellion star_wars
+  321  ls
+  322  cd star_wars
+  323  cd empire
+  324  touch darth_vader.txt
+  325  echo "...heavy breathing..." >> darth_vader.txt
+  326  touch emperor_palpatine.txt
+  327  mkdir death_star
+  328  mv darth_vader.txt death_star
+  329  git add .
+  330  git commit -m "This is the End of act 1."
+  331  ..
+  332  ls
+  333  cd rebellion
+  334  touch princess_lea.txt && echo "Help me, Obi-Wan...You're my only hope." >> princess_lea.txt
+  335  touch luke_skywalker.txt
+  336  mkdir millenium_falcon
+  337  touch obi_wan.txt
+  338  cd millenium_falcon
+  339  touch han_solo.txt chewbacca.txt
+  340  ..
+  341  ls
+  342  mv luke_skywalker.txt obi_wan.txt princess_lea.txt millenium_falcon
+  343  ..
+  344  mv rebellion/millenium_falcon empire/death_star
+  345  git add .
+  346  git commit -m "This is the end of Act 2."
+  347  cd empire
+  348  mv death_star/millenium_falcon/* death_star
+  349  cd death_star
+  350  ls
+  351  rm obi_wan.txt
+  352  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_lea.txt millenium_falcon
+  353  ..
+  354  mv empire/death_star/millenium_falcon rebellion
+  355  mv empire/death_star/darth_vader.txt empire
+  356  cd empire
+  357  ls
+  358  rm death_star
+  359  rm -rf death_star
+  360  git add .
+  361  git commit -m "The end of Act 3, Safe for Now\n\n`\ncd\nexit\n~
+  362  git commit -m "Then End of Act 3."
+  363  git push origin master
+  364  histoy
