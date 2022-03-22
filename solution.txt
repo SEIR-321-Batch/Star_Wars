@@ -1,0 +1,38 @@
+ 1346  cd sei
+ 1347  ls
+ 1348  cd deliverables
+ 1349  ls
+ 1350  cd Star_wars
+ 1351  code .
+ 1352  export CLICOLOR=1
+ 1353  mkdir star_wars
+ 1354  ls
+ 1355  cd star_wars
+ 1356  mkdir empire rebellion
+ 1357  ls
+ 1358  cd empire
+ 1359  touch darth_vader.txt
+ 1360  git status
+ 1361  git add .
+ 1362  git commit -m "Started act1.sh"
+ 1363  git push origin master
+ 1364  echo "...heavy breathing..." > darth_vader.txt
+ 1365  touch emperor_palpatine.txt
+ 1366  mkdir death_star
+ 1367  mv empire/darth_vader death_star
+ 1368  mv empire/darth_vader.txt death_star
+ 1369  mv darth_vader.txt /death_star
+ 1370  mv darth_vader.txt death_star
+ 1371  tree
+ 1372  git status
+ 1373  git add .
+ 1374  git commit -m "Finished act1.sh"
+ 1375  git push origin master
+ 1376  git status
+ 1377  git add .
+ 1378  git commit -m "Finished act1.sh"
+ 1379  ..
+ 1380  git status
+ 1381  git add .
+ 1382  git commit -m "Done act1.sh"
+ 1383  git push origin master
