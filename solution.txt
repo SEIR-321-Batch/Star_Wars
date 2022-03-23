@@ -31,4 +31,100 @@
   331  git add .
   332  git commit -m "finished act1.sh"
   333  git push origin master
+  334  history
+  335  cd sei
+  336  ls
+  337  cd fundamentals
+  338  mkdir intro_html_css
+  339  cd intro_html_css
+  340  touch notes.txt
+  341  code .
+  342  cd sei/deliverables
+  343  ls
+  344  ls -a
+  345  cd star
+  346  ls
+  347  cd Star_Wars
+  348  code .
+  349  ls
+  350  cd sei/deliverables
+  351  ls
+  352  cd star
+  353  ls
+  354  code .
+  355  cd Star_Wars
+  356  ls
+  357  cd rebellion && touch princess_leia.txt && echo "Help me, Obi-wan...You're my only hope." > princess_leia.txt
+  358  touch obi_wan.txt
+  359  ls
+  360  cd ..
+  361  ls
+  362  tree
+  363  ls
+  364  cd ..
+  365  ls
+  366  cd Star_Wars
+  367  ls
+  368  cd rebellion
+  369  ls
+  370  touch luke_skywalker.txt
+  371  ls
+  372  mkdir millenium_falcon
+  373  ls
+  374  cd millenium_falcon && touch han_solo.txt chewbacca.txt
+  375  ls
+  376  cd ..
+  377  ls
+  378  mv *.txt millenium_falcon
+  379  ls
+  380  cd millenium_falcon
+  381  ls
+  382  cd ..
+  383  ls
+  384  mv millenium_falcon/ ~/Star_Wars/rebellion
+  385  ls
+  386  mv millenium_falcon ~/sei/deliverables/star/Star_Wars/empire/death_star
+  387  ls
+  388  cd ..
+  389  ls
+  390  tree
+  391  git status
+  392  git add .
+  393  git commit -m "Finished Act2.sh"
+  394  git push origin master
+  395  ls
+  396  cd empire
+  397  cd death_star
+  398  ls
+  399  cd millenium_falcon
+  400  mv *.txt ..
+  401  ls
+  402  cd ..
+  403  ls
+  404  rm obi_wan.txt
+  405  ls
+  406  mv *chewbacca.txt *han_solo.txt *luke_skywalker.txt *princess_leia.txt millenium_falcon
+  407  ls
+  408  mv millenium_falcon ../rebellion
+  409  ..
+  410  ls
+  411  cd death_star
+  412  ls
+  413  ..
+  414  ls
+  415  mv rebellion ../millenium_falcon
+  416  mv milleniu..
+  417  ..
+  418  ls
+  419  tree
+  420  mv millenium_falcon rebellion
+  421  cd empire/death_star
+  422  mv darth_vader.txt ..
+  423  cd ..
+  424  rm darth_vader.txt
+  425  git status
+  426  git add .
+  427  git commit -m "Complete Star Wars Deliverable"
+  428  git push origin master
 ➜  ~ 
+
