@@ -1,0 +1,61 @@
+oliviahgrass@Olivias-Air Star_Wars % mkdir star_wars
+oliviahgrass@Olivias-Air Star_Wars % cd star_wars
+oliviahgrass@Olivias-Air star_wars % mkdir empire
+oliviahgrass@Olivias-Air star_wars % mkdir rebellion
+oliviahgrass@Olivias-Air star_wars % cd empire
+oliviahgrass@Olivias-Air empire % touch darth_vader.txt
+oliviahgrass@Olivias-Air empire % echo "...heavy breathing..." > darth_vader.txt
+oliviahgrass@Olivias-Air empire % touch emperor_palpatine.txt
+oliviahgrass@Olivias-Air empire % mkdir death_star
+oliviahgrass@Olivias-Air empire % mv 'darth_vader.txt' death_star
+oliviahgrass@Olivias-Air empire % cd rebellion
+cd: no such file or directory: rebellion
+oliviahgrass@Olivias-Air empire % cd star_wars
+cd: no such file or directory: star_wars
+oliviahgrass@Olivias-Air empire % pwd
+/Users/oliviahgrass/Star_Wars/star_wars/empire
+oliviahgrass@Olivias-Air empire % cd star_wars
+cd: no such file or directory: star_wars
+oliviahgrass@Olivias-Air empire % touch obi_wan.txt
+oliviahgrass@Olivias-Air empire % touch luke_skywalker.txt
+oliviahgrass@Olivias-Air empire % cd star_wars
+cd: no such file or directory: star_wars
+oliviahgrass@Olivias-Air empire % mkdir millenium_falcon
+oliviahgrass@Olivias-Air empire % cd millenium_falcon
+oliviahgrass@Olivias-Air millenium_falcon % touch han_solo.txt
+oliviahgrass@Olivias-Air millenium_falcon % touch chewbacca.txt
+oliviahgrass@Olivias-Air millenium_falcon % touch princess_leia
+oliviahgrass@Olivias-Air millenium_falcon % echo "Help me, Obi-Wan...You're my only hope." > princess_leia
+oliviahgrass@Olivias-Air millenium_falcon % rm obi_wan
+rm: obi_wan: No such file or directory
+oliviahgrass@Olivias-Air millenium_falcon % rm <obi_wan>
+zsh: parse error near `\n'
+oliviahgrass@Olivias-Air millenium_falcon % $ mv [millenium_falcon] [rebellion]
+zsh: no matches found: [millenium_falcon]
+oliviahgrass@Olivias-Air millenium_falcon % cd rebellion
+cd: no such file or directory: rebellion
+oliviahgrass@Olivias-Air millenium_falcon % mkdir rebellion
+oliviahgrass@Olivias-Air millenium_falcon % cd rebellion
+oliviahgrass@Olivias-Air rebellion % touch chewbacca.txt
+oliviahgrass@Olivias-Air rebellion % touch han_solo.txt
+oliviahgrass@Olivias-Air rebellion % touch luke_skywalker.txt
+oliviahgrass@Olivias-Air rebellion % touch prinecss_leia.txt
+oliviahgrass@Olivias-Air rebellion % history | tail -n 
+250
+  269  mkdir millenium_falcon
+  270  cd millenium_falcon
+  271  touch han_solo.txt
+  272  touch chewbacca.txt
+  273  touch princess_leia
+  274  echo "Help me, Obi-Wan...You're my only hope." > princess_leia
+  275  rm obi_wan
+  276  rm <obi_wan>
+  277  $ mv [millenium_falcon] [rebellion]
+  278  cd rebellion
+  279  mkdir rebellion
+  280  cd rebellion
+  281  touch chewbacca.txt
+  282  touch han_solo.txt
+  283  touch luke_skywalker.txt
+  284  touch prinecss_leia.txt
+oliviahgrass@Olivias-Air rebellion % 
