@@ -1,0 +1,34 @@
+301  cd deliverables
+  302  mkdir star
+  303  ls
+  304  cd star
+  305  git clone https://github.com/Mubarek-Hassen/Star_Wars.git
+  306  code .
+  307  ls
+  308  tree
+  309  git
+  310  cd sei/deliverables
+  311  cd Star_Wars
+  312  ls
+  313  cd star
+  314  ls
+  315  code .
+  316  ls
+  317  cd Star_Wars
+  318  mkdir empire rebellion
+  319  cd empire
+  320  touch darth_vader.txt
+  321  git status
+  322  git add .
+  323  git commit -m "start work of act one"
+  324  git push origin master
+  325  echo "...heavy breathing..." > darth_vader.txt
+  326  touch emperor_palpatine.txt
+  327  mkdir death_star
+  328  mv darth_vader.txt death_star
+  329  cd ..
+  330  git status
+  331  git add .
+  332  git commit -m "finished act1.sh"
+  333  git push origin master
+➜  ~ 
