@@ -1,0 +1,74 @@
+592  cd sei
+  593  cd deliverables
+  594  gh repo clone skhreis/Star_Wars
+  595  cd Star_Wars
+  596  code .
+  597  mkdir star_wars
+  598  cd star_wars
+  599  mkdir empire rebellion
+  600  cd empire
+  601  touch darth_vader.txt
+  602  echo "...heavy breathing..." >> darth_vader.txt
+  603  touch emperor_palpatine.txt
+  604  mkdir death_star
+  605  git add .
+  606  git commit -m "Act 1 Completed."
+  607  mv ~/sei/deliverables/Star_Wars/star_wars/empire/darth_vader.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  608  git add .
+  609  git commit -m "Act 1 Actually Completed."
+  610  ..
+  611  cd rebellion
+  612  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  613  touch obi_wan.txt
+  614  touch luke_skywalker.txt
+  615  mkdir millenium_falcon
+  616  touch han_solo.txt chewbacca.txt
+  617  mv ~/sei/deliverables/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/sei/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon
+  618  mv ~/sei/deliverables/Star_Wars/star_wars/rebellion/obi_wan.txt  ~/sei/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon
+  619  mv ~/sei/deliverables/Star_Wars/star_wars/rebellion/princess_leia.txt  ~/sei/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon
+  620  mv ~/sei/deliverables/Star_Wars/star_wars/rebellion/millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  621  rm han_solo.txt
+  622  rm chewbacca.txt
+  623  ls
+  624  ..
+  625  cd empire
+  626  cd death_star
+  627  cd millenium_falcon
+  628  touch han_solo.txt chewbacca.txt
+  629  git add .
+  630  git commit -m "Act 2 Complete\n"
+  631  git commit -m "Act 2 Complete for sure\n"
+  632  git commit -m Act 2 Complete!
+  633  ..
+  634  mv millenium_falcon/* ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  635  ..
+  636  cd empire
+  637  cd death_star
+  638  mv millenium_falcon/* ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  639  rm obi_wan.txt
+  640  ls
+  641  tree
+  642  mv death_star/chewbacca.txt millenium_falcon
+  643  mv chewbacca.txt millenium_falcon
+  644  ls
+  645  tree
+  646  mv han_solo.txt millenium_falcon
+  647  mv luke_skywalker.txt millenium_falcon
+  648  mv princess_leia.txt millenium_falcon
+  649  tree
+  650  ..
+  651  mv death_star/millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+  652  ..
+  653  tree
+  654  cd star_wars
+  655  cd empire
+  656  cd death_star
+  657  mv darth_vader.txt ~/sei/deliverables/Star_Wars/star_wars/empire
+  658  ..
+  659  tree
+  660  cd star_wars
+  661  cd empire
+  662  rm -rf death_star
+  663  git add .
+  664  git commit -m "Act 3 Complete\n"
+  665  histroy | tail -n 250
