@@ -1,0 +1,398 @@
+PS C:\Users\veteran\SEI-321\Star_Wars> mkdir ~\empire
+
+
+    Directory: C:\Users\veteran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/21/2022   9:15 PM                empire
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars> mkdir ~\rebellion
+
+
+    Directory: C:\Users\veteran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/21/2022   9:15 PM                rebellion
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars> cd empire
+
+cd : Cannot find path 
+'C:\Users\veteran\SEI-321\Star_Wars\empire'     
+because it does not exist.
+At line:1 char:1
++ cd empire
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound:   
+   (C:\Users\vetera...tar_Wars\empire:String)   
+   [Set-Location], ItemNotFoundException        
+    + FullyQualifiedErrorId : PathNotFound,Mic  
+   rosoft.PowerShell.Commands.SetLocationComm   
+  and
+
+PS C:\Users\veteran\SEI-321\Star_Wars> cd empire
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> New-Item ~\SEI_321\star_wars\empire\darth_vader.txt
+New-Item : Could not find a part of the path 'C 
+:\Users\veteran\SEI_321\star_wars\empire\darth_ 
+vader.txt'.
+At line:1 char:1
++ New-Item
+   Users\vetera...darth_vader.txt:String) [Ne
+  w-Item], DirectoryNotFoundException
+    + FullyQualifiedErrorId : NewItemIOError,M
+   icrosoft.PowerShell.Commands.NewItemComman                   d
+                                                              PS C:\Users\veteran\SEI-321\Star_Wars\empire> New-Item ~\SEI-321\Star_Wars\empire\darth_vader.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\empire      
+
+
+Mode                 LastWriteTime         Length Name        
+----                 -------------         ------ ----        
+-a----         3/21/2022   9:29 PM              0 darth_vader 
+                                                  .txt        
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> git add .       
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> cd ~\SEI-321\Star_Wars\empire\darth_vader.txt
+cd : Cannot find path
+'~\SEI-321\Star_Wars\empire\darth_vader.txt' because it does  
+not exist.
+At line:1 char:1
++ cd ~\SEI-321\Star_Wars\empire\darth_vader.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (~\SEI-321\Sta  
+   r_...darth_vader.txt:String) [Set-Location], ItemNotFoun  
+  dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerSh  
+   ell.Commands.SetLocationCommand
+
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (~\SEI-321\Sta
+   r_...darth_vader.txt:String) [Set-Location], ItemNotFoun
+  dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerSh                        ell.Commands.SetLocationCommand
+                     PS C:\Users\veteran\SEI-321\Star_Wars\empire> New-Item ~\SEI-321\Star_Wars\empire\emperor_palpatine.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\empire
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022   9:45 PM              0 emperor_palpatine.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> mkdir ~\SEI-321\Star_Wars\empire\death_star
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\empire
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/21/2022   9:46 PM                death_star
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> mv ~\SEI-321\Star_Wars\empire\darth_vader.txt ~\SEI-321\Star_Wars\empire\death_star
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> git add .
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> commit -m End of Act One
+commit : The term 'commit' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ commit -m End of Act One
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (commit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> git commit -m "End of Act One"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'veteran@5CD147L64X.(none)')
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> git config --global anthonymkelly93@gmail.com    
+error: invalid key: anthonymkelly93@gmail.com
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> cd ~\SEI-321\Star_Wars\empire\rebellion
+cd : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\empire\rebellion' because it does not exist.
+At line:1 char:1
++ cd ~\SEI-321\Star_Wars\empire\rebellion
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...mpire\rebellion:String) [Set-Location], ItemNotFoundExcept  
+   ion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> cd rebellion
+cd : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\empire\rebellion' because it does not exist.
+At line:1 char:1
++ cd rebellion
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...mpire\rebellion:String) [Set-Location], ItemNotFoundExcept  
+   ion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire> cd ~\SEI-321\Star_Wars\rebellion
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item ~\SEI-321\Star_Wars\rebellion\princess_leia.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022   9:59 PM              0 princess_leia.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item ~\SEI-321\Star_Wars\rebellion\obi_wan.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022  10:01 PM              0 obi_wan.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item ~~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt
+New-Item : Could not find a part of the path
+'C:\Users\veteran\SEI-321\Star_Wars\rebellion\~~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt'.
+At line:1 char:1
++ New-Item ~~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\vetera...e_skywalker.txt:String) [New-Item], DirectoryNotFoundException  
+    + FullyQualifiedErrorId : NewItemIOError,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item ~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022  10:03 PM              0 luke_skywalker.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mkdir millenium_falcon
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/21/2022  10:04 PM                millenium_falcon
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item han_solo
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022  10:04 PM              0 han_solo
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item han_solo.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022  10:05 PM              0 han_solo.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> New-Item chewbacca.txt
+
+
+    Directory: C:\Users\veteran\SEI-321\Star_Wars\rebellion
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/21/2022  10:06 PM              0 chewbacca.txt
+
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv luke_skywalker.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv obi_wan.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv princess_leia.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv millenium_falcon ~\SEI-321\Star_Wars\empire\death_star
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> git add .
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> git commit -m "End of Act Two"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'veteran@5CD147L64X.(none)')
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon\* ~\SEI-321\Star_Wars\empire\death_star
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> rm obi_wan.txt
+rm : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\rebellion\obi_wan.txt' because it does not 
+exist.
+At line:1 char:1
++ rm obi_wan.txt
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...ion\obi_wan.txt:String) [Remove-Item]  
+   , ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> cd death_star
+cd : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\rebellion\death_star' because it does not     
+exist.
+At line:1 char:1
++ cd death_star
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...lion\death_star:String) [Set-Location  
+   ], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> cd ~\SEI-321\Star_Wars\empire\death_star
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> rm obi_wan.txt
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv han_solo.txt chewbacca.txt luke_skywalker.txt princess_leia.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+Move-Item : A positional parameter cannot be found that accepts argument 'luke_skywalker.txt'.
+At line:1 char:1
++ mv han_solo.txt chewbacca.txt luke_skywalker.txt princess_leia.txt ~\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.MoveItemComman  
+   d
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv han_solo ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+mv : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\empire\death_star\han_solo' because it does   
+not exist.
+At line:1 char:1
++ mv han_solo ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...h_star\han_solo:String) [Move-Item],   
+   ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv han_solo.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv chewbacca.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv princess_leia.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> mv luke_skywalker.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> cd empire
+cd : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\empire\death_star\empire' because it does     
+not exist.
+At line:1 char:1
++ cd empire
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...ath_star\empire:String) [Set-Location  
+   ], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+ 
+PS C:\Users\veteran\SEI-321\Star_Wars\empire\death_star> cd ~\SEI-321\Star_Wars\rebellion               PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon ~\SEI-321\Star_Wars\rebellion                         
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> mv ~\SEI-321\Star_Wars\empire\death_star\darth_vader.txt ~\SEI-321\Star_Wars\empire                            
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> rm death_star
+rm : Cannot find path 'C:\Users\veteran\SEI-321\Star_Wars\rebellion\death_star' because it does not     
+exist.
+At line:1 char:1
++ rm death_star
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\vetera...lion\death_star:String) [Remove-Item]  
+   , ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> rm -r  ~\SEI-321\Star_Wars\empire\death_star           PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> git add .
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> git commit -m "FIN"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'veteran@5CD147L64X.(none)')
+PS C:\Users\veteran\SEI-321\Star_Wars\rebellion> history
+
+  Id CommandLine
+  -- -----------
+   1 mkdir ~\empire
+   2 mkdir ~\rebellion
+   3 cd empire
+   4 cd empire
+   5 New-Item ~\SEI_321\star_wars\empire\darth_vader.txt
+   6 New-Item ~\SEI-321\Star_Wars\empire\darth_vader.txt
+   7 git add .
+   8 cd ~\SEI-321\Star_Wars\empire\darth_vader.txt
+   9 cd ~\SEI-321\Star_Wars\empire\darth_vader.txt
+  10 New-Item ~\SEI-321\Star_Wars\empire\emperor_palpatine.txt
+  11 mkdir ~\SEI-321\Star_Wars\empire\death_star
+  12 mv ~\SEI-321\Star_Wars\empire\darth_vader.txt ~\SEI-321\Star_Wars\empire\death_star
+  13 git add .
+  14 commit -m End of Act One
+  15 git commit -m "End of Act One"
+  16 git config --global anthonymkelly93@gmail.com
+  17 cd ~\SEI-321\Star_Wars\empire\rebellion
+  18 cd rebellion
+  19 cd ~\SEI-321\Star_Wars\rebellion
+  20 New-Item ~\SEI-321\Star_Wars\rebellion\princess_leia.txt
+  21 New-Item ~\SEI-321\Star_Wars\rebellion\obi_wan.txt
+  22 New-Item ~~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt
+  23 New-Item ~\SEI-321\Star_Wars\rebellion\luke_skywalker.txt
+  24 mkdir millenium_falcon
+  25 New-Item han_solo
+  26 New-Item han_solo.txt
+  27 New-Item chewbacca.txt
+  28 mv luke_skywalker.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+  29 mv obi_wan.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+  30 mv princess_leia.txt ~\SEI-321\Star_Wars\rebellion\millenium_falcon
+  31 mv millenium_falcon ~\SEI-321\Star_Wars\empire\death_star
+  32 git add .
+  33 git commit -m "End of Act Two"
+  34 mv ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon\* ~\SEI-321\Star_Wars\empire\death_star  
+  35 rm obi_wan.txt
+  36 cd death_star
+  37 cd ~\SEI-321\Star_Wars\empire\death_star
+  38 rm obi_wan.txt
+  39 mv han_solo.txt chewbacca.txt luke_skywalker.txt princess_leia.txt ~\SEI-321\Star_Wars\empire\d... 
+  40 mv han_solo ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+  41 mv han_solo.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+  42 mv chewbacca.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+  43 mv princess_leia.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+  44 mv luke_skywalker.txt ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon
+  45 cd empire
+  46 cd ~\SEI-321\Star_Wars\rebellion
+  47 mv ~\SEI-321\Star_Wars\empire\death_star\millenium_falcon ~\SEI-321\Star_Wars\rebellion
+  48 mv ~\SEI-321\Star_Wars\empire\death_star\darth_vader.txt ~\SEI-321\Star_Wars\empire
+  49 rm death_star
+  50 rm -r  ~\SEI-321\Star_Wars\empire\death_star
+  51 git add
+  52 git add .
+  53 git commit -m "FIN"
