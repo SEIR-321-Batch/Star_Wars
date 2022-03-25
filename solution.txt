@@ -1,0 +1,163 @@
+history
+Star_Wars
+  384  mkdir star_wars
+  385  cd star_wars
+  386  mkdir empire rebellion
+  387  ls
+  388  empire
+  389  mkdir darth_vader.txt
+  390  darth_vader.txt
+  391  echo '...heavy breathing...'
+  392  ..
+  393  mkdir emporor_palpatine.txt
+  394  mkdir death_star
+  395  tree
+  396  mv darth_vader.txt death_star
+  397  tree
+  398  ..
+  399  ls
+  400  rebellion
+  401  mkdir princess_leia.txt
+  402  princess_leia.txt
+  403  echo 'Help me, Obi-wan...You're my only hope."\n\n..\n"
+  404  ..
+  405  mkdir obi_wan.txt
+  406  mkdir luke_skywalker.txt
+  407  mkdir millenium_falcon
+  408  millenium_falcon
+  409  mkdir han_solo.txt chewbacca.txt
+  410  ls
+  411  ..
+  412  mv luke_skywalker.txt millenium_falcon
+  413  mv obi_wan.txt millenium_falcon
+  414  mv princess_leia.txt millenium_falcon
+  415  tree
+  416  ..
+  417  tree
+  418  mv millenium_falcon death_star
+  419  mv ~/rebellion/millenium_falcon ~/empire/death_star
+  420  tree
+  421  Desktop
+  422  ls
+  423  Star_Wars
+  424  mkdir star_wars
+  425  star_wars
+  426  mkdir empire rebellion
+  427  empire
+  428  touch darth_vader.txt
+  429  darth_vader.txt
+  430  cd darth_cader.txt
+  431  cd dart_vader.txt
+  432  cd darth_vader.txt
+  433  ls
+  434  darth_vader.txt echo '...heavy breathing...'
+  435  ls
+  436  darth_vader.txt 
+  437  ls
+  438  tree
+  439  star_wars
+  440  tree
+  441  empire
+  442  death_star
+  443  touch darth.vader.txt
+  444  darth.vader.txt
+  445  ls
+  446  sei
+  447  ls
+  448  deliverables
+  449  ls
+  450  Star_wars
+  451  ..
+  452  Star_Wars
+  453  mkdir star_wars
+  454  star_wars
+  455  mkdir empire rebellion
+  456  empire
+  457  touch darth_vader.txt
+  458  git status
+  459  git add
+  460  star_wars
+  461  tree
+  462  ls
+  463  tree
+  464  mkdir empire
+  465  code .
+  466  ls
+  467  mkdir star_wars
+  468  star_wars
+  469  mkdir empire rebellion 
+  470  ls
+  471  cd empire
+  472  touch darth_vader.txt
+  473  echo "...heavy breathing..." >> darth_vader.txt
+  474  touch emperor_palpatine.txt
+  475  mkdir death_star
+  476  tree
+  477  mv darth_vader.txt death_star
+  478  tree
+  479  ..
+  480  reb
+  481  rebellion
+  482  touch princess_leia.txt 
+  483  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  484  touch obi_wan.txt
+  485  touch luke_skywalker.txt
+  486  mkdir millenium_falcon
+  487  millenium_falcon
+  488  touch han_solo.txt 
+  489  touch chewbacca.txt
+  490  ..
+  491  tree
+  492  mv luke_skywalker.txt millenium_falcon
+  493  tree
+  494  mv obi_wan.txt millenium_falcon
+  495  mv princess_leia.txt millenium_falcon
+  496  mv *.millenium_falcon ~/death_star
+  497  mv millenium_falcon death_star
+  498  ls
+  499  ..
+  500  tree
+  501  mv death_star millenium_falcon
+  502  rebellion
+  503  mv death_star millenium_falcon
+  504  tree
+  505  mv millenium_falcon ~/empire/death_star
+  506  tree
+  507  ..
+  508  tree
+  509  mv ~/rebellion/millenium_falcon ~/empire/death_star
+  510  mv /rebellion/millenium_falcon /empire/death_star
+  511  rebellion
+  512  mv millenium_falcon /Star_Wars/star_wars/empire/death_star
+  513  mv millenium_falcon ../empire/death_star
+  514  ..
+  515  tree
+  516  empire
+  517  death_star
+  518  mv millenium_falcon/* death_star
+  519  ..
+  520  mv death_star/millenium_falcon/* death_star
+  521  tree
+  522  death_star
+  523  cd death_star && rm obi_wan.txt
+  524  rm obi_wan.txt
+  525  tree
+  526  ..
+  527  tree
+  528  empire
+  529  death_star
+  530  mv millenium_falcon ..
+  531  tree
+  532  ..
+  533  tree
+  534  death_star
+  535  mv chewbacca.txt ../millenium_falcon
+  536  mv han_solo.txt ../millenium_falcon
+  537  mv luke_skywalker.txt ../millenium_falcon
+  538  mv princess_leia.txt ../millenium_falcon
+  539  rebellion
+  540  ..
+  541  tree
+  542  mv empire/millenium_falcon rebellion
+  543  mv empire/death_star/darth_vader.txt empire
+  544  rm -rf empire/death_star
