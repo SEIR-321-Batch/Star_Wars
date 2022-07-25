@@ -1,0 +1,105 @@
+cd GA
+  646  cd Star_wars_practice
+  647  git clone https://github.com/DB-Butter/Star_Wars.git
+  648  ls
+  649  cd Star_wars
+  650  code .
+  651  l
+  652  ls
+  653  cd act1.sh
+  654  mkdir star_wars
+  655  cd star_wars && mkdir empire rebellion\n
+  656  cd empire && touch darth_vader.txt \n
+  657  echo '...heavy breathing...'>darth_vader.txt 
+  658  touch emporer_palpatine.txt\n
+  659  mkdir death_star\n
+  660  mv darth_vader.txt death_star
+  661  cd rebellion && touch princess_leia.txt && echo 'Help me, Obi-Wan... Youre my only hope.'>princess_leia.txt 
+  662  ls
+  663  cd.. && cd rebellion && touch princess_leia.txt && echo 'Help me, Obi-Wan... Youre my only hope.'>princess_leia.txt 
+  664  cd .. && cd rebellion && touch princess_leia.txt && echo 'Help me, Obi-Wan... Youre my only hope.'>princess_leia.txt 
+  665  ls
+  666  touch obi_wan.txt
+  667  touch luke_skywalker.txt
+  668  mkdir millenium_falcon
+  669  cd millenium_falcon && touch han_solo.txt chewbacca.txt\n
+  670  mv luke_skywalker millenium_falcon && mv obi_wan millenium_falcon && mv princess_leia millenium_falcon\n
+  671  ls
+  672  cd ..
+  673  tree
+  674  mv luke_skywalker millenium_falcon && mv obi_wan millenium_falcon && mv princess_leia millenium_falcon\n
+  675  ls
+  676  tree
+  677  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon\n
+  678  tree
+  679  cd ..
+  680  mv millenium_falcon death_star
+  681  tree
+  682  cd empire
+  683  mv millenium_falcon death_star
+  684  ls
+  685  cd ..
+  686  tree
+  687  mv millenium_falcon star_wars && mv millenium_falcon death_star
+  688  tree
+  689  move millenium_falcon death_star
+  690  move
+  691  help move
+  692  mv
+  693  move -r millenium_falcon death_star
+  694  mv -r millenium_falcon death_star
+  695  mv  ./rebellion/millenium_falcon ./empire/death_star
+  696  tree
+  697  mv -v ./death_star/millenium_falcon ./death_star/
+  698  mv -v ./empire/death_star/millenium_falcon ./empire/death_star/
+  699  ls
+  700  mv -v ./empire/death_star/millenium_falcon ./empire/death_star
+  701  find ./death_star/millenium_falcon/ -type f -print0 | xargs -0 mv -t ./empire/death_star/
+  702  find ./empire/death_star/millenium_falcon/ -type f -print0 | xargs -0 mv -t ./empire/death_star/
+  703  find ./empire/death_star/millenium_falcon/ -type f -print0 | xargs -0 mv ./empire/death_star/
+  704  tree
+  705  directory
+  706  pwd
+  707  /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/death_star/*\n
+  708  mv /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/death_star/millenium_falcon/* /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/death_star/\n\n
+  709  tree
+  710  cd empire\n\n
+  711  cd death_star
+  712  rm obi_wan
+  713  rm obi_wan.txt
+  714  ls
+  715  tree
+  716  cd ..
+  717  tree
+  718  pwd
+  719  mv /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/death_star/* /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/
+  720  tree
+  721  mv darth_vader.txt death_star
+  722  cd empire
+  723  mv darth_vader.txt death_star
+  724  ls
+  725  tree
+  726  mv chewbacca.txt millenium_falcon
+  727  tree
+  728  mv han_solo.txt millenium_falcon
+  729  mv princess_leia.txt millenium_falcon
+  730  mv luke_skywalker.txt millenium_falcon
+  731  tree
+  732  cd ..
+  733  tree
+  734  pwd
+  735  mv /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/millenium_falcon/ /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/rebellion/
+  736  tree
+  737  cd empire
+  738  cd death_star
+  739  mv darth_vader.txt ./star_wars/empire
+  740  cd ..
+  741  mv darth_vader.txt empire
+  742  mv /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/death_star/darth_vader.txt /Users/devanbabcock/GA/Star_wars_practice/Star_wars/star_wars/empire/
+  743  tree
+  744  rm death_star
+  745  rm -r death_star
+  746  tree
+  747  cd ..
+  748  tree
+➜  star_wars git:(master) ✗ 
