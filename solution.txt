@@ -1,0 +1,263 @@
+juanvenegas@Juans-Air Star_Wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars
+juanvenegas@Juans-Air Star_Wars % mkdir star_wars
+juanvenegas@Juans-Air Star_Wars % cd star_wars 
+juanvenegas@Juans-Air star_wars % mkdir empire && rebellion
+zsh: command not found: rebellion
+juanvenegas@Juans-Air star_wars % ls           
+empire
+juanvenegas@Juans-Air star_wars % mkdir rebellion
+juanvenegas@Juans-Air star_wars % ls
+empire		rebellion
+juanvenegas@Juans-Air star_wars % touch empire/darth_vader.txt
+juanvenegas@Juans-Air star_wars % echo empire/darth_vader.txt "...heavy breathing..."
+empire/darth_vader.txt ...heavy breathing...
+juanvenegas@Juans-Air star_wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars/star_wars
+juanvenegas@Juans-Air star_wars % touch empire/emperor_palpatine.txt 
+juanvenegas@Juans-Air star_wars % mkdir empire/death_star
+juanvenegas@Juans-Air star_wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars/star_wars
+juanvenegas@Juans-Air star_wars % mv empire/darth_vader.txt empire/death_star 
+juanvenegas@Juans-Air star_wars % ls
+empire		rebellion
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+3 directories, 2 files
+juanvenegas@Juans-Air star_wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars/star_wars
+juanvenegas@Juans-Air star_wars % touch rebellion/princess_leia.txt && echo rebellion/princess_leia.txt "Help me, Obi-Wan...You're my only hope."
+rebellion/princess_leia.txt Help me, Obi-Wan...You're my only hope.
+juanvenegas@Juans-Air star_wars % touch rebellion/obi-wan.txt
+juanvenegas@Juans-Air star_wars % touch rebellion/luke_skywalker.txt
+juanvenegas@Juans-Air star_wars % mkdir rebellion/millenium_falcon
+juanvenegas@Juans-Air star_wars % touch rebellion/millenium_falcon/han_solo.txt chewbacca.txt
+juanvenegas@Juans-Air star_wars % tree
+.
+├── chewbacca.txt
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+    ├── luke_skywalker.txt
+    ├── millenium_falcon
+    │   └── han_solo.txt
+    ├── obi-wan.txt
+    └── princess_leia.txt
+
+4 directories, 7 files
+juanvenegas@Juans-Air star_wars % mv chewbacca.txt rebellion/millenium_falcon 
+juanvenegas@Juans-Air star_wars % mv rebellion/luke_skywalker.txt rebellion/millenium_falcon 
+juanvenegas@Juans-Air star_wars % mv rebellion/obi-wan.txt rebellion/millenium_falcon
+juanvenegas@Juans-Air star_wars % mv rebellion/princess_leia.txt rebellion/millenium_falcon
+juanvenegas@Juans-Air star_wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars/star_wars
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   └── darth_vader.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+    └── millenium_falcon
+        ├── chewbacca.txt
+        ├── han_solo.txt
+        ├── luke_skywalker.txt
+        ├── obi-wan.txt
+        └── princess_leia.txt
+
+4 directories, 7 files
+juanvenegas@Juans-Air star_wars % mv rebellion/millenium_falcon empire/death_star
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   └── millenium_falcon
+│   │       ├── chewbacca.txt
+│   │       ├── han_solo.txt
+│   │       ├── luke_skywalker.txt
+│   │       ├── obi-wan.txt
+│   │       └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 7 files
+juanvenegas@Juans-Air star_wars % pwd
+/Users/juanvenegas/SEI/repos/Star_Wars/star_wars
+juanvenegas@Juans-Air star_wars % cp empire/death_star/millenium_falcon/* && empire/death_star 
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+juanvenegas@Juans-Air star_wars % ls
+empire		rebellion
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   └── millenium_falcon
+│   │       ├── chewbacca.txt
+│   │       ├── han_solo.txt
+│   │       ├── luke_skywalker.txt
+│   │       ├── obi-wan.txt
+│   │       └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 7 files
+juanvenegas@Juans-Air star_wars % cp empire/death_star/millenium_falcon/* empire/death_star 
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── chewbacca.txt
+│   │   ├── darth_vader.txt
+│   │   ├── han_solo.txt
+│   │   ├── luke_skywalker.txt
+│   │   ├── millenium_falcon
+│   │   │   ├── chewbacca.txt
+│   │   │   ├── han_solo.txt
+│   │   │   ├── luke_skywalker.txt
+│   │   │   ├── obi-wan.txt
+│   │   │   └── princess_leia.txt
+│   │   ├── obi-wan.txt
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 12 files
+juanvenegas@Juans-Air star_wars % rm empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt empire/death_star 
+rm: empire/death_star: is a directory
+juanvenegas@Juans-Air star_wars % rm empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt                   
+rm: empire/death_star/chewbacca.txt: No such file or directory
+rm: empire/death_star/han_solo.txt: No such file or directory
+rm: empire/death_star/luke_skywalker.txt: No such file or directory
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   ├── millenium_falcon
+│   │   │   ├── chewbacca.txt
+│   │   │   ├── han_solo.txt
+│   │   │   ├── luke_skywalker.txt
+│   │   │   ├── obi-wan.txt
+│   │   │   └── princess_leia.txt
+│   │   ├── obi-wan.txt
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 9 files
+juanvenegas@Juans-Air star_wars % mv empire/death_star/millenium_falcon/* empire/death_star 
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── chewbacca.txt
+│   │   ├── darth_vader.txt
+│   │   ├── han_solo.txt
+│   │   ├── luke_skywalker.txt
+│   │   ├── millenium_falcon
+│   │   ├── obi-wan.txt
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 7 files
+juanvenegas@Juans-Air star_wars % rm empire/death_star/obi-wan.txt 
+juanvenegas@Juans-Air star_wars % cp empire/death_star/* empire/death_star/millenium_falcon && rm empire/death_star/millenium_falcon/darth_vader.txt
+cp: empire/death_star/millenium_falcon is a directory (not copied).
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── chewbacca.txt
+│   │   ├── darth_vader.txt
+│   │   ├── han_solo.txt
+│   │   ├── luke_skywalker.txt
+│   │   ├── millenium_falcon
+│   │   │   ├── chewbacca.txt
+│   │   │   ├── darth_vader.txt
+│   │   │   ├── han_solo.txt
+│   │   │   ├── luke_skywalker.txt
+│   │   │   └── princess_leia.txt
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 11 files
+juanvenegas@Juans-Air star_wars % rm empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt 
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── death_star
+│   │   ├── darth_vader.txt
+│   │   ├── millenium_falcon
+│   │   │   ├── chewbacca.txt
+│   │   │   ├── darth_vader.txt
+│   │   │   ├── han_solo.txt
+│   │   │   ├── luke_skywalker.txt
+│   │   │   └── princess_leia.txt
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+
+4 directories, 8 files
+juanvenegas@Juans-Air star_wars % mv empire/death_star/millenium_falcon rebellion
+juanvenegas@Juans-Air star_wars % mv empire/death_star/darth_vader.txt empire
+juanvenegas@Juans-Air star_wars % rm empire/death_star 
+rm: empire/death_star: is a directory
+juanvenegas@Juans-Air star_wars % tree
+.
+├── empire
+│   ├── darth_vader.txt
+│   ├── death_star
+│   │   └── princess_leia.txt
+│   └── emperor_palpatine.txt
+└── rebellion
+    └── millenium_falcon
+        ├── chewbacca.txt
+        ├── darth_vader.txt
+        ├── han_solo.txt
+        ├── luke_skywalker.txt
+        └── princess_leia.txt
+
+4 directories, 8 files
+juanvenegas@Juans-Air star_wars % rm -r empire/death_star 
+juanvenegas@Juans-Air star_wars % git add .
+juanvenegas@Juans-Air star_wars % git commit -m "Acts 1,2,3 HW"
+[master 6d0cad9] Acts 1,2,3 HW
+ 7 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 star_wars/empire/darth_vader.txt
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/darth_vader.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/princess_leia.txt
+juanvenegas@Juans-Air star_wars % history | tail -n 250
+  780  rm empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt
+  781  tree
+  782  mv empire/death_star/millenium_falcon/* empire/death_star
+  783  tree
+  784  rm empire/death_star/obi-wan.txt
+  785  cp empire/death_star/* empire/death_star/millenium_falcon && rm empire/death_star/millenium_falcon/darth_vader.txt
+  786  tree
+  787  rm empire/death_star/chewbacca.txt empire/death_star/han_solo.txt empire/death_star/luke_skywalker.txt
+  788  tree
+  789  mv empire/death_star/millenium_falcon rebellion
+  790  mv empire/death_star/darth_vader.txt empire
+  791  rm empire/death_star
+  792  tree
+  793  rm -r empire/death_star
+  794  git add .
+  795  git commit -m "Acts 1,2,3 HW"
+juanvenegas@Juans-Air star_wars % 
