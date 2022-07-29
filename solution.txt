@@ -1,0 +1,74 @@
+  806  mkdir star_wars
+  807  cd star_wars
+  808  mkdir empire && mkdir rebellion
+  809  ls
+  810  cd empire
+  811  touch darth_vader.txt
+  812  echo '...heavy breathing...' >> ./darth_vader.txt
+  813  touch emperor_palpatine.txt
+  814  mkdir death_star
+  815  mv darth_vader.txt death_star
+  816  cd ..
+  817  tree
+  818  cd ..
+  819  cd star_wars
+  820  cd rebellion
+  821  touch princess_leia.txt && echo "Help me, Obi-Wan... You're my only hope." >> ./princess_leia.txt
+  822  touch obi_wan.txt
+  823  touch luke_skywalker.txt
+  824  mkdir millenium_falcon
+  825  cd millenium_falcon
+  826  touch han_solo.txt && touch chewbacca.txt
+  827  ls
+  828  cd ..
+  829  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  830  tree
+  831  mv millenium_falcon./* death_star
+  832  mv millenium_falcon./ death_star
+  833  tree
+  834  mv /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/rebellion/millenium_falcon /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire/death_star
+  835  cd ..
+  836  tree
+  837  cd empire
+  838  cd death_star
+  839  mv chewbacca.txt death_star
+  840  cd millenium_falcon
+  841  cd ..
+  842  mv millenium_falcon./ death_star
+  843  mv millenium_falcon./* death_star
+  844  mv ./millenium_falcon ./death_star
+  845  cd ..
+  846  tree
+  847  cd death_star
+  848  mv ./death_star ./millenium_falcon
+  849  ls
+  850  cd ..
+  851  mv millenium_falcon/* death_star
+  852  mv ./millenium_falcon ./death_star
+  853  mv .death_star/* .millenium_falcon
+  854  ls
+  855  tree
+  856  mv .death_star/* millenium_falcon
+  857  mv .millenium_falcon/* death_star
+  858  mv /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire/death_star/millenium_falcon/* /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire/death_star
+  859  tree
+  860  cd death_star
+  861  rm obi_wan.txt
+  862  ls
+  863  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon && mv chewbacca.txt millenium_falcon
+  864  ls
+  865  tree
+  866  mv chewbacca.txt millenium_falcon && mv han_solo.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  867  tree
+  868  mv /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire/death_star/millenium_falcon /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/rebellion
+  869  cd ..
+  870  tree
+  871  cd empire
+  872  mv /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire/death_star/darth_vader.txt /Users/kylebabcock/galabs/StarWarsCLI/Star_Wars/star_wars/empire
+  873  tree
+  874  rm death_star
+  875  ls
+  876  rm -r death_star
+  877  cd ..
+  878  tree
+➜  star_wars git:(master) ✗
